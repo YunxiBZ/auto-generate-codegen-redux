@@ -9487,7 +9487,9 @@ paths:
           description: Not Found
         '500':
           description: Internal Server Error
-      description: Upload Files and return created FileURLs without PATH as PATH is defined on .env in Frontend
+      description: |-
+        Upload Files and return created FileURLs without PATH as PATH is defined on .env in Frontend. Payload should be file[] -
+        array[blog]
       requestBody:
         content:
           multipart/form-data:
@@ -10914,7 +10916,7 @@ components:
           endDate: '2021-11-15 09:47:48.501+00'
           CTAText: Last Chance
           interests:
-            - string
+            - 510afa78-7a96-4f40-970d-cfa653f2a623
           brand:
             name: chanel
             logoPath: 'https://chanel.fr/logo'
@@ -10960,6 +10962,10 @@ components:
             logoPath:
               type: string
               example: 'https://chanel.fr/logo'
+        interests:
+          type: array
+          items:
+            $ref: '#/components/schemas/Uuid'
     CampaignItemForListOfCampaigns:
       type: object
       description: 'Campaign item for list of campaigns, display in the dashboard page and campaigns overview page'
