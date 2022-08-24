@@ -2124,13 +2124,13 @@ paths:
                           M.45-54: 401
                           M.55-64: 163
                           M.65+: 61
-                          G.13-17: 127
-                          G.18-24: 1325
-                          G.25-34: 2435
-                          G.35-44: 999
-                          G.45-54: 445
-                          G.55-64: 170
-                          G.65+: 65
+                          U.13-17: 127
+                          U.18-24: 1325
+                          U.25-34: 2435
+                          U.35-44: 999
+                          U.45-54: 445
+                          U.55-64: 170
+                          U.65+: 65
                       youtube:
                         followers: 200000
                         engagementRate: 0.035
@@ -2248,13 +2248,13 @@ paths:
                           M.45-54: 523
                           M.55-64: 163
                           M.65+: 96
-                          G.13-17: 84
-                          G.18-24: 1817
-                          G.25-34: 4202
-                          G.35-44: 1122
-                          G.45-54: 559
-                          G.55-64: 198
-                          G.65+: 115
+                          U.13-17: 84
+                          U.18-24: 1817
+                          U.25-34: 4202
+                          U.35-44: 1122
+                          U.45-54: 559
+                          U.55-64: 198
+                          U.65+: 115
                       tiktok:
                         followers: 55685
                         engagementRate: 0.056
@@ -2372,13 +2372,13 @@ paths:
                           M.45-54: 491
                           M.55-64: 263
                           M.65+: 62
-                          G.13-17: 365
-                          G.18-24: 5375
-                          G.25-34: 8405
-                          G.35-44: 1769
-                          G.45-54: 635
-                          G.55-64: 333
-                          G.65+: 76
+                          U.13-17: 365
+                          U.18-24: 5375
+                          U.25-34: 8405
+                          U.35-44: 1769
+                          U.45-54: 635
+                          U.55-64: 333
+                          U.65+: 76
                       blog:
                         link: 'https://i-love-code-abz.blogspot.com/2022/03/this-is-my-first-article-lorem-ipsum.html'
                         monthlyVisitors: 33562
@@ -4325,13 +4325,13 @@ paths:
                           M.45-54: 401
                           M.55-64: 163
                           M.65+: 61
-                          G.13-17: 127
-                          G.18-24: 1325
-                          G.25-34: 2435
-                          G.35-44: 999
-                          G.45-54: 445
-                          G.55-64: 170
-                          G.65+: 65
+                          U.13-17: 127
+                          U.18-24: 1325
+                          U.25-34: 2435
+                          U.35-44: 999
+                          U.45-54: 445
+                          U.55-64: 170
+                          U.65+: 65
                       youtube:
                         followers: 0
                         engagementRate: 2.5
@@ -4365,13 +4365,13 @@ paths:
                           M.45-54: 523
                           M.55-64: 163
                           M.65+: 96
-                          G.13-17: 84
-                          G.18-24: 1817
-                          G.25-34: 4202
-                          G.35-44: 1122
-                          G.45-54: 559
-                          G.55-64: 198
-                          G.65+: 115
+                          U.13-17: 84
+                          U.18-24: 1817
+                          U.25-34: 4202
+                          U.35-44: 1122
+                          U.45-54: 559
+                          U.55-64: 198
+                          U.65+: 115
                       tiktok:
                         followers: 0
                         engagementRate: 2.5
@@ -4405,13 +4405,13 @@ paths:
                           M.45-54: 491
                           M.55-64: 263
                           M.65+: 62
-                          G.13-17: 365
-                          G.18-24: 5375
-                          G.25-34: 8405
-                          G.35-44: 1769
-                          G.45-54: 635
-                          G.55-64: 333
-                          G.65+: 76
+                          U.13-17: 365
+                          U.18-24: 5375
+                          U.25-34: 8405
+                          U.35-44: 1769
+                          U.45-54: 635
+                          U.55-64: 333
+                          U.65+: 76
                       blog:
                         link: string
                         monthlyVisitors: 98562
@@ -4623,13 +4623,13 @@ paths:
                           M.45-54: 401
                           M.55-64: 163
                           M.65+: 61
-                          G.13-17: 127
-                          G.18-24: 1325
-                          G.25-34: 2435
-                          G.35-44: 999
-                          G.45-54: 445
-                          G.55-64: 170
-                          G.65+: 65
+                          U.13-17: 127
+                          U.18-24: 1325
+                          U.25-34: 2435
+                          U.35-44: 999
+                          U.45-54: 445
+                          U.55-64: 170
+                          U.65+: 65
                       youtube:
                         followers: 0
                         engagementRate: 2.5
@@ -4663,13 +4663,13 @@ paths:
                           M.45-54: 523
                           M.55-64: 163
                           M.65+: 96
-                          G.13-17: 84
-                          G.18-24: 1817
-                          G.25-34: 4202
-                          G.35-44: 1122
-                          G.45-54: 559
-                          G.55-64: 198
-                          G.65+: 115
+                          U.13-17: 84
+                          U.18-24: 1817
+                          U.25-34: 4202
+                          U.35-44: 1122
+                          U.45-54: 559
+                          U.55-64: 198
+                          U.65+: 115
                       tiktok:
                         followers: 0
                         engagementRate: 2.5
@@ -4703,13 +4703,13 @@ paths:
                           M.45-54: 491
                           M.55-64: 263
                           M.65+: 62
-                          G.13-17: 365
-                          G.18-24: 5375
-                          G.25-34: 8405
-                          G.35-44: 1769
-                          G.45-54: 635
-                          G.55-64: 333
-                          G.65+: 76
+                          U.13-17: 365
+                          U.18-24: 5375
+                          U.25-34: 8405
+                          U.35-44: 1769
+                          U.45-54: 635
+                          U.55-64: 333
+                          U.65+: 76
                       blog:
                         link: string
                         monthlyVisitors: 98562
@@ -8061,13 +8061,13 @@ paths:
                         M.45-54: 401
                         M.55-64: 163
                         M.65+: 61
-                        G.13-17: 127
-                        G.18-24: 1325
-                        G.25-34: 2435
-                        G.35-44: 999
-                        G.45-54: 445
-                        G.55-64: 170
-                        G.65+: 65
+                        U.13-17: 127
+                        U.18-24: 1325
+                        U.25-34: 2435
+                        U.35-44: 999
+                        U.45-54: 445
+                        U.55-64: 170
+                        U.65+: 65
                     youtube:
                       engagementRate: 3.5
                       averageLikes: 2545
@@ -8107,13 +8107,13 @@ paths:
                         M.45-54: 523
                         M.55-64: 163
                         M.65+: 96
-                        G.13-17: 84
-                        G.18-24: 1817
-                        G.25-34: 4202
-                        G.35-44: 1122
-                        G.45-54: 559
-                        G.55-64: 198
-                        G.65+: 115
+                        U.13-17: 84
+                        U.18-24: 1817
+                        U.25-34: 4202
+                        U.35-44: 1122
+                        U.45-54: 559
+                        U.55-64: 198
+                        U.65+: 115
                     tiktok:
                       engagementRate: 4.5
                       totalLikes: 2545
@@ -8153,13 +8153,13 @@ paths:
                         M.45-54: 491
                         M.55-64: 263
                         M.65+: 62
-                        G.13-17: 365
-                        G.18-24: 5375
-                        G.25-34: 8405
-                        G.35-44: 1769
-                        G.45-54: 635
-                        G.55-64: 333
-                        G.65+: 76
+                        U.13-17: 365
+                        U.18-24: 5375
+                        U.25-34: 8405
+                        U.35-44: 1769
+                        U.45-54: 635
+                        U.55-64: 333
+                        U.65+: 76
                     blog:
                       link: string
                       monthlyVisitors: 0
@@ -11916,25 +11916,25 @@ components:
             M.65+:
               type: number
               example: 61
-            G.13-17:
+            U.13-17:
               type: number
               example: 16
-            G.18-24:
+            U.18-24:
               type: number
               example: 130
-            G.25-34:
+            U.25-34:
               type: number
               example: 141
-            G.35-44:
+            U.35-44:
               type: number
               example: 50
-            G.45-54:
+            U.45-54:
               type: number
               example: 15
-            G.55-64:
+            U.55-64:
               type: number
               example: 7
-            G.65+:
+            U.65+:
               type: number
               example: 7
       description: ''
@@ -12009,25 +12009,25 @@ components:
             M.65+:
               type: number
               example: 61
-            G.13-17:
+            U.13-17:
               type: number
               example: 16
-            G.18-24:
+            U.18-24:
               type: number
               example: 130
-            G.25-34:
+            U.25-34:
               type: number
               example: 141
-            G.35-44:
+            U.35-44:
               type: number
               example: 50
-            G.45-54:
+            U.45-54:
               type: number
               example: 15
-            G.55-64:
+            U.55-64:
               type: number
               example: 7
-            G.65+:
+            U.65+:
               type: number
               example: 7
     TiktokStatistics:
@@ -12100,25 +12100,25 @@ components:
             M.65+:
               type: number
               example: 61
-            G.13-17:
+            U.13-17:
               type: number
               example: 16
-            G.18-24:
+            U.18-24:
               type: number
               example: 130
-            G.25-34:
+            U.25-34:
               type: number
               example: 141
-            G.35-44:
+            U.35-44:
               type: number
               example: 50
-            G.45-54:
+            U.45-54:
               type: number
               example: 15
-            G.55-64:
+            U.55-64:
               type: number
               example: 7
-            G.65+:
+            U.65+:
               type: number
               example: 7
     BlogStatistics:
@@ -12176,13 +12176,13 @@ components:
               M.45-54: 401
               M.55-64: 163
               M.65+: 61
-              G.13-17: 127
-              G.18-24: 1325
-              G.25-34: 2435
-              G.35-44: 999
-              G.45-54: 445
-              G.55-64: 170
-              G.65+: 65
+              U.13-17: 127
+              U.18-24: 1325
+              U.25-34: 2435
+              U.35-44: 999
+              U.45-54: 445
+              U.55-64: 170
+              U.65+: 65
           youtube:
             followers: 0
             engagementRate: 0
@@ -12216,13 +12216,13 @@ components:
               M.45-54: 523
               M.55-64: 163
               M.65+: 96
-              G.13-17: 84
-              G.18-24: 1817
-              G.25-34: 4202
-              G.35-44: 1122
-              G.45-54: 559
-              G.55-64: 198
-              G.65+: 115
+              U.13-17: 84
+              U.18-24: 1817
+              U.25-34: 4202
+              U.35-44: 1122
+              U.45-54: 559
+              U.55-64: 198
+              U.65+: 115
           tiktok:
             followers: 0
             engagementRate: 0
@@ -12256,13 +12256,13 @@ components:
               M.45-54: 491
               M.55-64: 263
               M.65+: 62
-              G.13-17: 365
-              G.18-24: 5375
-              G.25-34: 8405
-              G.35-44: 1769
-              G.45-54: 635
-              G.55-64: 333
-              G.65+: 76
+              U.13-17: 365
+              U.18-24: 5375
+              U.25-34: 8405
+              U.35-44: 1769
+              U.45-54: 635
+              U.55-64: 333
+              U.65+: 76
           blog:
             link: string
             monthlyVisitors: 0
@@ -12322,13 +12322,13 @@ components:
               M.45-54: 401
               M.55-64: 163
               M.65+: 61
-              G.13-17: 127
-              G.18-24: 1325
-              G.25-34: 2435
-              G.35-44: 999
-              G.45-54: 445
-              G.55-64: 170
-              G.65+: 65
+              U.13-17: 127
+              U.18-24: 1325
+              U.25-34: 2435
+              U.35-44: 999
+              U.45-54: 445
+              U.55-64: 170
+              U.65+: 65
           youtube:
             followers: 0
             engagementRate: 0
@@ -12362,13 +12362,13 @@ components:
               M.45-54: 523
               M.55-64: 163
               M.65+: 96
-              G.13-17: 84
-              G.18-24: 1817
-              G.25-34: 4202
-              G.35-44: 1122
-              G.45-54: 559
-              G.55-64: 198
-              G.65+: 115
+              U.13-17: 84
+              U.18-24: 1817
+              U.25-34: 4202
+              U.35-44: 1122
+              U.45-54: 559
+              U.55-64: 198
+              U.65+: 115
           tiktok:
             followers: 0
             engagementRate: 0
@@ -12402,13 +12402,13 @@ components:
               M.45-54: 491
               M.55-64: 263
               M.65+: 62
-              G.13-17: 365
-              G.18-24: 5375
-              G.25-34: 8405
-              G.35-44: 1769
-              G.45-54: 635
-              G.55-64: 333
-              G.65+: 76
+              U.13-17: 365
+              U.18-24: 5375
+              U.25-34: 8405
+              U.35-44: 1769
+              U.45-54: 635
+              U.55-64: 333
+              U.65+: 76
           blog:
             link: string
             monthlyVisitors: 0
@@ -12475,13 +12475,13 @@ components:
             M.45-54: 401
             M.55-64: 163
             M.65+: 61
-            G.13-17: 127
-            G.18-24: 1325
-            G.25-34: 2435
-            G.35-44: 999
-            G.45-54: 445
-            G.55-64: 170
-            G.65+: 65
+            U.13-17: 127
+            U.18-24: 1325
+            U.25-34: 2435
+            U.35-44: 999
+            U.45-54: 445
+            U.55-64: 170
+            U.65+: 65
           contents:
             - id: 510afa78-7a96-4f40-970d-cfa653f2a623
               mediaType: instagramStory
@@ -12619,25 +12619,25 @@ components:
             M.65+:
               type: number
               example: 61
-            G.13-17:
+            U.13-17:
               type: number
               example: 16
-            G.18-24:
+            U.18-24:
               type: number
               example: 130
-            G.25-34:
+            U.25-34:
               type: number
               example: 141
-            G.35-44:
+            U.35-44:
               type: number
               example: 50
-            G.45-54:
+            U.45-54:
               type: number
               example: 15
-            G.55-64:
+            U.55-64:
               type: number
               example: 7
-            G.65+:
+            U.65+:
               type: number
               example: 7
         contents:
@@ -12699,13 +12699,13 @@ components:
             M.45-54: 401
             M.55-64: 163
             M.65+: 61
-            G.13-17: 127
-            G.18-24: 1325
-            G.25-34: 2435
-            G.35-44: 999
-            G.45-54: 445
-            G.55-64: 170
-            G.65+: 65
+            U.13-17: 127
+            U.18-24: 1325
+            U.25-34: 2435
+            U.35-44: 999
+            U.45-54: 445
+            U.55-64: 170
+            U.65+: 65
       properties:
         engagementRate:
           type: number
@@ -12834,25 +12834,25 @@ components:
             M.65+:
               type: number
               example: 61
-            G.13-17:
+            U.13-17:
               type: number
               example: 16
-            G.18-24:
+            U.18-24:
               type: number
               example: 130
-            G.25-34:
+            U.25-34:
               type: number
               example: 141
-            G.35-44:
+            U.35-44:
               type: number
               example: 50
-            G.45-54:
+            U.45-54:
               type: number
               example: 15
-            G.55-64:
+            U.55-64:
               type: number
               example: 7
-            G.65+:
+            U.65+:
               type: number
               example: 7
     YoutubeStatisticsAndContentsForUserSocialNetworkMedia:
@@ -12955,25 +12955,25 @@ components:
             M.65+:
               type: number
               example: 61
-            G.13-17:
+            U.13-17:
               type: number
               example: 16
-            G.18-24:
+            U.18-24:
               type: number
               example: 130
-            G.25-34:
+            U.25-34:
               type: number
               example: 141
-            G.35-44:
+            U.35-44:
               type: number
               example: 50
-            G.45-54:
+            U.45-54:
               type: number
               example: 15
-            G.55-64:
+            U.55-64:
               type: number
               example: 7
-            G.65+:
+            U.65+:
               type: number
               example: 7
         contents:
@@ -13080,25 +13080,25 @@ components:
             M.65+:
               type: number
               example: 61
-            G.13-17:
+            U.13-17:
               type: number
               example: 16
-            G.18-24:
+            U.18-24:
               type: number
               example: 130
-            G.25-34:
+            U.25-34:
               type: number
               example: 141
-            G.35-44:
+            U.35-44:
               type: number
               example: 50
-            G.45-54:
+            U.45-54:
               type: number
               example: 15
-            G.55-64:
+            U.55-64:
               type: number
               example: 7
-            G.65+:
+            U.65+:
               type: number
               example: 7
         contents:
