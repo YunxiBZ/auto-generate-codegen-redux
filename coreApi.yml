@@ -198,6 +198,9 @@ paths:
                   token:
                     type: string
                     example: MTcw.wOipwPeTDVqQ41_3aTjJ64t0PoJL4EK04niu23eH1czrJXX-GaO4qQsGei4l
+                  refreshToken:
+                    type: string
+                    example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM0ODQ2MSwiZXhwIjoxNjYxOTUzMjYxfQ.pkyS5LX_tug_2vkHa2HImPno0IyJUrfd4KbkjG2tj18
               examples:
                 example-1:
                   value:
@@ -205,6 +208,7 @@ paths:
                       id: 510afa78-7a96-4f40-970d-cfa653f2a623
                       role: influencer
                     token: MTcw.wOipwPeTDVqQ41_3aTjJ64t0PoJL4EK04niu23eH1czrJXX-GaO4qQsGei4l
+                    refreshToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM0ODQ2MSwiZXhwIjoxNjYxOTUzMjYxfQ.pkyS5LX_tug_2vkHa2HImPno0IyJUrfd4KbkjG2tj18
         '401':
           description: Invalid credentials
         '500':
@@ -267,9 +271,19 @@ paths:
                         type: string
                         example: 510afa78-7a96-4f40-970d-cfa653f2a623
                         format: uuid
+                      role:
+                        type: string
+                        enum:
+                          - admin
+                          - brand
+                          - influencer
+                        example: influencer
                   token:
                     type: string
                     example: MTcw.wOipwPeTDVqQ41_3aTjJ64t0PoJL4EK04niu23eH1czrJXX-GaO4qQsGei4l
+                  refreshToken:
+                    type: string
+                    example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM0ODQ2MSwiZXhwIjoxNjYxOTUzMjYxfQ.pkyS5LX_tug_2vkHa2HImPno0IyJUrfd4KbkjG2tj18
   /google-login:
     post:
       tags:
@@ -320,9 +334,27 @@ paths:
                         type: string
                         example: 510afa78-7a96-4f40-970d-cfa653f2a623
                         format: uuid
+                      role:
+                        type: string
+                        enum:
+                          - admin
+                          - brand
+                          - influencer
+                        example: influencer
                   token:
                     type: string
                     example: MTcw.wOipwPeTDVqQ41_3aTjJ64t0PoJL4EK04niu23eH1czrJXX-GaO4qQsGei4l
+                  refreshToken:
+                    type: string
+                    example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM0ODQ2MSwiZXhwIjoxNjYxOTUzMjYxfQ.pkyS5LX_tug_2vkHa2HImPno0IyJUrfd4KbkjG2tj18
+              examples:
+                example-1:
+                  value:
+                    user:
+                      id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                      role: admin
+                    token: MTcw.wOipwPeTDVqQ41_3aTjJ64t0PoJL4EK04niu23eH1czrJXX-GaO4qQsGei4l
+                    refreshToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM0ODQ2MSwiZXhwIjoxNjYxOTUzMjYxfQ.pkyS5LX_tug_2vkHa2HImPno0IyJUrfd4KbkjG2tj18
   /logout:
     post:
       security:
@@ -7086,6 +7118,9 @@ paths:
                   token:
                     type: string
                     example: MTcw.wOipwPeTDVqQ41_3aTjJ64t0PoJL4EK04niu23eH1czrJXX-GaO4qQsGei4l
+                  refreshToken:
+                    type: string
+                    example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM1MDAwNSwiZXhwIjoxNjYxOTU0ODA1fQ.QQkJzNMLgZn-pv1yLFX202FbCj5YoG7ERR8RuBAp7tE
         '400':
           description: Bad Request
         '401':

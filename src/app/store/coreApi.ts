@@ -938,6 +938,7 @@ export type LoginApiResponse = /** status 200 OK */ {
     role?: "admin" | "brand" | "influencer";
   };
   token?: string;
+  refreshToken?: string;
 };
 export type LoginApiArg = {
   /** A JSON Object containing user credential */
@@ -949,8 +950,10 @@ export type LoginApiArg = {
 export type FacebookLoginApiResponse = /** status 200 OK */ {
   user?: {
     id?: string;
+    role?: "admin" | "brand" | "influencer";
   };
   token?: string;
+  refreshToken?: string;
 };
 export type FacebookLoginApiArg = {
   /** A JSON Object containing user credential */
@@ -966,8 +969,10 @@ export type FacebookLoginApiArg = {
 export type GoogleLoginApiResponse = /** status 200 OK */ {
   user?: {
     id?: string;
+    role?: "admin" | "brand" | "influencer";
   };
   token?: string;
+  refreshToken?: string;
 };
 export type GoogleLoginApiArg = {
   /** A JSON Object containing user credential */
@@ -1647,6 +1652,7 @@ export type PostUsersRegistrationApiResponse = /** status 201 Created */ {
     status?: string;
   };
   token?: string;
+  refreshToken?: string;
 };
 export type PostUsersRegistrationApiArg = {
   body: {
