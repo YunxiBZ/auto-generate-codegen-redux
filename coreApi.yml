@@ -9547,6 +9547,58 @@ paths:
                     - imageblob
       security:
         - bearerAuth: []
+  /auth/refresh-token:
+    post:
+      summary: Get access token by using refresh token
+      tags:
+        - AUTH
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                    example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM1NDk4OCwiZXhwIjoxNjYxOTU5Nzg4fQ.CSCs-_NgnmgIrXjHEJiDbpso_ovAAm_EO5tbHrENNsY
+                  refreshToken:
+                    type: string
+                    example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM1NDk4OCwiZXhwIjoxNjYxMzU1ODg4fQ.nmfNmOIuxQ9mYSMkjqicpAhYGdFYssourq4AVkd-anA
+              examples:
+                example-1:
+                  value:
+                    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM1NDk4OCwiZXhwIjoxNjYxOTU5Nzg4fQ.CSCs-_NgnmgIrXjHEJiDbpso_ovAAm_EO5tbHrENNsY
+                    refreshToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM1NDk4OCwiZXhwIjoxNjYxMzU1ODg4fQ.nmfNmOIuxQ9mYSMkjqicpAhYGdFYssourq4AVkd-anA
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                  refreshToken:
+                    type: string
+      operationId: post-auth-refresh-token
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  $ref: '#/components/schemas/Uuid'
+                refreshToken:
+                  type: string
+      description: 'When user access token expired,  using refresh token get the new access token and refresh token '
+    parameters: []
 components:
   parameters:
     IncludeParam:

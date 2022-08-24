@@ -928,6 +928,16 @@ const injectedRtkApi = api.injectEndpoints({
         body: queryArg.body,
       }),
     }),
+    postAuthRefreshToken: build.mutation<
+      PostAuthRefreshTokenApiResponse,
+      PostAuthRefreshTokenApiArg
+    >({
+      query: (queryArg) => ({
+        url: `/auth/refresh-token`,
+        method: "POST",
+        body: queryArg.body,
+      }),
+    }),
   }),
   overrideExisting: false,
 });
@@ -1879,6 +1889,16 @@ export type PostUploadApiArg = {
   body: {
     destination?: string;
     file?: Blob[];
+  };
+};
+export type PostAuthRefreshTokenApiResponse = /** status 200 OK */ {
+  token?: string;
+  refreshToken?: string;
+};
+export type PostAuthRefreshTokenApiArg = {
+  body: {
+    id?: Uuid;
+    refreshToken?: string;
   };
 };
 export type Uuid = string;
@@ -3040,4 +3060,5 @@ export const {
   useGetUsersByUserIdOrdersAndOrderIdBlogQuery,
   usePostUsersByUserIdOrdersAndOrderIdBlogMutation,
   usePostUploadMutation,
+  usePostAuthRefreshTokenMutation,
 } = injectedRtkApi;
