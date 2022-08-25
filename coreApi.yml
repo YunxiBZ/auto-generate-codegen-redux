@@ -590,7 +590,7 @@ paths:
                     lastName:
                       type: string
                       example: LEGRAND
-                    emailAddress:
+                    email:
                       type: string
                       example: user.tribz@tribz.com
                     phoneNumber:
@@ -4208,7 +4208,7 @@ paths:
                     gender: female
                     firstName: Carlota
                     lastName: MONTEIRO
-                    emailAddress: c.monteiro@tribz.com
+                    email: c.monteiro@tribz.com
                     phoneNumber: +33(0)666778899
                     birthdate: '1999-08-24'
                     credits: 10
@@ -4506,7 +4506,7 @@ paths:
                     gender: female
                     firstName: Carlota
                     lastName: MONTEIRO
-                    emailAddress: c.monteiro@tribz.com
+                    email: c.monteiro@tribz.com
                     phoneNumber: +33(0)666778899
                     birthdate: '2001-08-24'
                     credits: 10
@@ -4820,7 +4820,7 @@ paths:
                     lastName:
                       type: string
                       example: LEGRAND
-                    emailAddress:
+                    email:
                       type: string
                       example: user.tribz@tribz.com
                     phoneNumber:
@@ -10364,7 +10364,7 @@ components:
         lastName:
           type: string
           example: MONTEIRO
-        emailAddress:
+        email:
           type: string
           example: c.monteiro@tribz.com
         phoneNumber:
@@ -10432,7 +10432,7 @@ components:
         lastName:
           type: string
           example: MONTEIRO
-        emailAddress:
+        email:
           type: string
           example: c.monteiro@tribz.com
         phoneNumber:

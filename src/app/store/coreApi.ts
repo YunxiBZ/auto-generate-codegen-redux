@@ -1028,7 +1028,7 @@ export type PostUsersApiArg = {
       gender?: "male" | "female" | "other";
       firstName?: string;
       lastName?: string;
-      emailAddress?: string;
+      email?: string;
       phoneNumber?: string;
       interests?: Uuid[];
       tags?: TagList;
@@ -1344,7 +1344,7 @@ export type PatchUsersByUserIdGeneralApiArg = {
       gender?: "male" | "female" | "other";
       firstName?: string;
       lastName?: string;
-      emailAddress?: string;
+      email?: string;
       phoneNumber?: string;
       interests?: Uuid[];
       tags?: TagList;
@@ -2473,7 +2473,7 @@ export type UserItemForEdit = {
   gender?: "male" | "female" | "other";
   firstName?: string;
   lastName?: string;
-  emailAddress?: string;
+  email?: string;
   phoneNumber?: string;
   birthdate?: string;
   interests?: Uuid[];
@@ -2540,7 +2540,7 @@ export type UserItemForAdminRole = {
   gender?: "male" | "female" | "other";
   firstName?: string;
   lastName?: string;
-  emailAddress?: string;
+  email?: string;
   phoneNumber?: string;
   birthdate?: string;
   interests?: Uuid[];
