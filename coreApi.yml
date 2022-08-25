@@ -9599,6 +9599,33 @@ paths:
                   type: string
       description: 'When user access token expired,  using refresh token get the new access token and refresh token '
     parameters: []
+  /users/reset-password:
+    post:
+      summary: User reset password
+      tags:
+        - AUTH
+        - USER UI
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+      operationId: post-users-reset-password
+      description: 'After the mail link for reset password is clicked by user, user resets new password. once the change password button is clicked, frontend calls this api. '
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                newPassword:
+                  type: string
+                token:
+                  type: string
 components:
   parameters:
     IncludeParam:

@@ -938,6 +938,16 @@ const injectedRtkApi = api.injectEndpoints({
         body: queryArg.body,
       }),
     }),
+    postUsersResetPassword: build.mutation<
+      PostUsersResetPasswordApiResponse,
+      PostUsersResetPasswordApiArg
+    >({
+      query: (queryArg) => ({
+        url: `/users/reset-password`,
+        method: "POST",
+        body: queryArg.body,
+      }),
+    }),
   }),
   overrideExisting: false,
 });
@@ -1899,6 +1909,13 @@ export type PostAuthRefreshTokenApiArg = {
   body: {
     id?: Uuid;
     refreshToken?: string;
+  };
+};
+export type PostUsersResetPasswordApiResponse = unknown;
+export type PostUsersResetPasswordApiArg = {
+  body: {
+    newPassword?: string;
+    token?: string;
   };
 };
 export type Uuid = string;
@@ -3061,4 +3078,5 @@ export const {
   usePostUsersByUserIdOrdersAndOrderIdBlogMutation,
   usePostUploadMutation,
   usePostAuthRefreshTokenMutation,
+  usePostUsersResetPasswordMutation,
 } = injectedRtkApi;
