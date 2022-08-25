@@ -1035,8 +1035,8 @@ export type PostUsersApiArg = {
       clubs?: ClubNameList;
       notes?: string;
       phoneVerified?: boolean;
-      mailVerified?: boolean;
-      birthdate?: Date;
+      emailVerified?: boolean;
+      birthdate?: string;
     };
   };
 };
@@ -1351,8 +1351,8 @@ export type PatchUsersByUserIdGeneralApiArg = {
       clubs?: ClubNameList;
       notes?: string;
       phoneVerified?: boolean;
-      mailVerified?: boolean;
-      birthdate?: Date;
+      emailVerified?: boolean;
+      birthdate?: string;
     };
   };
 };
@@ -1955,7 +1955,6 @@ export type UserItemForUserList = {
 };
 export type TagList = string[];
 export type ClubNameList = string[];
-export type Date = string;
 export type ChartDataForStatistics = {
   title?: string;
   percent?: number;
@@ -2083,6 +2082,7 @@ export type TargetingBody = {
   usersIncluded?: Uuid[];
   status?: CampaignStatus;
 };
+export type Date = string;
 export type MediaTypeForOrder =
   | "instagramPost"
   | "instagramCarousel"
@@ -2466,8 +2466,8 @@ export type UserItemForEdit = {
   id?: Uuid;
   avatarUrl?: string;
   status?: UserStatus;
-  mailActivated?: boolean;
-  phoneActivated?: boolean;
+  emailVerified?: boolean;
+  phoneVerified?: boolean;
   credits?: number;
   usedCredits?: number;
   gender?: "male" | "female" | "other";
@@ -2475,7 +2475,7 @@ export type UserItemForEdit = {
   lastName?: string;
   emailAddress?: string;
   phoneNumber?: string;
-  birthdate?: Date;
+  birthdate?: string;
   interests?: Uuid[];
   addresses?: AddressItem[];
   socialNetworkLinks?: SocialNetworkLinkList;
@@ -2533,8 +2533,8 @@ export type UserItemForAdminRole = {
   id?: Uuid;
   avatarUrl?: string;
   status?: UserStatus;
-  mailActivated?: boolean;
-  phoneActivated?: boolean;
+  emailVerified?: boolean;
+  phoneVerified?: boolean;
   credits?: number;
   usedCredits?: number;
   gender?: "male" | "female" | "other";
@@ -2542,7 +2542,7 @@ export type UserItemForAdminRole = {
   lastName?: string;
   emailAddress?: string;
   phoneNumber?: string;
-  birthdate?: Date;
+  birthdate?: string;
   interests?: Uuid[];
   tags?: TagList;
   clubs?: ClubNameList;
@@ -2581,7 +2581,7 @@ export type BrandItemInBrandList2 = {
 export type BrandPostPatchItem = {
   logoPath?: string;
   status?: BrandStatus;
-  mailActivated?: boolean;
+  emailVerified?: boolean;
   brandName?: string;
   group?: string;
   gender?: "male" | "female" | "other";
@@ -2609,7 +2609,7 @@ export type BrandItemWithAllOfDetails = {
   id?: Uuid;
   logoPath?: string;
   status?: BrandStatus;
-  mailActivated?: boolean;
+  emailVerified?: boolean;
   brandName?: string;
   group?: string;
   gender?: "male" | "female" | "other";

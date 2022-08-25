@@ -609,10 +609,13 @@ paths:
                       example: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
                     phoneVerified:
                       type: boolean
-                    mailVerified:
+                    emailVerified:
                       type: boolean
                     birthdate:
-                      $ref: '#/components/schemas/Date'
+                      type: string
+                      format: date
+                      example: '1998-06-13'
+            examples: {}
     patch:
       summary: Delete user(s)
       operationId: patch-users
@@ -4200,14 +4203,14 @@ paths:
                     id: 510afa78-7a96-4f40-970d-cfa653f2a623
                     avatarUrl: 'https://images.unsplash.com/photo-1647869588245-e2e3ac1ff6ad?fit=crop&w=500'
                     status: registered
-                    mailActivated: true
-                    phoneActivated: false
+                    emailVerified: true
+                    phoneVerified: false
                     gender: female
                     firstName: Carlota
                     lastName: MONTEIRO
                     emailAddress: c.monteiro@tribz.com
                     phoneNumber: +33(0)666778899
-                    birthdate: '2021-11-15 09:47:48.501+00'
+                    birthdate: '1999-08-24'
                     credits: 10
                     usedCredits: 3
                     interests:
@@ -4498,14 +4501,14 @@ paths:
                     id: 510afa78-7a96-4f40-970d-cfa653f2a623
                     avatarUrl: 'https://images.unsplash.com/photo-1647869588245-e2e3ac1ff6ad?fit=crop&w=500'
                     status: registered
-                    mailActivated: true
-                    phoneActivated: false
+                    emailVerified: true
+                    phoneVerified: false
                     gender: female
                     firstName: Carlota
                     lastName: MONTEIRO
                     emailAddress: c.monteiro@tribz.com
                     phoneNumber: +33(0)666778899
-                    birthdate: '2021-11-15 09:47:48.501+00'
+                    birthdate: '2001-08-24'
                     credits: 10
                     usedCredits: 3
                     interests:
@@ -4836,10 +4839,12 @@ paths:
                       example: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
                     phoneVerified:
                       type: boolean
-                    mailVerified:
+                    emailVerified:
                       type: boolean
                     birthdate:
-                      $ref: '#/components/schemas/Date'
+                      type: string
+                      format: date
+                      example: '1998-06-13'
   '/users/{userId}/notifications':
     parameters:
       - schema:
@@ -5698,7 +5703,7 @@ paths:
                     id: 510afa78-7a96-4f40-970d-cfa653f2a623
                     logoPath: ckw0m01m7004z2h0l23pu01bi.jpg
                     status: active
-                    mailActivated: true
+                    emailVerified: true
                     brandName: OPI
                     group: WELLA
                     gender: male
@@ -7275,7 +7280,7 @@ paths:
                   firstName: Jayvion
                   lastName: SIMON
                   email: j.simon@gmail.com
-                  birthdate: 31/05/1980
+                  birthdate: '1998-01-06'
                   address:
                     address: 1 rue de lattre
                     country: France
@@ -10334,10 +10339,10 @@ components:
           example: ckw0m01m7004z2h0l23pu01bi.jpg
         status:
           $ref: '#/components/schemas/UserStatus'
-        mailActivated:
+        emailVerified:
           type: boolean
           example: true
-        phoneActivated:
+        phoneVerified:
           type: boolean
           example: true
         credits:
@@ -10366,7 +10371,9 @@ components:
           type: string
           example: +33(0)666778899
         birthdate:
-          $ref: '#/components/schemas/Date'
+          type: string
+          format: date
+          example: '1998-06-13'
         interests:
           type: array
           description: 'Insterests is a array of interests id seleted '
@@ -10400,10 +10407,10 @@ components:
           example: ckw0m01m7004z2h0l23pu01bi.jpg
         status:
           $ref: '#/components/schemas/UserStatus'
-        mailActivated:
+        emailVerified:
           type: boolean
           example: true
-        phoneActivated:
+        phoneVerified:
           type: boolean
           example: true
         credits:
@@ -10432,7 +10439,9 @@ components:
           type: string
           example: +33(0)666778899
         birthdate:
-          $ref: '#/components/schemas/Date'
+          type: string
+          format: date
+          example: '1998-06-13'
         interests:
           type: array
           description: 'Insterests is a array of interests id seleted '
@@ -11770,7 +11779,7 @@ components:
         example:
           logoPath: ckw0m01m7004z2h0l23pu01bi.jpg
           status: active
-          mailActivated: true
+          emailVerified: true
           brandName: OPI
           group: WELLA
           gender: male
@@ -11796,7 +11805,7 @@ components:
           example: ckw0m01m7004z2h0l23pu01bi.jpg
         status:
           $ref: '#/components/schemas/BrandStatus'
-        mailActivated:
+        emailVerified:
           type: boolean
           example: true
         brandName:
@@ -11854,7 +11863,7 @@ components:
           id: 510afa78-7a96-4f40-970d-cfa653f2a623
           logoPath: ckw0m01m7004z2h0l23pu01bi.jpg
           status: active
-          mailActivated: true
+          emailVerified: true
           brandName: OPI
           group: WELLA
           gender: male
@@ -11894,7 +11903,7 @@ components:
           example: ckw0m01m7004z2h0l23pu01bi.jpg
         status:
           $ref: '#/components/schemas/BrandStatus'
-        mailActivated:
+        emailVerified:
           type: boolean
           example: true
         brandName:
@@ -13836,7 +13845,7 @@ components:
           firstName: Jayvion
           lastName: SIMON
           email: j.simon@gmail.com
-          birthdate: +33(0)699887755
+          birthdate: '1996-03-26'
           address:
             address: 1 rue de lattre
             country: France
@@ -13869,7 +13878,8 @@ components:
           example: j.simon@gmail.com
         birthdate:
           type: string
-          example: +33(0)699887755
+          format: date
+          example: '1998-06-13'
         phoneNumber:
           type: string
           example: +33(0)699887755
