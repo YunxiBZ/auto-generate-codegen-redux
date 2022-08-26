@@ -607,9 +607,9 @@ paths:
                     notes:
                       type: string
                       example: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-                    phoneVerified:
+                    phoneActivated:
                       type: boolean
-                    emailVerified:
+                    mailActivated:
                       type: boolean
                     birthdate:
                       type: string
@@ -4203,8 +4203,8 @@ paths:
                     id: 510afa78-7a96-4f40-970d-cfa653f2a623
                     avatarUrl: 'https://images.unsplash.com/photo-1647869588245-e2e3ac1ff6ad?fit=crop&w=500'
                     status: registered
-                    emailVerified: true
-                    phoneVerified: false
+                    mailActivated: true
+                    phoneActivated: false
                     gender: female
                     firstName: Carlota
                     lastName: MONTEIRO
@@ -4501,8 +4501,8 @@ paths:
                     id: 510afa78-7a96-4f40-970d-cfa653f2a623
                     avatarUrl: 'https://images.unsplash.com/photo-1647869588245-e2e3ac1ff6ad?fit=crop&w=500'
                     status: registered
-                    emailVerified: true
-                    phoneVerified: false
+                    mailActivated: true
+                    phoneActivated: false
                     gender: female
                     firstName: Carlota
                     lastName: MONTEIRO
@@ -4837,9 +4837,9 @@ paths:
                     notes:
                       type: string
                       example: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-                    phoneVerified:
+                    phoneActivated:
                       type: boolean
-                    emailVerified:
+                    mailActivated:
                       type: boolean
                     birthdate:
                       type: string
@@ -5703,7 +5703,7 @@ paths:
                     id: 510afa78-7a96-4f40-970d-cfa653f2a623
                     logoPath: ckw0m01m7004z2h0l23pu01bi.jpg
                     status: active
-                    emailVerified: true
+                    mailActivated: true
                     brandName: OPI
                     group: WELLA
                     gender: male
@@ -8052,108 +8052,6 @@ paths:
                       impressions: 87541
                       views: 60554
                       clicks: 1545
-                    instagram:
-                      engagementRate: 3.5
-                      averageReelViews: 45000
-                      reelViewRate: 1.05
-                      averageReelReach: 60500
-                      averageReelComments: 255
-                      averageStoryViews: 45000
-                      storyViewRate: 1.05
-                      averagePostImpressions: 2545
-                      postImpressionRate: 6.6
-                      averagePostReach: 60500
-                      postReachRate: 3.5
-                      reelReachRate: 3.5
-                      averagePostComments: 255
-                      averageStoryComments: 255
-                      averageStoryClicks: 545
-                      followers: 23870
-                      following: 245
-                      reach30Day: 54800
-                      impressions30Day: 87000
-                      posts: 432
-                      postsPerMonth: 5
-                      averagePostLikes: 2545
-                      averageStoryLikes: 2545
-                      averageReelLikes: 2545
-                      averageCarouselLikes: 2545
-                      audienceCountry:
-                        DE: 95
-                        FR: 195
-                        PL: 905
-                      audienceCity:
-                        Sydney: 95
-                        London: 195
-                        Reims: 905
-                      audienceDemographic:
-                        F.13-17: 100
-                        F.18-24: 307
-                        F.25-34: 330
-                        F.35-44: 86
-                        F.45-54: 44
-                        F.55-64: 7
-                        F.65+: 4
-                        M.13-17: 27
-                        M.18-24: 1018
-                        M.25-34: 2105
-                        M.35-44: 913
-                        M.45-54: 401
-                        M.55-64: 163
-                        M.65+: 61
-                        U.13-17: 127
-                        U.18-24: 1325
-                        U.25-34: 2435
-                        U.35-44: 999
-                        U.45-54: 445
-                        U.55-64: 170
-                        U.65+: 65
-                    youtube:
-                      engagementRate: 3.5
-                      averageLikes: 2545
-                      averageUnlikes: 2545
-                      averageYoutubeViews: 45000
-                      averageYoutubeShortsViews: 45000
-                      viewRate: 1.05
-                      averageImpressions: 60500
-                      impressingRate: 3.5
-                      followers: 23870
-                      following: 245
-                      videos: 245
-                      views: 245
-                      reach30Day: 54800
-                      impressions30Day: 87000
-                      averageComments: 255
-                      audienceCountry:
-                        DE: 95
-                        FR: 195
-                        PL: 905
-                      audienceCity:
-                        Sydney: 95
-                        London: 195
-                        Reims: 905
-                      audienceDemographic:
-                        F.13-17: 49
-                        F.18-24: 465
-                        F.25-34: 550
-                        F.35-44: 99
-                        F.45-54: 36
-                        F.55-64: 35
-                        F.65+: 19
-                        M.13-17: 35
-                        M.18-24: 1352
-                        M.25-34: 3652
-                        M.35-44: 1023
-                        M.45-54: 523
-                        M.55-64: 163
-                        M.65+: 96
-                        U.13-17: 84
-                        U.18-24: 1817
-                        U.25-34: 4202
-                        U.35-44: 1122
-                        U.45-54: 559
-                        U.55-64: 198
-                        U.65+: 115
                     tiktok:
                       engagementRate: 4.5
                       totalLikes: 2545
@@ -10339,10 +10237,10 @@ components:
           example: ckw0m01m7004z2h0l23pu01bi.jpg
         status:
           $ref: '#/components/schemas/UserStatus'
-        emailVerified:
+        mailActivated:
           type: boolean
           example: true
-        phoneVerified:
+        phoneActivated:
           type: boolean
           example: true
         credits:
@@ -10407,10 +10305,10 @@ components:
           example: ckw0m01m7004z2h0l23pu01bi.jpg
         status:
           $ref: '#/components/schemas/UserStatus'
-        emailVerified:
+        mailActivated:
           type: boolean
           example: true
-        phoneVerified:
+        phoneActivated:
           type: boolean
           example: true
         credits:
@@ -11779,7 +11677,7 @@ components:
         example:
           logoPath: ckw0m01m7004z2h0l23pu01bi.jpg
           status: active
-          emailVerified: true
+          mailActivated: true
           brandName: OPI
           group: WELLA
           gender: male
@@ -11805,7 +11703,7 @@ components:
           example: ckw0m01m7004z2h0l23pu01bi.jpg
         status:
           $ref: '#/components/schemas/BrandStatus'
-        emailVerified:
+        mailActivated:
           type: boolean
           example: true
         brandName:
@@ -11863,7 +11761,7 @@ components:
           id: 510afa78-7a96-4f40-970d-cfa653f2a623
           logoPath: ckw0m01m7004z2h0l23pu01bi.jpg
           status: active
-          emailVerified: true
+          mailActivated: true
           brandName: OPI
           group: WELLA
           gender: male
@@ -11903,7 +11801,7 @@ components:
           example: ckw0m01m7004z2h0l23pu01bi.jpg
         status:
           $ref: '#/components/schemas/BrandStatus'
-        emailVerified:
+        mailActivated:
           type: boolean
           example: true
         brandName:

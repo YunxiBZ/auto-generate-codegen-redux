@@ -1034,8 +1034,8 @@ export type PostUsersApiArg = {
       tags?: TagList;
       clubs?: ClubNameList;
       notes?: string;
-      phoneVerified?: boolean;
-      emailVerified?: boolean;
+      phoneActivated?: boolean;
+      mailActivated?: boolean;
       birthdate?: string;
     };
   };
@@ -1350,8 +1350,8 @@ export type PatchUsersByUserIdGeneralApiArg = {
       tags?: TagList;
       clubs?: ClubNameList;
       notes?: string;
-      phoneVerified?: boolean;
-      emailVerified?: boolean;
+      phoneActivated?: boolean;
+      mailActivated?: boolean;
       birthdate?: string;
     };
   };
@@ -2466,8 +2466,8 @@ export type UserItemForEdit = {
   id?: Uuid;
   avatarUrl?: string;
   status?: UserStatus;
-  emailVerified?: boolean;
-  phoneVerified?: boolean;
+  mailActivated?: boolean;
+  phoneActivated?: boolean;
   credits?: number;
   usedCredits?: number;
   gender?: "male" | "female" | "other";
@@ -2533,8 +2533,8 @@ export type UserItemForAdminRole = {
   id?: Uuid;
   avatarUrl?: string;
   status?: UserStatus;
-  emailVerified?: boolean;
-  phoneVerified?: boolean;
+  mailActivated?: boolean;
+  phoneActivated?: boolean;
   credits?: number;
   usedCredits?: number;
   gender?: "male" | "female" | "other";
@@ -2581,7 +2581,7 @@ export type BrandItemInBrandList2 = {
 export type BrandPostPatchItem = {
   logoPath?: string;
   status?: BrandStatus;
-  emailVerified?: boolean;
+  mailActivated?: boolean;
   brandName?: string;
   group?: string;
   gender?: "male" | "female" | "other";
@@ -2609,7 +2609,7 @@ export type BrandItemWithAllOfDetails = {
   id?: Uuid;
   logoPath?: string;
   status?: BrandStatus;
-  emailVerified?: boolean;
+  mailActivated?: boolean;
   brandName?: string;
   group?: string;
   gender?: "male" | "female" | "other";
