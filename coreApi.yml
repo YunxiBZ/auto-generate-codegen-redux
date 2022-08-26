@@ -8233,6 +8233,236 @@ paths:
           in: query
           name: pagination
           description: 'default is 1, user click "load more" button, pagination will increment and get more contents'
+  '/users/{userId}/ig-stories':
+    parameters:
+      - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+    get:
+      summary: Get user's latest Instagram Stories
+      tags:
+        - MEDIAS
+        - ORDERS
+        - USER UI
+        - MY ORDERS ADD IG STORY PAGE
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MediaContentItemForFeed'
+              examples:
+                example-1:
+                  value:
+                    - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a623
+                      mediaType: instagramStory
+                      mediaPath:
+                        - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      metrics:
+                        views: 512340
+                        likes: 1234
+                        clicks: 54
+                      attributes:
+                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      publishDate: '2021-11-17T15:02:39.889+00:00'
+                    - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a523
+                      mediaType: instagramStory
+                      mediaPath:
+                        - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      metrics:
+                        views: 512340
+                        likes: 1234
+                        clicks: 54
+                      attributes:
+                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      publishDate: '2021-11-17T15:02:39.889+00:00'
+                    - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a423
+                      mediaType: instagramStory
+                      mediaPath:
+                        - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      metrics:
+                        views: 512340
+                        likes: 1234
+                        clicks: 54
+                      attributes:
+                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      publishDate: '2021-11-17T15:02:39.889+00:00'
+                    - nativeMediaId: 7a4441df-add8-4c9d-8d73-f130225206ea
+                      mediaType: instagramStory
+                      mediaPath:
+                        - 58219dfb-4775-4469-9187-5443bed15c80.mp4
+                      attributes:
+                        thumbnail_url: 9e1633c4-70a8-4d88-ac1b-826064e07939.jpg
+                      metrics:
+                        comments: 0
+                        likes: 0
+                        reach: 141
+                        views: 161
+                      publishDate: '2022-08-25T12:12:22+0000'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MediaContentItemForOrderAndAccount'
+      operationId: get-users-userId-ig-stories
+      security:
+        - bearerAuth: []
+      description: 'Get user''s lastest instagram Stories, display in My orders add instagram story page of User UI, pagination value in query for get more media. '
+      parameters:
+        - schema:
+            type: string
+          in: query
+          description: 'default is 1, user click "load more" button, pagination will increment and get more contents'
+          name: pagination
+  '/users/{userId}/ig-reels':
+    parameters:
+      - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+    get:
+      summary: Get user's latest Instagram Reels
+      tags:
+        - MEDIAS
+        - ORDERS
+        - USER UI
+        - MY ORDERS ADD IG STORY PAGE
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MediaContentItemForFeed'
+              examples:
+                example-1:
+                  value:
+                    - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a623
+                      mediaType: instagramReel
+                      mediaPath:
+                        - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      metrics:
+                        views: 512340
+                        likes: 1234
+                        clicks: 54
+                      attributes:
+                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      publishDate: '2021-11-17T15:02:39.889+00:00'
+                    - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a523
+                      mediaType: instagramReel
+                      mediaPath:
+                        - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      metrics:
+                        views: 512340
+                        likes: 1234
+                        clicks: 54
+                      attributes:
+                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      publishDate: '2021-11-17T15:02:39.889+00:00'
+                    - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a423
+                      mediaType: instagramReel
+                      mediaPath:
+                        - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      metrics:
+                        views: 512340
+                        likes: 1234
+                        clicks: 54
+                      attributes:
+                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                      publishDate: '2021-11-17T15:02:39.889+00:00'
+                    - nativeMediaId: 7a4441df-add8-4c9d-8d73-f130225206ea
+                      mediaType: instagramReel
+                      mediaPath:
+                        - 58219dfb-4775-4469-9187-5443bed15c80.mp4
+                      attributes:
+                        thumbnail_url: 9e1633c4-70a8-4d88-ac1b-826064e07939.jpg
+                      metrics:
+                        comments: 0
+                        likes: 0
+                        reach: 141
+                        views: 161
+                      publishDate: '2022-08-25T12:12:22+0000'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MediaContentItemForOrderAndAccount'
+      operationId: get-users-userId-ig-reels
+      security:
+        - bearerAuth: []
+      description: 'Get user''s lastest instagram Reels, display in add instagram reels page of User UI, pagination value in query for get more media. '
+      parameters:
+        - schema:
+            type: string
+          in: query
+          description: 'default is 1, user click "load more" button, pagination will increment and get more contents'
+          name: pagination
+  '/orders/{orderId}/medias/{mediaId}':
+    parameters:
+      - schema:
+          type: string
+        name: orderId
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: mediaId
+        in: path
+        required: true
+    delete:
+      summary: Delete media content from an order
+      tags:
+        - MEDIAS
+        - USER UI
+        - ORDERS
+        - MY ORDERS PAGE
+      responses:
+        '204':
+          description: No Content
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+      operationId: delete-orders-orderId-ig-medias-mediaId
+      description: 'Delete media content from an order, user id should come from session or autorised admin'
+      security:
+        - bearerAuth: []
   '/users/{userId}/orders/{orderId}/ig-medias':
     parameters:
       - schema:
@@ -8399,121 +8629,6 @@ paths:
         - ORDERS
         - USER UI
         - MY ORDERS PAGE
-  '/orders/{orderId}/medias/{mediaId}':
-    parameters:
-      - schema:
-          type: string
-        name: orderId
-        in: path
-        required: true
-      - schema:
-          type: string
-        name: mediaId
-        in: path
-        required: true
-    delete:
-      summary: Delete media content from an order
-      tags:
-        - MEDIAS
-        - USER UI
-        - ORDERS
-        - MY ORDERS PAGE
-      responses:
-        '204':
-          description: No Content
-        '400':
-          description: Bad Request
-        '401':
-          description: Unauthorized
-        '403':
-          description: Forbidden
-        '404':
-          description: Not Found
-        '500':
-          description: Internal Server Error
-      operationId: delete-orders-orderId-ig-medias-mediaId
-      description: 'Delete media content from an order, user id should come from session or autorised admin'
-      security:
-        - bearerAuth: []
-  '/users/{userId}/ig-stories':
-    parameters:
-      - schema:
-          type: string
-        name: userId
-        in: path
-        required: true
-    get:
-      summary: Get user's latest Instagram Stories
-      tags:
-        - MEDIAS
-        - ORDERS
-        - USER UI
-        - MY ORDERS ADD IG STORY PAGE
-      responses:
-        '200':
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/MediaContentItemForOrderAndAccount'
-              examples:
-                example-1:
-                  value:
-                    - id: 510afa78-7a96-4f40-970d-cfa653f2a623
-                      mediaType: instagramStory
-                      mediaPath: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
-                      metrics:
-                        views: 512340
-                        likes: 1234
-                        clicks: 54
-                      publishDate: '2021-11-17T15:02:39.889+00:00'
-                      status: validated
-                    - id: 510afa78-7a96-4f40-970d-cfa653f2a523
-                      mediaType: instagramStory
-                      mediaPath: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
-                      metrics:
-                        views: 512340
-                        likes: 1234
-                        clicks: 54
-                      publishDate: '2021-11-17T15:02:39.889+00:00'
-                      status: validated
-                    - id: 510afa78-7a96-4f40-970d-cfa653f2a423
-                      mediaType: instagramStory
-                      mediaPath: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
-                      metrics:
-                        views: 512340
-                        likes: 1234
-                        clicks: 54
-                      publishDate: '2021-11-17T15:02:39.889+00:00'
-                      status: validated
-        '400':
-          description: Bad Request
-        '401':
-          description: Unauthorized
-        '403':
-          description: Forbidden
-        '404':
-          description: Not Found
-        '500':
-          description: Internal Server Error
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/MediaContentItemForOrderAndAccount'
-      operationId: get-users-userId-ig-stories
-      security:
-        - bearerAuth: []
-      description: 'Get user''s lastest instagram Stories, display in My orders add instagram story page of User UI, pagination value in query for get more media. '
-      parameters:
-        - schema:
-            type: string
-          in: query
-          description: 'default is 1, user click "load more" button, pagination will increment and get more contents'
-          name: pagination
   '/users/{userId}/orders/{orderId}/ig-stories':
     parameters:
       - schema:
@@ -8720,7 +8835,7 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/MediaContentItemForOrderAndAccount'
-      operationId: get-users-userId-ig-reels
+      operationId: get-users-userId-ig-reels-for-one-order
       security:
         - bearerAuth: []
       description: |

@@ -743,6 +743,33 @@ const injectedRtkApi = api.injectEndpoints({
         params: { pagination: queryArg.pagination },
       }),
     }),
+    getUsersByUserIdIgStories: build.query<
+      GetUsersByUserIdIgStoriesApiResponse,
+      GetUsersByUserIdIgStoriesApiArg
+    >({
+      query: (queryArg) => ({
+        url: `/users/${queryArg.userId}/ig-stories`,
+        params: { pagination: queryArg.pagination },
+      }),
+    }),
+    getUsersByUserIdIgReels: build.query<
+      GetUsersByUserIdIgReelsApiResponse,
+      GetUsersByUserIdIgReelsApiArg
+    >({
+      query: (queryArg) => ({
+        url: `/users/${queryArg.userId}/ig-reels`,
+        params: { pagination: queryArg.pagination },
+      }),
+    }),
+    deleteOrdersByOrderIdMediasAndMediaId: build.mutation<
+      DeleteOrdersByOrderIdMediasAndMediaIdApiResponse,
+      DeleteOrdersByOrderIdMediasAndMediaIdApiArg
+    >({
+      query: (queryArg) => ({
+        url: `/orders/${queryArg.orderId}/medias/${queryArg.mediaId}`,
+        method: "DELETE",
+      }),
+    }),
     getUsersByUserIdOrdersAndOrderIdIgMedias: build.query<
       GetUsersByUserIdOrdersAndOrderIdIgMediasApiResponse,
       GetUsersByUserIdOrdersAndOrderIdIgMediasApiArg
@@ -770,24 +797,6 @@ const injectedRtkApi = api.injectEndpoints({
         url: `/users/${queryArg.userId}/orders/${queryArg.orderId}/ig-medias`,
         method: "PATCH",
         body: queryArg.body,
-      }),
-    }),
-    deleteOrdersByOrderIdMediasAndMediaId: build.mutation<
-      DeleteOrdersByOrderIdMediasAndMediaIdApiResponse,
-      DeleteOrdersByOrderIdMediasAndMediaIdApiArg
-    >({
-      query: (queryArg) => ({
-        url: `/orders/${queryArg.orderId}/medias/${queryArg.mediaId}`,
-        method: "DELETE",
-      }),
-    }),
-    getUsersByUserIdIgStories: build.query<
-      GetUsersByUserIdIgStoriesApiResponse,
-      GetUsersByUserIdIgStoriesApiArg
-    >({
-      query: (queryArg) => ({
-        url: `/users/${queryArg.userId}/ig-stories`,
-        params: { pagination: queryArg.pagination },
       }),
     }),
     getUsersByUserIdOrdersAndOrderIdIgStories: build.query<
@@ -1750,6 +1759,25 @@ export type GetUsersByUserIdIgMediasApiArg = {
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: number;
 };
+export type GetUsersByUserIdIgStoriesApiResponse =
+  /** status 200 OK */ MediaContentItemForFeed[];
+export type GetUsersByUserIdIgStoriesApiArg = {
+  userId: string;
+  /** default is 1, user click "load more" button, pagination will increment and get more contents */
+  pagination?: string;
+};
+export type GetUsersByUserIdIgReelsApiResponse =
+  /** status 200 OK */ MediaContentItemForFeed[];
+export type GetUsersByUserIdIgReelsApiArg = {
+  userId: string;
+  /** default is 1, user click "load more" button, pagination will increment and get more contents */
+  pagination?: string;
+};
+export type DeleteOrdersByOrderIdMediasAndMediaIdApiResponse = unknown;
+export type DeleteOrdersByOrderIdMediasAndMediaIdApiArg = {
+  orderId: string;
+  mediaId: string;
+};
 export type GetUsersByUserIdOrdersAndOrderIdIgMediasApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdOrdersAndOrderIdIgMediasApiArg = {
@@ -1771,18 +1799,6 @@ export type PatchUsersByUserIdOrdersAndOrderIdIgMediasApiArg = {
   userId: string;
   orderId: string;
   body: string[];
-};
-export type DeleteOrdersByOrderIdMediasAndMediaIdApiResponse = unknown;
-export type DeleteOrdersByOrderIdMediasAndMediaIdApiArg = {
-  orderId: string;
-  mediaId: string;
-};
-export type GetUsersByUserIdIgStoriesApiResponse =
-  /** status 200 OK */ MediaContentItemForOrder[];
-export type GetUsersByUserIdIgStoriesApiArg = {
-  userId: string;
-  /** default is 1, user click "load more" button, pagination will increment and get more contents */
-  pagination?: string;
 };
 export type GetUsersByUserIdOrdersAndOrderIdIgStoriesApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
@@ -3057,11 +3073,12 @@ export const {
   useGetChatUsersByUserIdOrdersQuery,
   useGetUsersByUserIdMediasStatisticsQuery,
   useGetUsersByUserIdIgMediasQuery,
+  useGetUsersByUserIdIgStoriesQuery,
+  useGetUsersByUserIdIgReelsQuery,
+  useDeleteOrdersByOrderIdMediasAndMediaIdMutation,
   useGetUsersByUserIdOrdersAndOrderIdIgMediasQuery,
   usePostUsersByUserIdOrdersAndOrderIdIgMediasMutation,
   usePatchUsersByUserIdOrdersAndOrderIdIgMediasMutation,
-  useDeleteOrdersByOrderIdMediasAndMediaIdMutation,
-  useGetUsersByUserIdIgStoriesQuery,
   useGetUsersByUserIdOrdersAndOrderIdIgStoriesQuery,
   usePostUsersByUserIdOrdersAndOrderIdIgStoriesMutation,
   useGetUsersByUserIdOrdersAndOrderIdIgReelsQuery,
