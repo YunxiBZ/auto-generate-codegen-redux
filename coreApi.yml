@@ -8268,7 +8268,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                        thumbnailUrl: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a523
                       mediaType: instagramStory
@@ -8279,7 +8279,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                        thumbnailUrl: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a423
                       mediaType: instagramStory
@@ -8290,14 +8290,14 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                        thumbnailUrl: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 7a4441df-add8-4c9d-8d73-f130225206ea
                       mediaType: instagramStory
                       mediaPath:
                         - 58219dfb-4775-4469-9187-5443bed15c80.mp4
                       attributes:
-                        thumbnail_url: 9e1633c4-70a8-4d88-ac1b-826064e07939.jpg
+                        thumbnailUrl: 9e1633c4-70a8-4d88-ac1b-826064e07939.jpg
                       metrics:
                         comments: 0
                         likes: 0
@@ -8365,7 +8365,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                        thumbnailUrl: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a523
                       mediaType: instagramReel
@@ -8376,7 +8376,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                        thumbnailUrl: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a423
                       mediaType: instagramReel
@@ -8387,14 +8387,14 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnail_url: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
+                        thumbnailUrl: 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 7a4441df-add8-4c9d-8d73-f130225206ea
                       mediaType: instagramReel
                       mediaPath:
                         - 58219dfb-4775-4469-9187-5443bed15c80.mp4
                       attributes:
-                        thumbnail_url: 9e1633c4-70a8-4d88-ac1b-826064e07939.jpg
+                        thumbnailUrl: 9e1633c4-70a8-4d88-ac1b-826064e07939.jpg
                       metrics:
                         comments: 0
                         likes: 0
@@ -9565,7 +9565,7 @@ paths:
                     - imageblob
       security:
         - bearerAuth: []
-  /auth/refresh-token:
+  /refresh-token:
     post:
       summary: Get access token by using refresh token
       tags:
