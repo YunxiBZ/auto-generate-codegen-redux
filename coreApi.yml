@@ -1633,7 +1633,7 @@ paths:
                 value:
                   gender:
                     - female
-                  engagementRate: 0.067
+                  engagementRate: 6.7
                   ages:
                     - <18
                     - 18-24
@@ -1779,7 +1779,7 @@ paths:
                   value:
                     gender:
                       - female
-                    engagementRate: 0.067
+                    engagementRate: 6.7
                     ages:
                       - <18
                       - 18-24
@@ -2044,7 +2044,7 @@ paths:
                     socialNetworksStatisticsByMedia:
                       instagram:
                         followers: 1234440
-                        engagementRate: 0.045
+                        engagementRate: 4.5
                         likes: 1564
                         views: 0
                         averageComments: 563
@@ -2168,7 +2168,7 @@ paths:
                           U.65+: 65
                       youtube:
                         followers: 200000
-                        engagementRate: 0.035
+                        engagementRate: 3.5
                         averageViews: 13454
                         videos: 65
                         averageComments: 85
@@ -2292,7 +2292,7 @@ paths:
                           U.65+: 115
                       tiktok:
                         followers: 55685
-                        engagementRate: 0.056
+                        engagementRate: 5.6
                         averageViews: 5862
                         clicks: 650
                         averageComments: 553
@@ -2498,11 +2498,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 1234440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 1564
                           youtube:
                             followers: 200000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 13454
                           blog: true
                       campaign:
@@ -2548,11 +2548,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 1234440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 1564
                           youtube:
                             followers: 200000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 13454
                           blog: true
                       campaign:
@@ -2593,11 +2593,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 1234440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 1564
                           youtube:
                             followers: 200000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 13454
                           blog: true
                       campaign:
@@ -2638,11 +2638,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 1234440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 1564
                           youtube:
                             followers: 200000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 13454
                           blog: true
                       campaign:
@@ -2740,11 +2740,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 1234440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 1564
                           youtube:
                             followers: 200000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 13454
                           blog: true
                       campaign:
@@ -2842,11 +2842,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 134440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 164
                           youtube:
                             followers: 206000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 1354
                           blog: true
                       campaign:
@@ -2887,11 +2887,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 134440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 164
                           youtube:
                             followers: 206000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 1354
                           blog: true
                       campaign:
@@ -2937,11 +2937,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 134440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 164
                           youtube:
                             followers: 206000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 1354
                           blog: true
                       campaign:
@@ -2987,11 +2987,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 134440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 164
                           youtube:
                             followers: 206000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 1354
                           blog: true
                       campaign:
@@ -3089,11 +3089,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 134440
-                            ER: 0.045
+                            engagementRate: 4.5
                             likes: 164
                           youtube:
                             followers: 206000
-                            ER: 0.035
+                            engagementRate: 3.5
                             views: 1354
                           blog: true
                       campaign:
@@ -3134,11 +3134,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 88552
-                            ER: 0.065
+                            engagementRate: 6.5
                             likes: 6583
                           youtube:
                             followers: 66552
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 3320
                           blog: true
                       campaign:
@@ -3179,11 +3179,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 88552
-                            ER: 0.065
+                            engagementRate: 6.5
                             likes: 6583
                           youtube:
                             followers: 66552
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 3320
                           blog: true
                       campaign:
@@ -3224,11 +3224,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 88552
-                            ER: 0.065
+                            engagementRate: 6.5
                             likes: 6583
                           youtube:
                             followers: 66552
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 3320
                           blog: true
                       campaign:
@@ -3274,11 +3274,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 88552
-                            ER: 0.065
+                            engagementRate: 6.5
                             likes: 6583
                           youtube:
                             followers: 66552
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 3320
                           blog: true
                       campaign:
@@ -3376,11 +3376,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 88552
-                            ER: 0.065
+                            engagementRate: 6.5
                             likes: 6583
                           youtube:
                             followers: 66552
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 3320
                           blog: true
                       campaign:
@@ -3478,11 +3478,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 68593
-                            ER: 0.025
+                            engagementRate: 2.5
                             likes: 6655
                           youtube:
                             followers: 203540
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 8550
                           blog: true
                       campaign:
@@ -3523,11 +3523,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 68593
-                            ER: 0.025
+                            engagementRate: 2.5
                             likes: 6655
                           youtube:
                             followers: 203540
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 8550
                           blog: true
                       campaign:
@@ -3568,11 +3568,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 68593
-                            ER: 0.025
+                            engagementRate: 2.5
                             likes: 6655
                           youtube:
                             followers: 203540
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 8550
                           blog: true
                       campaign:
@@ -3618,11 +3618,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 68593
-                            ER: 0.025
+                            engagementRate: 2.5
                             likes: 6655
                           youtube:
                             followers: 203540
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 8550
                           blog: true
                       campaign:
@@ -3668,11 +3668,11 @@ paths:
                         socialNetworkStatistics:
                           instagram:
                             followers: 68593
-                            ER: 0.025
+                            engagementRate: 2.5
                             likes: 6655
                           youtube:
                             followers: 203540
-                            ER: 0.095
+                            engagementRate: 9.5
                             views: 8550
                           blog: true
                       campaign:
@@ -4055,16 +4055,16 @@ paths:
                       youtube: 1280000
                       tiktok: 850000
                     engagementRate:
-                      global: 0
+                      global: 3.56
                       instagram:
-                        campaign: 0.046
-                        general: 0.026
+                        campaign: 4.6
+                        general: 2.6
                       youtube:
-                        campaign: 0.048
-                        general: 0.026
+                        campaign: 4.8
+                        general: 2.6
                       tiktok:
-                        campaign: 0.05
-                        general: 0.026
+                        campaign: 5
+                        general: 2.6
                     contents:
                       total: 112
                       instagramMedia: 32
@@ -8148,7 +8148,7 @@ paths:
                       metrics:
                         views: 112
                         likes: 365
-                        engagementRate: 19.4
+                        engagementRate: 1.44562
                       attributes:
                         postsAsPersonalAccount: true
                         title: Check out my great pic and like it a lot!
@@ -8165,7 +8165,7 @@ paths:
                       metrics:
                         views: 2035
                         likes: 2266
-                        engagementRate: 15.4
+                        engagementRate: 1.42659
                       attributes:
                         postsAsPersonalAccount: false
                         title: Check out my great pic and like it a lot!
@@ -10662,9 +10662,9 @@ components:
                 followers:
                   type: integer
                   example: 45000
-                ER:
+                engagementRate:
                   type: number
-                  example: 0.045
+                  example: 4.5
                 likes:
                   type: integer
                   example: 1564
@@ -10674,9 +10674,9 @@ components:
                 followers:
                   type: integer
                   example: 354587
-                ER:
+                engagementRate:
                   type: number
-                  example: 0.035
+                  example: 3.5
                 views:
                   type: integer
                   example: 13454
@@ -11157,7 +11157,7 @@ components:
           gender:
             - male
             - femail
-          engagementRate: 0.067
+          engagementRate: 6.7
           ages:
             - <18
             - 18-24
@@ -11233,7 +11233,7 @@ components:
               - other
         engagementRate:
           type: number
-          example: 0.067
+          example: 6.7
         ages:
           type: array
           example:
@@ -11617,11 +11617,11 @@ components:
             socialNetworkStatistics:
               instagram:
                 followers: 45000
-                engagement: 0.045
+                engagementRate: 4.5
                 likes: 1564
               youtube:
                 followers: 354587
-                engagement: 0.035
+                engagementRate: 3.5
                 views: 13454
               blog: true
           campaign:
@@ -12409,7 +12409,7 @@ components:
       x-examples:
         example-1:
           instagram:
-            engagementRate: 0.035
+            engagementRate: 3.5
             followers: 23870
             following: 245
             reach30Day: 54800
@@ -12563,7 +12563,7 @@ components:
       description: 'Instagram statistic and contents statistic for user social network media, display in the User UI '
       x-examples:
         example-1:
-          engagementRate: 0.035
+          engagementRate: 3.5
           averageReelViews: 45000
           reelViewRate: 0.105
           averageReelReach: 60500
@@ -12632,7 +12632,7 @@ components:
       properties:
         engagementRate:
           type: number
-          example: 0.035
+          example: 3.5
         followers:
           type: integer
           example: 23870
@@ -12786,7 +12786,7 @@ components:
       description: 'Instagram statistic and contents statistic for user social network media, display in the User UI '
       x-examples:
         example-1:
-          engagementRate: 0.035
+          engagementRate: 3.5
           averageReelsViews: 45000
           reelsViewRate: 0.105
           averageReelsReach: 60500
@@ -12845,7 +12845,7 @@ components:
       properties:
         engagementRate:
           type: number
-          example: 0.035
+          example: 3.5
         followers:
           type: integer
           example: 23870
@@ -12999,7 +12999,7 @@ components:
       properties:
         engagementRate:
           type: number
-          example: 0.035
+          example: 3.5
         averageLikes:
           type: number
           example: 2545
@@ -13124,7 +13124,7 @@ components:
       properties:
         engagementRate:
           type: number
-          example: 0.035
+          example: 3.5
         totalLikes:
           type: number
           example: 2545
@@ -13347,7 +13347,7 @@ components:
           metrics:
             views: 2035
             likes: 2266
-            engagementRate: 15.4
+            engagementRate: 1.4
           publishDate: '2022-07-27T15:24:28+0000'
           link: 'https://www.instagram.com/p/CUsYivLMr78/'
       properties:

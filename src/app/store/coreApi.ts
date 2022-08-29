@@ -2292,12 +2292,12 @@ export type UserItemForOrderList = {
   socialNetworkStatistics?: {
     instagram?: {
       followers?: number;
-      ER?: number;
+      engagementRate?: number;
       likes?: number;
     };
     youtube?: {
       followers?: number;
-      ER?: number;
+      engagementRate?: number;
       views?: number;
     };
     blog?: boolean;
