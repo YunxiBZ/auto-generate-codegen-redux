@@ -874,7 +874,7 @@ paths:
                     totalView: 714000
                     userActive:
                       title: activeUsers30Days
-                      percent: 0.026
+                      percent: 12.26
                       total: 18455
                       chartData:
                         - 500
@@ -889,7 +889,7 @@ paths:
                         - 568
                     userSignup:
                       title: signups30Days
-                      percent: 0.026
+                      percent: 15.26
                       total: 455
                       chartData:
                         - 256
@@ -3996,6 +3996,12 @@ paths:
               schema:
                 type: object
                 properties:
+                  campaignName:
+                    type: string
+                    example: OPI X NATURE STRONG
+                  brandName:
+                    type: string
+                    example: OPI
                   influencers:
                     $ref: '#/components/schemas/ChartDataForStatisticsInfluencers'
                   followers:
@@ -4027,6 +4033,8 @@ paths:
               examples:
                 example-1:
                   value:
+                    campaignName: OPI X NATURE STRONG
+                    brandName: OPI
                     influencers:
                       chartData:
                         - 571
@@ -4161,7 +4169,7 @@ paths:
       operationId: get-campaigns-campaignId-reporting-statistics
       security:
         - bearerAuth: []
-      description: Get statistic and contents of one campaign for reporting
+      description: 'Get statistics data and media contents of one campaign for reporting page, only used in the Admin UI'
   '/users/{userId}':
     parameters:
       - schema:
@@ -4608,22 +4616,22 @@ paths:
                         totalByStars:
                           '0':
                             totalComments: 25
-                            rate: 0.05
+                            rate: 5.56
                           '1':
                             totalComments: 50
-                            rate: 0.1
+                            rate: 10.56
                           '2':
                             totalComments: 50
-                            rate: 0.1
+                            rate: 11.89
                           '3':
                             totalComments: 50
-                            rate: 0.1
+                            rate: 9.61
                           '4':
                             totalComments: 125
-                            rate: 0.25
+                            rate: 23.56
                           '5':
                             totalComments: 200
-                            rate: 0.4
+                            rate: 42.56
                     socialNetworksStatisticsByMedia:
                       instagram:
                         followers: 10
@@ -9785,14 +9793,14 @@ components:
       name: engagementRate
       schema:
         type: number
-        example: 0.05
+        example: 5.23
       description: Engagement Rate
     RatingParam:
       in: query
       name: rating
       schema:
         type: number
-        example: 0.05
+        example: 5.75
       description: Rating
     InterestsParam:
       in: query
@@ -12280,14 +12288,14 @@ components:
       x-examples:
         example-1:
           instagram:
-            followers: 0
-            engagementRate: 0
+            followers: 235602
+            engagementRate: 6.589
             clicks: 0
             views: 0
-            averageComments: 0
-            postsPerMonth: 0
-            averageLikes: 0
-            averageImpressions: 0
+            averageComments: 123
+            postsPerMonth: 32
+            averageLikes: 251
+            averageImpressions: 156
             lastPost: '2021-11-15 09:47:48.501+00'
             audienceCountry:
               DE: 95
@@ -12320,13 +12328,13 @@ components:
               U.55-64: 170
               U.65+: 65
           youtube:
-            followers: 0
-            engagementRate: 0
-            averageViews: 0
-            videos: 0
-            averageComments: 0
-            postsPerMonth: 0
-            averageLikes: 0
+            followers: 365204
+            engagementRate: 2.65
+            averageViews: 10234
+            videos: 451
+            averageComments: 23
+            postsPerMonth: 6
+            averageLikes: 145
             averageUnlikes: 0
             lastPost: '2021-11-15 09:47:48.501+00'
             audienceCountry:
@@ -12360,13 +12368,13 @@ components:
               U.55-64: 198
               U.65+: 115
           tiktok:
-            followers: 0
-            engagementRate: 0
-            averageViews: 0
+            followers: 145233
+            engagementRate: 6.85
+            averageViews: 12585
             clicks: 0
-            averageComments: 0
-            postsPerMonth: 0
-            averageLikes: 0
+            averageComments: 35
+            postsPerMonth: 21
+            averageLikes: 652
             impressions: 0
             lastPost: '2021-11-15 09:47:48.501+00'
             audienceCountry:
@@ -12418,21 +12426,21 @@ components:
             averagePostImpressions: 2545
             postImpressionRate: 2545
             averagePostReach: 60500
-            postReachRate: 0.35
+            postReachRate: 3.556
             averagePostComments: 255
             postsPerMonth: 5
             averagePostLikes: 2545
             averageCarouselLikes: 2545
             averageStoryViews: 45000
-            storyViewRate: 0.105
+            storyViewRate: 1.05
             averageStoryComments: 255
             averageStoryClicks: 545
             averageStoryLikes: 2545
             averageReelsViews: 45000
-            reelsViewRate: 0.105
+            reelsViewRate: 1.05
             averageReelsReach: 60500
             averageReelsComments: 255
-            reelsReachRate: 0.35
+            reelsReachRate: 3.555
             averageReelsLikes: 2545
             lastPost: '2021-11-15 09:47:48.501+00'
             audienceCountry:
@@ -12565,16 +12573,16 @@ components:
         example-1:
           engagementRate: 3.5
           averageReelViews: 45000
-          reelViewRate: 0.105
+          reelViewRate: 1.05
           averageReelReach: 60500
           averageReelComments: 255
           averageStoryViews: 45000
-          storyViewRate: 0.105
+          storyViewRate: 1.05
           averagePostImpressions: 2545
           postImpressionRate: 2545
           averagePostReach: 60500
-          postReachRate: 0.35
-          reelReachRate: 0.35
+          postReachRate: 3.5
+          reelReachRate: 3.9
           averagePostComments: 255
           averageStoryComments: 255
           averageStoryClicks: 545
@@ -12659,7 +12667,7 @@ components:
           example: 60500
         postReachRate:
           type: number
-          example: 0.35
+          example: 3.5
         averagePostComments:
           type: number
           example: 255
@@ -12677,7 +12685,7 @@ components:
           example: 45000
         storyViewRate:
           type: number
-          example: 0.105
+          example: 1.05
         averageStoryComments:
           type: number
           example: 255
@@ -12693,7 +12701,7 @@ components:
           example: 45000
         reelViewRate:
           type: number
-          example: 0.105
+          example: 1.95
         averageReelReach:
           type: number
           example: 60500
@@ -12702,7 +12710,7 @@ components:
           example: 255
         reelReachRate:
           type: number
-          example: 0.35
+          example: 3.5
         averageReelLikes:
           type: number
           example: 2545
@@ -12788,16 +12796,16 @@ components:
         example-1:
           engagementRate: 3.5
           averageReelsViews: 45000
-          reelsViewRate: 0.105
+          reelsViewRate: 1.05
           averageReelsReach: 60500
           averageReelsComments: 255
           averageStoryViews: 45000
-          storyViewRate: 0.105
+          storyViewRate: 1.65
           averagePostImpressions: 2545
           postImpressionRate: 2545
           averagePostReach: 60500
-          postReachRate: 0.35
-          reelsReachRate: 0.35
+          postReachRate: 3.5
+          reelsReachRate: 4.35
           averagePostComments: 255
           averageStoryComments: 255
           averageStoryClicks: 545
@@ -12872,7 +12880,7 @@ components:
           example: 60500
         postReachRate:
           type: number
-          example: 0.35
+          example: 3.5
         averagePostComments:
           type: number
           example: 255
@@ -12890,7 +12898,7 @@ components:
           example: 45000
         storyViewRate:
           type: number
-          example: 0.105
+          example: 2.05
         averageStoryComments:
           type: number
           example: 255
@@ -12906,7 +12914,7 @@ components:
           example: 45000
         reelsViewRate:
           type: number
-          example: 0.105
+          example: 3.105
         averageReelsReach:
           type: number
           example: 60500
@@ -12915,7 +12923,7 @@ components:
           example: 255
         reelsReachRate:
           type: number
-          example: 0.35
+          example: 4.35
         averageReelsLikes:
           type: number
           example: 2545
@@ -13014,13 +13022,13 @@ components:
           example: 45000
         viewRate:
           type: number
-          example: 0.105
+          example: 1.85
         averageImpressions:
           type: number
           example: 60500
         impressingRate:
           type: number
-          example: 0.35
+          example: 12.135
         followers:
           type: integer
           example: 23870
@@ -13133,7 +13141,7 @@ components:
           example: 60500
         viewRate:
           type: number
-          example: 0.35
+          example: 3.35
         averageReach:
           type: number
           example: 60500
@@ -13142,7 +13150,7 @@ components:
           example: 545
         reachRate:
           type: number
-          example: 0.35
+          example: 6.35
         averageComments:
           type: number
           example: 255
@@ -13506,10 +13514,10 @@ components:
       description: 'ChartData for statistics of engagements rate, display in the engagement rate card of campaign reporting page '
       x-examples:
         example-1:
-          global: 0.056
-          instagram: 0.036
-          youtube: 0.056
-          tiktok: 0.065
+          global: 5.56
+          instagram: 3.86
+          youtube: 6.56
+          tiktok: 4.665
       type: object
       properties:
         global:
@@ -13519,28 +13527,28 @@ components:
           properties:
             campaign:
               type: number
-              example: 0.046
+              example: 4.66
             general:
               type: number
-              example: 0.026
+              example: 6.26
         youtube:
           type: object
           properties:
             campaign:
               type: number
-              example: 0.048
+              example: 4.568
             general:
               type: number
-              example: 0.026
+              example: 2.456
         tiktok:
           type: object
           properties:
             campaign:
               type: number
-              example: 0.05
+              example: 6.555
             general:
               type: number
-              example: 0.026
+              example: 8.126
     ChartDataForStatisticsInfluencers:
       title: ChartData for statistics of influencers
       type: object

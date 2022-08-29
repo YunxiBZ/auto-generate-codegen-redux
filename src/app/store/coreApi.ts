@@ -1314,6 +1314,8 @@ export type PatchMediasByMediaIdApiArg = {
 };
 export type GetCampaignsByCampaignIdReportingApiResponse =
   /** status 200 OK */ {
+    campaignName?: string;
+    brandName?: string;
     influencers?: ChartDataForStatisticsOfInfluencers;
     followers?: ChartDataForStatisticsFollowers;
     views?: ChartDataForStatisticsViews;
