@@ -1563,7 +1563,7 @@ export type GetClubsByClubIdStatisticsApiResponse = /** status 200 OK */ {
   nbInfluencers?: ChartDataForStatisticsOfInfluencers;
   nbFollowers?: ChartDataForStatisticsFollowers;
   nbViews?: ChartDataForStatisticsViews;
-  nbEngagements?: ChartDataForStatisticsEngagements;
+  averageEngagements?: ChartDataForStatisticsEngagements;
 };
 export type GetClubsByClubIdStatisticsApiArg = {
   /** Club id */

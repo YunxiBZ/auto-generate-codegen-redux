@@ -206,7 +206,7 @@ paths:
                   value:
                     user:
                       id: 510afa78-7a96-4f40-970d-cfa653f2a623
-                      role: influencer
+                      role: admin
                     token: MTcw.wOipwPeTDVqQ41_3aTjJ64t0PoJL4EK04niu23eH1czrJXX-GaO4qQsGei4l
                     refreshToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUuYW5hZG9sQGdtYWlsLmNvbSIsImlhdCI6MTY2MTM0ODQ2MSwiZXhwIjoxNjYxOTUzMjYxfQ.pkyS5LX_tug_2vkHa2HImPno0IyJUrfd4KbkjG2tj18
         '401':
@@ -6148,6 +6148,9 @@ paths:
             application/json:
               schema:
                 type: object
+                description: |-
+                  the value of averageEngagement is sum of average likes+comments (engagements) by content
+                  (IG post, yt video, tiktok)
                 properties:
                   nbInfluencers:
                     $ref: '#/components/schemas/ChartDataForStatisticsInfluencers'
@@ -6155,7 +6158,7 @@ paths:
                     $ref: '#/components/schemas/ChartDataForStatisticsFollowers'
                   nbViews:
                     $ref: '#/components/schemas/ChartDataForStatisticsViews'
-                  nbEngagements:
+                  averageEngagements:
                     $ref: '#/components/schemas/ChartDataForStatisticsEngagement'
               examples:
                 example-1:
@@ -6182,7 +6185,7 @@ paths:
                       youtube: 280000
                       tiktok: 850000
                       instagramStory: 200300
-                    nbEngagements:
+                    averageEngagements:
                       total: 3700455
                       instagram: 1580050
                       youtube: 1280000
@@ -6200,7 +6203,7 @@ paths:
       operationId: get-clubs-clubId-statistics
       security:
         - bearerAuth: []
-      description: 'Get statistic informations of one club for display in the page of clubs management '
+      description: 'Get statistics data of one club for clubs management page, only in ADMIN UI'
   '/clubs/{clubId}/users':
     parameters:
       - schema:
@@ -13488,7 +13491,7 @@ components:
           example: 200300
     ChartDataForStatisticsEngagement:
       title: ChartData for statistics engagements
-      description: 'ChartData for statistics engagements, display in the engagement card '
+      description: 'ChartData for statistics engagements, display in the total engagements card or average engagements card '
       x-examples:
         example-1:
           total: 3700455
