@@ -4196,7 +4196,7 @@ paths:
         - USER UI
         - USER ACCOUNT PAGE
       summary: Get one user information
-      description: Get one user complete information for dislay or modify later
+      description: 'Get one user complete information for dislay or modify later, only in User UI'
       operationId: get-user-userId
       responses:
         '200':
@@ -4208,26 +4208,21 @@ paths:
               examples:
                 example-1:
                   value:
-                    id: 510afa78-7a96-4f40-970d-cfa653f2a623
-                    avatarUrl: 'https://images.unsplash.com/photo-1647869588245-e2e3ac1ff6ad?fit=crop&w=500'
+                    id: 999afa78-7a96-4f40-970d-cfa653f2a688
+                    avatarUrl: ckw0m01m7004z2h0l23pu01bi.jpg
                     status: registered
                     mailActivated: true
-                    phoneActivated: false
+                    phoneActivated: true
+                    credits: 10
+                    usedCredits: 3
                     gender: female
                     firstName: Carlota
                     lastName: MONTEIRO
                     email: c.monteiro@tribz.com
                     phoneNumber: +33(0)666778899
-                    birthdate: '1999-08-24'
-                    credits: 10
-                    usedCredits: 3
+                    birthdate: '1998-06-13'
                     interests:
                       - 510afa78-7a96-4f40-970d-cfa653f2a621
-                    tags:
-                      - Trendsetter
-                    clubs:
-                      - TechClub
-                    notes: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
                     addresses:
                       - title: home
                         id: 510afa78-7a96-4f40-970d-cfa653f2a623
@@ -4298,52 +4293,33 @@ paths:
                       NewsAndAnnouncements: true
                       WeeklyProductUpdates: true
                       WeeklyBlogDigest: true
-                    ratings:
-                      ratingList:
-                        - id: 462fd58c-d542-4edd-8cda-f11cd7d62209
-                          comments: Very nice.
-                          ratingStars: 5
-                          userId: 462fd58c-d542-4edd-8cda-f11cd7d62209
-                          campaign:
-                            id: 462fd58c-d542-4edd-8cda-f11cd7d62209
-                            name: AirMax PRO Runner
-                          brand:
-                            id: d290f1ee-6c54-4b01-90e6-d701748f0855
-                            name: Nike
-                          createdAt: '2021-11-15 09:47:48.501+00'
-                          updatedAt: '2021-11-15 09:47:48.501+00'
-                      ratingStatistics:
-                        averageStars: 4.5
-                        totalComments: 500
-                        totalByStars:
-                          '0':
-                            totalComments: 25
-                            rate: 25
-                          '1':
-                            totalComments: 50
-                            rate: 50
-                          '2':
-                            totalComments: 50
-                            rate: 50
-                          '3':
-                            totalComments: 50
-                            rate: 50
-                          '4':
-                            totalComments: 125
-                            rate: 125
-                          '5':
-                            totalComments: 200
-                            rate: 200
                     socialNetworksStatisticsByMedia:
                       instagram:
-                        followers: 10
-                        engagementRate: 2.5
-                        clicks: 0
-                        views: 8
-                        averageComments: 50.5
-                        postsPerMonth: 26.3
-                        averageLikes: 110.5
-                        averageImpressions: 1000.5
+                        engagementRate: 3.5
+                        followers: 23870
+                        following: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        posts: 432
+                        averagePostImpressions: 2545
+                        postImpressionRate: 2545
+                        averagePostReach: 60500
+                        postReachRate: 3.5
+                        averagePostComments: 255
+                        postsPerMonth: 5
+                        averagePostLikes: 2545
+                        averageCarouselLikes: 2545
+                        averageStoryViews: 45000
+                        storyViewRate: 1.05
+                        averageStoryComments: 255
+                        averageStoryClicks: 545
+                        averageStoryLikes: 2545
+                        averageReelViews: 45000
+                        reelViewRate: 1.95
+                        averageReelReach: 60500
+                        averageReelComments: 255
+                        reelReachRate: 3.5
+                        averageReelLikes: 2545
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
                           AR: 302
@@ -4460,14 +4436,21 @@ paths:
                           U.55-64: 170
                           U.65+: 65
                       youtube:
-                        followers: 0
-                        engagementRate: 2.5
-                        videos: 10
-                        averageViews: 100.8
-                        averageComments: 20.4
-                        postsPerMonth: 4.6
-                        averageLikes: 7.6
-                        averageUnlikes: 10.5
+                        engagementRate: 3.5
+                        averageLikes: 2545
+                        averageUnlikes: 2545
+                        averageYoutubeViews: 45000
+                        averageYoutubeShortsViews: 45000
+                        viewRate: 1.85
+                        averageImpressions: 60500
+                        impressingRate: 12.135
+                        followers: 23870
+                        following: 245
+                        views: 245
+                        videos: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        averageComments: 255
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
                           AR: 302
@@ -4584,14 +4567,21 @@ paths:
                           U.55-64: 198
                           U.65+: 115
                       tiktok:
-                        followers: 0
-                        engagementRate: 2.5
-                        clicks: 30
-                        averageViews: 20.4
-                        averageComments: 10.2
-                        postsPerMonth: 50.4
-                        averageLikes: 80.5
-                        impressions: 500
+                        engagementRate: 3.5
+                        totalLikes: 2545
+                        averageViews: 60500
+                        viewRate: 3.35
+                        averageReach: 60500
+                        averageLikes: 545
+                        reachRate: 6.35
+                        averageComments: 255
+                        followers: 23870
+                        following: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        posts: 432
+                        views: 432
+                        postsPerMonth: 5
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
                           AR: 302
@@ -4710,7 +4700,7 @@ paths:
                       blog:
                         link: string
                         monthlyVisitors: 98562
-                    role: admin
+                    role: influencer
         '400':
           description: Bad Request
         '401':
@@ -4746,7 +4736,7 @@ paths:
         - EDIT USER SOCIAL NETWORK STATISITCS
         - USER ACCOUNT PAGE
       summary: Get one user information by admin
-      description: 'Only Admin Role : Get one users complete information '
+      description: 'Only Admin Role : Get one users complete information, only in Admin UI '
       operationId: get-user-admin-userId
       responses:
         '200':
@@ -4886,14 +4876,31 @@ paths:
                             rate: 42.56
                     socialNetworksStatisticsByMedia:
                       instagram:
-                        followers: 10
-                        engagementRate: 2.5
-                        clicks: 0
-                        views: 8
-                        averageComments: 50.5
-                        postsPerMonth: 26.3
-                        averageLikes: 110.5
-                        averageImpressions: 1000.5
+                        engagementRate: 3.5
+                        followers: 23870
+                        following: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        posts: 432
+                        averagePostImpressions: 2545
+                        postImpressionRate: 2545
+                        averagePostReach: 60500
+                        postReachRate: 3.5
+                        averagePostComments: 255
+                        postsPerMonth: 5
+                        averagePostLikes: 2545
+                        averageCarouselLikes: 2545
+                        averageStoryViews: 45000
+                        storyViewRate: 1.05
+                        averageStoryComments: 255
+                        averageStoryClicks: 545
+                        averageStoryLikes: 2545
+                        averageReelViews: 45000
+                        reelViewRate: 1.95
+                        averageReelReach: 60500
+                        averageReelComments: 255
+                        reelReachRate: 3.5
+                        averageReelLikes: 2545
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
                           AR: 302
@@ -5010,14 +5017,21 @@ paths:
                           U.55-64: 170
                           U.65+: 65
                       youtube:
-                        followers: 0
-                        engagementRate: 2.5
-                        videos: 10
-                        averageViews: 100.8
-                        averageComments: 20.4
-                        postsPerMonth: 4.6
-                        averageLikes: 7.6
-                        averageUnlikes: 10.5
+                        engagementRate: 3.5
+                        averageLikes: 2545
+                        averageUnlikes: 2545
+                        averageYoutubeViews: 45000
+                        averageYoutubeShortsViews: 45000
+                        viewRate: 1.85
+                        averageImpressions: 60500
+                        impressingRate: 12.135
+                        followers: 23870
+                        following: 245
+                        views: 245
+                        videos: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        averageComments: 255
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
                           AR: 302
@@ -5134,14 +5148,21 @@ paths:
                           U.55-64: 198
                           U.65+: 115
                       tiktok:
-                        followers: 0
-                        engagementRate: 2.5
-                        clicks: 30
-                        averageViews: 20.4
-                        averageComments: 10.2
-                        postsPerMonth: 50.4
-                        averageLikes: 80.5
-                        impressions: 500
+                        engagementRate: 3.5
+                        totalLikes: 2545
+                        averageViews: 60500
+                        viewRate: 3.35
+                        averageReach: 60500
+                        averageLikes: 545
+                        reachRate: 6.35
+                        averageComments: 255
+                        followers: 23870
+                        following: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        posts: 432
+                        views: 432
+                        postsPerMonth: 5
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
                           AR: 302
@@ -13956,6 +13977,7 @@ components:
           averageStoryLikes: 2545
           averageReelLikes: 2545
           averageCarouselLikes: 2545
+          lastPost: '2022-03-25 09:00:00.501+00'
           audienceCountry:
             AR: 302
             AT: 69
@@ -14162,6 +14184,10 @@ components:
           $ref: '#/components/schemas/AudienceCountry'
         audienceCity:
           $ref: '#/components/schemas/AudienceCity'
+        lastPost:
+          type: string
+          format: date-time
+          example: '2022-03-25 09:00:00.501+00'
         audienceDemographic:
           type: object
           properties:
@@ -14349,6 +14375,10 @@ components:
             U.65+:
               type: number
               example: 7
+        lastPost:
+          type: string
+          format: date-time
+          example: '2022-03-25 09:00:00.501+00'
     TiktokStatistics:
       type: object
       title: Tiktok statistic for user social network media
@@ -14470,6 +14500,10 @@ components:
             U.65+:
               type: number
               example: 7
+        lastPost:
+          type: string
+          format: date-time
+          example: '2022-03-25 09:00:00.501+00'
     MediaContentItemForReporting:
       title: Media Content Item For Reporting
       type: object

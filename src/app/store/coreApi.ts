@@ -2160,6 +2160,7 @@ export type InstagramStatisticForUserSocialNetworkMedia = {
   averageReelLikes?: number;
   audienceCountry?: AudienceCountrySchema;
   audienceCity?: AudienceCitySchema;
+  lastPost?: string;
   audienceDemographic?: {
     "F.13-17"?: number;
     "F.18-24"?: number;
@@ -2225,6 +2226,7 @@ export type YoutubeStatisticForUserSocialNetworkMedia = {
     "U.55-64"?: number;
     "U.65+"?: number;
   };
+  lastPost?: string;
 };
 export type TiktokStatisticForUserSocialNetworkMedia = {
   engagementRate?: number;
@@ -2267,6 +2269,7 @@ export type TiktokStatisticForUserSocialNetworkMedia = {
     "U.55-64"?: number;
     "U.65+"?: number;
   };
+  lastPost?: string;
 };
 export type BlogStatistics = {
   link?: string;
