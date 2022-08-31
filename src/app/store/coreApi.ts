@@ -1745,9 +1745,9 @@ export type GetUsersByUserIdMediasStatisticsApiResponse = /** status 200 OK */ {
     views?: number;
     clicks?: number;
   };
-  instagram?: InstagramStatisticAndContentsForUserSocialNetworkMedia2;
-  youtube?: YoutubeStatisticAndContentsForUserSocialNetworkMedia;
-  tiktok?: TiktokStatisticAndContentsForUserSocialNetworkMedia;
+  instagram?: InstagramStatisticForUserSocialNetworkMedia;
+  youtube?: YoutubeStatisticForUserSocialNetworkMedia;
+  tiktok?: TiktokStatisticForUserSocialNetworkMedia;
   blog?: BlogStatistics;
 };
 export type GetUsersByUserIdMediasStatisticsApiArg = {
@@ -1832,6 +1832,7 @@ export type PostUsersByUserIdOrdersAndOrderIdIgReelsApiArg = {
   userId: string;
   orderId: string;
   body: {
+    selected?: Uuid[];
     newMedia?: UploadContentItem;
   };
 };
@@ -2131,16 +2132,32 @@ export type AudienceCountrySchema = {
 export type AudienceCitySchema = {
   [key: string]: number;
 };
-export type InstagramStatistics = {
-  followers?: number;
+export type InstagramStatisticForUserSocialNetworkMedia = {
   engagementRate?: number;
-  clicks?: number;
-  views?: number;
-  averageComments?: number;
+  followers?: number;
+  following?: number;
+  reach30Day?: number;
+  impressions30Day?: number;
+  posts?: number;
+  averagePostImpressions?: number;
+  postImpressionRate?: number;
+  averagePostReach?: number;
+  postReachRate?: number;
+  averagePostComments?: number;
   postsPerMonth?: number;
-  averageLikes?: number;
-  averageImpressions?: number;
-  lastPost?: Date;
+  averagePostLikes?: number;
+  averageCarouselLikes?: number;
+  averageStoryViews?: number;
+  storyViewRate?: number;
+  averageStoryComments?: number;
+  averageStoryClicks?: number;
+  averageStoryLikes?: number;
+  averageReelViews?: number;
+  reelViewRate?: number;
+  averageReelReach?: number;
+  averageReelComments?: number;
+  reelReachRate?: number;
+  averageReelLikes?: number;
   audienceCountry?: AudienceCountrySchema;
   audienceCity?: AudienceCitySchema;
   audienceDemographic?: {
@@ -2167,16 +2184,22 @@ export type InstagramStatistics = {
     "U.65+"?: number;
   };
 };
-export type YoutubeStatistics = {
-  followers?: number;
+export type YoutubeStatisticForUserSocialNetworkMedia = {
   engagementRate?: number;
-  averageViews?: number;
-  videos?: number;
-  averageComments?: number;
-  postsPerMonth?: number;
   averageLikes?: number;
   averageUnlikes?: number;
-  lastPost?: Date;
+  averageYoutubeViews?: number;
+  averageYoutubeShortsViews?: number;
+  viewRate?: number;
+  averageImpressions?: number;
+  impressingRate?: number;
+  followers?: number;
+  following?: number;
+  views?: number;
+  videos?: number;
+  reach30Day?: number;
+  impressions30Day?: number;
+  averageComments?: number;
   audienceCountry?: AudienceCountrySchema;
   audienceCity?: AudienceCitySchema;
   audienceDemographic?: {
@@ -2203,16 +2226,22 @@ export type YoutubeStatistics = {
     "U.65+"?: number;
   };
 };
-export type TiktokStatistics = {
-  followers?: number;
+export type TiktokStatisticForUserSocialNetworkMedia = {
   engagementRate?: number;
+  totalLikes?: number;
   averageViews?: number;
-  clicks?: number;
-  averageComments?: number;
-  postsPerMonth?: number;
+  viewRate?: number;
+  averageReach?: number;
   averageLikes?: number;
-  averageImpressions?: number;
-  lastPost?: Date;
+  reachRate?: number;
+  averageComments?: number;
+  followers?: number;
+  following?: number;
+  reach30Day?: number;
+  impressions30Day?: number;
+  posts?: number;
+  views?: number;
+  postsPerMonth?: number;
   audienceCountry?: AudienceCountrySchema;
   audienceCity?: AudienceCitySchema;
   audienceDemographic?: {
@@ -2244,9 +2273,9 @@ export type BlogStatistics = {
   monthlyVisitors?: number;
 };
 export type UserSocialNetworkStatisticsByMedia = {
-  instagram?: InstagramStatistics;
-  youtube?: YoutubeStatistics;
-  tiktok?: TiktokStatistics;
+  instagram?: InstagramStatisticForUserSocialNetworkMedia;
+  youtube?: YoutubeStatisticForUserSocialNetworkMedia;
+  tiktok?: TiktokStatisticForUserSocialNetworkMedia;
   blog?: BlogStatistics;
 };
 export type UserItemForManageCampaignPage = {
@@ -2421,65 +2450,6 @@ export type NotificationListForUser = {
   WeeklyProductUpdates?: boolean;
   WeeklyBlogDigest?: boolean;
 };
-export type InstagramStatisticAndContentsForUserSocialNetworkMedia = {
-  engagementRate?: number;
-  followers?: number;
-  following?: number;
-  reach30Day?: number;
-  impressions30Day?: number;
-  posts?: number;
-  averagePostImpressions?: number;
-  postImpressionRate?: number;
-  averagePostReach?: number;
-  postReachRate?: number;
-  averagePostComments?: number;
-  postsPerMonth?: number;
-  averagePostLikes?: number;
-  averageCarouselLikes?: number;
-  averageStoryViews?: number;
-  storyViewRate?: number;
-  averageStoryComments?: number;
-  averageStoryClicks?: number;
-  averageStoryLikes?: number;
-  averageReelsViews?: number;
-  reelsViewRate?: number;
-  averageReelsReach?: number;
-  averageReelsComments?: number;
-  reelsReachRate?: number;
-  averageReelsLikes?: number;
-  lastPost?: Date;
-  audienceCountry?: AudienceCountrySchema;
-  audienceCity?: AudienceCitySchema;
-  audienceDemographic?: {
-    "F.13-17"?: number;
-    "F.18-24"?: number;
-    "F.25-34"?: number;
-    "F.35-44"?: number;
-    "F.45-54"?: number;
-    "F.55-64"?: number;
-    "F.65+"?: number;
-    "M.13-17"?: number;
-    "M.18-24"?: number;
-    "M.25-34"?: number;
-    "M.35-44"?: number;
-    "M.45-54"?: number;
-    "M.55-64"?: number;
-    "M.65+"?: number;
-    "U.13-17"?: number;
-    "U.18-24"?: number;
-    "U.25-34"?: number;
-    "U.35-44"?: number;
-    "U.45-54"?: number;
-    "U.55-64"?: number;
-    "U.65+"?: number;
-  };
-};
-export type UserSocialNetworkStatisticsByMediaInAdminUi = {
-  instagram?: InstagramStatisticAndContentsForUserSocialNetworkMedia;
-  youtube?: YoutubeStatistics;
-  tiktok?: TiktokStatistics;
-  blog?: BlogStatistics;
-};
 export type UserItemForEdit = {
   id?: Uuid;
   avatarUrl?: string;
@@ -2498,7 +2468,7 @@ export type UserItemForEdit = {
   addresses?: AddressItem[];
   socialNetworkLinks?: SocialNetworkLinkList;
   notifications?: NotificationListForUser;
-  socialNetworksStatisticsByMedia?: UserSocialNetworkStatisticsByMediaInAdminUi;
+  socialNetworksStatisticsByMedia?: UserSocialNetworkStatisticsByMedia;
   role?: "admin" | "influencer";
 };
 export type RatingItem = {
@@ -2572,7 +2542,7 @@ export type UserItemForAdminRole = {
     ratingList?: RatingItem[];
     ratingStatistics?: RatingStatistics;
   };
-  socialNetworksStatisticsByMedia?: UserSocialNetworkStatisticsByMediaInAdminUi;
+  socialNetworksStatisticsByMedia?: UserSocialNetworkStatisticsByMedia;
   role?: "admin" | "influencer";
 };
 export type AddressItemPost = {
@@ -2829,145 +2799,6 @@ export type OrderItemForChatInUserUi = {
   };
   createdAt: Date;
   updatedAt: Date;
-};
-export type InstagramStatisticAndContentsForUserSocialNetworkMedia2 = {
-  engagementRate?: number;
-  followers?: number;
-  following?: number;
-  reach30Day?: number;
-  impressions30Day?: number;
-  posts?: number;
-  averagePostImpressions?: number;
-  postImpressionRate?: number;
-  averagePostReach?: number;
-  postReachRate?: number;
-  averagePostComments?: number;
-  postsPerMonth?: number;
-  averagePostLikes?: number;
-  averageCarouselLikes?: number;
-  averageStoryViews?: number;
-  storyViewRate?: number;
-  averageStoryComments?: number;
-  averageStoryClicks?: number;
-  averageStoryLikes?: number;
-  averageReelViews?: number;
-  reelViewRate?: number;
-  averageReelReach?: number;
-  averageReelComments?: number;
-  reelReachRate?: number;
-  averageReelLikes?: number;
-  audienceCountry?: AudienceCountrySchema;
-  audienceCity?: AudienceCitySchema;
-  audienceDemographic?: {
-    "F.13-17"?: number;
-    "F.18-24"?: number;
-    "F.25-34"?: number;
-    "F.35-44"?: number;
-    "F.45-54"?: number;
-    "F.55-64"?: number;
-    "F.65+"?: number;
-    "M.13-17"?: number;
-    "M.18-24"?: number;
-    "M.25-34"?: number;
-    "M.35-44"?: number;
-    "M.45-54"?: number;
-    "M.55-64"?: number;
-    "M.65+"?: number;
-    "U.13-17"?: number;
-    "U.18-24"?: number;
-    "U.25-34"?: number;
-    "U.35-44"?: number;
-    "U.45-54"?: number;
-    "U.55-64"?: number;
-    "U.65+"?: number;
-  };
-  contents?: MediaContentItemForOrder[];
-};
-export type YoutubeStatisticAndContentsForUserSocialNetworkMedia = {
-  engagementRate?: number;
-  averageLikes?: number;
-  averageUnlikes?: number;
-  averageYoutubeViews?: number;
-  averageYoutubeShortsViews?: number;
-  viewRate?: number;
-  averageImpressions?: number;
-  impressingRate?: number;
-  followers?: number;
-  following?: number;
-  views?: number;
-  videos?: number;
-  reach30Day?: number;
-  impressions30Day?: number;
-  averageComments?: number;
-  audienceCountry?: AudienceCountrySchema;
-  audienceCity?: AudienceCitySchema;
-  audienceDemographic?: {
-    "F.13-17"?: number;
-    "F.18-24"?: number;
-    "F.25-34"?: number;
-    "F.35-44"?: number;
-    "F.45-54"?: number;
-    "F.55-64"?: number;
-    "F.65+"?: number;
-    "M.13-17"?: number;
-    "M.18-24"?: number;
-    "M.25-34"?: number;
-    "M.35-44"?: number;
-    "M.45-54"?: number;
-    "M.55-64"?: number;
-    "M.65+"?: number;
-    "U.13-17"?: number;
-    "U.18-24"?: number;
-    "U.25-34"?: number;
-    "U.35-44"?: number;
-    "U.45-54"?: number;
-    "U.55-64"?: number;
-    "U.65+"?: number;
-  };
-  contents?: MediaContentItemForOrder[];
-};
-export type TiktokStatisticAndContentsForUserSocialNetworkMedia = {
-  engagementRate?: number;
-  totalLikes?: number;
-  averageViews?: number;
-  viewRate?: number;
-  averageReach?: number;
-  averageLikes?: number;
-  reachRate?: number;
-  averageComments?: number;
-  followers?: number;
-  following?: number;
-  reach30Day?: number;
-  impressions30Day?: number;
-  posts?: number;
-  views?: number;
-  postsPerMonth?: number;
-  audienceCountry?: AudienceCountrySchema;
-  audienceCity?: AudienceCitySchema;
-  audienceDemographic?: {
-    "F.13-17"?: number;
-    "F.18-24"?: number;
-    "F.25-34"?: number;
-    "F.35-44"?: number;
-    "F.45-54"?: number;
-    "F.55-64"?: number;
-    "F.65+"?: number;
-    "M.13-17"?: number;
-    "M.18-24"?: number;
-    "M.25-34"?: number;
-    "M.35-44"?: number;
-    "M.45-54"?: number;
-    "M.55-64"?: number;
-    "M.65+"?: number;
-    "U.13-17"?: number;
-    "U.18-24"?: number;
-    "U.25-34"?: number;
-    "U.35-44"?: number;
-    "U.45-54"?: number;
-    "U.55-64"?: number;
-    "U.65+"?: number;
-  };
-  contents?: MediaContentItemForOrder[];
 };
 export type MediaAttributesSchema = any;
 export type MediaContentItemForFeed = {

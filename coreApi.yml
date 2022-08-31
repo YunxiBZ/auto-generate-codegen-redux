@@ -4346,13 +4346,97 @@ paths:
                         averageImpressions: 1000.5
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
-                          DE: 95
-                          FR: 195
-                          PL: 905
+                          AR: 302
+                          AT: 69
+                          AU: 237
+                          BE: 446
+                          BR: 642
+                          CA: 510
+                          CH: 260
+                          CI: 65
+                          CL: 186
+                          CN: 117
+                          CO: 201
+                          CZ: 75
+                          DE: 446
+                          DZ: 140
+                          EG: 64
+                          ES: 715
+                          FR: 7954
+                          GB: 604
+                          GR: 145
+                          ID: 287
+                          IN: 242
+                          IR: 110
+                          IT: 1297
+                          JP: 302
+                          KR: 148
+                          MA: 217
+                          MX: 849
+                          MY: 99
+                          NG: 70
+                          NL: 158
+                          PE: 118
+                          PH: 264
+                          PL: 217
+                          PT: 145
+                          RE: 67
+                          RO: 83
+                          RU: 157
+                          TH: 454
+                          TN: 134
+                          TR: 200
+                          TW: 131
+                          US: 1803
+                          VE: 67
+                          VN: 85
+                          ZA: 104
                         audienceCity:
-                          Sydney: 95
-                          London: 195
-                          Reims: 905
+                          'Abidjan, Abidjan': 62
+                          'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                          'Algiers, Algiers Province': 47
+                          'Bangkok, Bangkok': 168
+                          'Barcelona, Cataluña': 72
+                          'Berlin, Berlin': 61
+                          'Bogotá, Distrito Especial': 87
+                          'Bordeaux, Aquitaine': 101
+                          'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                          'Casablanca, Grand Casablanca': 56
+                          'Dubai, Dubai': 42
+                          'Geneva, Canton of Geneva': 40
+                          'Ho Chi Minh City, Ho Chi Minh City': 45
+                          'Hong Kong, Hong Kong': 55
+                          'Istanbul, Istanbul Province': 79
+                          'Jakarta, Jakarta': 58
+                          'Lille, Nord-Pas-de-Calais': 46
+                          'Lima, Lima Region': 83
+                          'London, England': 153
+                          'Los Angeles, California': 53
+                          'Lyon, Rhône-Alpes': 111
+                          'Madrid, Comunidad de Madrid': 96
+                          'Marseille, Provence-Alpes-Côte d''Azur': 189
+                          'Melbourne, Victoria': 65
+                          'Mexico City, Distrito Federal': 199
+                          'Milan, Lombardia': 53
+                          'Montpellier, Languedoc-Roussillon': 75
+                          'Montreal, Quebec': 96
+                          'Moscow, Moscow': 60
+                          'Nantes, Pays de la Loire': 54
+                          'New York, New York': 119
+                          'Nice, Provence-Alpes-Côte d''Azur': 79
+                          'Paris, Île-de-France': 779
+                          'Rio de Janeiro, Rio de Janeiro (state)': 50
+                          'Rome, Lazio': 94
+                          'Réunion, Réunion': 55
+                          'Santiago, Santiago Metropolitan Region': 101
+                          'Seoul, Seoul': 62
+                          'Shanghai, Shanghai': 93
+                          'Singapore, Singapore': 40
+                          'Strasbourg, Alsace': 42
+                          'Sydney, New South Wales': 48
+                          'São Paulo, São Paulo (state)': 90
+                          'Toronto, Ontario': 40
+                          'Toulouse, Midi-Pyrénées': 110
                         audienceDemographic:
                           F.13-17: 100
                           F.18-24: 307
@@ -4386,13 +4470,97 @@ paths:
                         averageUnlikes: 10.5
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
-                          DE: 95
-                          FR: 195
-                          PL: 905
+                          AR: 302
+                          AT: 69
+                          AU: 237
+                          BE: 446
+                          BR: 642
+                          CA: 510
+                          CH: 260
+                          CI: 65
+                          CL: 186
+                          CN: 117
+                          CO: 201
+                          CZ: 75
+                          DE: 446
+                          DZ: 140
+                          EG: 64
+                          ES: 715
+                          FR: 7954
+                          GB: 604
+                          GR: 145
+                          ID: 287
+                          IN: 242
+                          IR: 110
+                          IT: 1297
+                          JP: 302
+                          KR: 148
+                          MA: 217
+                          MX: 849
+                          MY: 99
+                          NG: 70
+                          NL: 158
+                          PE: 118
+                          PH: 264
+                          PL: 217
+                          PT: 145
+                          RE: 67
+                          RO: 83
+                          RU: 157
+                          TH: 454
+                          TN: 134
+                          TR: 200
+                          TW: 131
+                          US: 1803
+                          VE: 67
+                          VN: 85
+                          ZA: 104
                         audienceCity:
-                          Sydney: 95
-                          London: 195
-                          Reims: 905
+                          'Abidjan, Abidjan': 62
+                          'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                          'Algiers, Algiers Province': 47
+                          'Bangkok, Bangkok': 168
+                          'Barcelona, Cataluña': 72
+                          'Berlin, Berlin': 61
+                          'Bogotá, Distrito Especial': 87
+                          'Bordeaux, Aquitaine': 101
+                          'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                          'Casablanca, Grand Casablanca': 56
+                          'Dubai, Dubai': 42
+                          'Geneva, Canton of Geneva': 40
+                          'Ho Chi Minh City, Ho Chi Minh City': 45
+                          'Hong Kong, Hong Kong': 55
+                          'Istanbul, Istanbul Province': 79
+                          'Jakarta, Jakarta': 58
+                          'Lille, Nord-Pas-de-Calais': 46
+                          'Lima, Lima Region': 83
+                          'London, England': 153
+                          'Los Angeles, California': 53
+                          'Lyon, Rhône-Alpes': 111
+                          'Madrid, Comunidad de Madrid': 96
+                          'Marseille, Provence-Alpes-Côte d''Azur': 189
+                          'Melbourne, Victoria': 65
+                          'Mexico City, Distrito Federal': 199
+                          'Milan, Lombardia': 53
+                          'Montpellier, Languedoc-Roussillon': 75
+                          'Montreal, Quebec': 96
+                          'Moscow, Moscow': 60
+                          'Nantes, Pays de la Loire': 54
+                          'New York, New York': 119
+                          'Nice, Provence-Alpes-Côte d''Azur': 79
+                          'Paris, Île-de-France': 779
+                          'Rio de Janeiro, Rio de Janeiro (state)': 50
+                          'Rome, Lazio': 94
+                          'Réunion, Réunion': 55
+                          'Santiago, Santiago Metropolitan Region': 101
+                          'Seoul, Seoul': 62
+                          'Shanghai, Shanghai': 93
+                          'Singapore, Singapore': 40
+                          'Strasbourg, Alsace': 42
+                          'Sydney, New South Wales': 48
+                          'São Paulo, São Paulo (state)': 90
+                          'Toronto, Ontario': 40
+                          'Toulouse, Midi-Pyrénées': 110
                         audienceDemographic:
                           F.13-17: 49
                           F.18-24: 465
@@ -4426,13 +4594,97 @@ paths:
                         impressions: 500
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
-                          DE: 95
-                          FR: 195
-                          PL: 905
+                          AR: 302
+                          AT: 69
+                          AU: 237
+                          BE: 446
+                          BR: 642
+                          CA: 510
+                          CH: 260
+                          CI: 65
+                          CL: 186
+                          CN: 117
+                          CO: 201
+                          CZ: 75
+                          DE: 446
+                          DZ: 140
+                          EG: 64
+                          ES: 715
+                          FR: 7954
+                          GB: 604
+                          GR: 145
+                          ID: 287
+                          IN: 242
+                          IR: 110
+                          IT: 1297
+                          JP: 302
+                          KR: 148
+                          MA: 217
+                          MX: 849
+                          MY: 99
+                          NG: 70
+                          NL: 158
+                          PE: 118
+                          PH: 264
+                          PL: 217
+                          PT: 145
+                          RE: 67
+                          RO: 83
+                          RU: 157
+                          TH: 454
+                          TN: 134
+                          TR: 200
+                          TW: 131
+                          US: 1803
+                          VE: 67
+                          VN: 85
+                          ZA: 104
                         audienceCity:
-                          Sydney: 95
-                          London: 195
-                          Reims: 905
+                          'Abidjan, Abidjan': 62
+                          'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                          'Algiers, Algiers Province': 47
+                          'Bangkok, Bangkok': 168
+                          'Barcelona, Cataluña': 72
+                          'Berlin, Berlin': 61
+                          'Bogotá, Distrito Especial': 87
+                          'Bordeaux, Aquitaine': 101
+                          'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                          'Casablanca, Grand Casablanca': 56
+                          'Dubai, Dubai': 42
+                          'Geneva, Canton of Geneva': 40
+                          'Ho Chi Minh City, Ho Chi Minh City': 45
+                          'Hong Kong, Hong Kong': 55
+                          'Istanbul, Istanbul Province': 79
+                          'Jakarta, Jakarta': 58
+                          'Lille, Nord-Pas-de-Calais': 46
+                          'Lima, Lima Region': 83
+                          'London, England': 153
+                          'Los Angeles, California': 53
+                          'Lyon, Rhône-Alpes': 111
+                          'Madrid, Comunidad de Madrid': 96
+                          'Marseille, Provence-Alpes-Côte d''Azur': 189
+                          'Melbourne, Victoria': 65
+                          'Mexico City, Distrito Federal': 199
+                          'Milan, Lombardia': 53
+                          'Montpellier, Languedoc-Roussillon': 75
+                          'Montreal, Quebec': 96
+                          'Moscow, Moscow': 60
+                          'Nantes, Pays de la Loire': 54
+                          'New York, New York': 119
+                          'Nice, Provence-Alpes-Côte d''Azur': 79
+                          'Paris, Île-de-France': 779
+                          'Rio de Janeiro, Rio de Janeiro (state)': 50
+                          'Rome, Lazio': 94
+                          'Réunion, Réunion': 55
+                          'Santiago, Santiago Metropolitan Region': 101
+                          'Seoul, Seoul': 62
+                          'Shanghai, Shanghai': 93
+                          'Singapore, Singapore': 40
+                          'Strasbourg, Alsace': 42
+                          'Sydney, New South Wales': 48
+                          'São Paulo, São Paulo (state)': 90
+                          'Toronto, Ontario': 40
+                          'Toulouse, Midi-Pyrénées': 110
                         audienceDemographic:
                           F.13-17: 138
                           F.18-24: 1357
@@ -4483,6 +4735,7 @@ paths:
       security:
         - bearerAuth: []
       tags:
+        - USERS
         - ADMIN UI
         - EDIT USER EDIT ADDRESS PAGE
         - EDIT USER EDIT RATINGS PAGE
@@ -4492,10 +4745,9 @@ paths:
         - EDIT USER SOCIAL NETWORK LINKS PAGE
         - EDIT USER SOCIAL NETWORK STATISITCS
         - USER ACCOUNT PAGE
-        - USERS
-      summary: Get one user information
+      summary: Get one user information by admin
       description: 'Only Admin Role : Get one users complete information '
-      operationId: admin-get-user-userId
+      operationId: get-user-admin-userId
       responses:
         '200':
           description: OK
@@ -4644,13 +4896,97 @@ paths:
                         averageImpressions: 1000.5
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
-                          DE: 95
-                          FR: 195
-                          PL: 905
+                          AR: 302
+                          AT: 69
+                          AU: 237
+                          BE: 446
+                          BR: 642
+                          CA: 510
+                          CH: 260
+                          CI: 65
+                          CL: 186
+                          CN: 117
+                          CO: 201
+                          CZ: 75
+                          DE: 446
+                          DZ: 140
+                          EG: 64
+                          ES: 715
+                          FR: 7954
+                          GB: 604
+                          GR: 145
+                          ID: 287
+                          IN: 242
+                          IR: 110
+                          IT: 1297
+                          JP: 302
+                          KR: 148
+                          MA: 217
+                          MX: 849
+                          MY: 99
+                          NG: 70
+                          NL: 158
+                          PE: 118
+                          PH: 264
+                          PL: 217
+                          PT: 145
+                          RE: 67
+                          RO: 83
+                          RU: 157
+                          TH: 454
+                          TN: 134
+                          TR: 200
+                          TW: 131
+                          US: 1803
+                          VE: 67
+                          VN: 85
+                          ZA: 104
                         audienceCity:
-                          Sydney: 95
-                          London: 195
-                          Reims: 905
+                          'Abidjan, Abidjan': 62
+                          'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                          'Algiers, Algiers Province': 47
+                          'Bangkok, Bangkok': 168
+                          'Barcelona, Cataluña': 72
+                          'Berlin, Berlin': 61
+                          'Bogotá, Distrito Especial': 87
+                          'Bordeaux, Aquitaine': 101
+                          'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                          'Casablanca, Grand Casablanca': 56
+                          'Dubai, Dubai': 42
+                          'Geneva, Canton of Geneva': 40
+                          'Ho Chi Minh City, Ho Chi Minh City': 45
+                          'Hong Kong, Hong Kong': 55
+                          'Istanbul, Istanbul Province': 79
+                          'Jakarta, Jakarta': 58
+                          'Lille, Nord-Pas-de-Calais': 46
+                          'Lima, Lima Region': 83
+                          'London, England': 153
+                          'Los Angeles, California': 53
+                          'Lyon, Rhône-Alpes': 111
+                          'Madrid, Comunidad de Madrid': 96
+                          'Marseille, Provence-Alpes-Côte d''Azur': 189
+                          'Melbourne, Victoria': 65
+                          'Mexico City, Distrito Federal': 199
+                          'Milan, Lombardia': 53
+                          'Montpellier, Languedoc-Roussillon': 75
+                          'Montreal, Quebec': 96
+                          'Moscow, Moscow': 60
+                          'Nantes, Pays de la Loire': 54
+                          'New York, New York': 119
+                          'Nice, Provence-Alpes-Côte d''Azur': 79
+                          'Paris, Île-de-France': 779
+                          'Rio de Janeiro, Rio de Janeiro (state)': 50
+                          'Rome, Lazio': 94
+                          'Réunion, Réunion': 55
+                          'Santiago, Santiago Metropolitan Region': 101
+                          'Seoul, Seoul': 62
+                          'Shanghai, Shanghai': 93
+                          'Singapore, Singapore': 40
+                          'Strasbourg, Alsace': 42
+                          'Sydney, New South Wales': 48
+                          'São Paulo, São Paulo (state)': 90
+                          'Toronto, Ontario': 40
+                          'Toulouse, Midi-Pyrénées': 110
                         audienceDemographic:
                           F.13-17: 100
                           F.18-24: 307
@@ -4684,13 +5020,97 @@ paths:
                         averageUnlikes: 10.5
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
-                          DE: 95
-                          FR: 195
-                          PL: 905
+                          AR: 302
+                          AT: 69
+                          AU: 237
+                          BE: 446
+                          BR: 642
+                          CA: 510
+                          CH: 260
+                          CI: 65
+                          CL: 186
+                          CN: 117
+                          CO: 201
+                          CZ: 75
+                          DE: 446
+                          DZ: 140
+                          EG: 64
+                          ES: 715
+                          FR: 7954
+                          GB: 604
+                          GR: 145
+                          ID: 287
+                          IN: 242
+                          IR: 110
+                          IT: 1297
+                          JP: 302
+                          KR: 148
+                          MA: 217
+                          MX: 849
+                          MY: 99
+                          NG: 70
+                          NL: 158
+                          PE: 118
+                          PH: 264
+                          PL: 217
+                          PT: 145
+                          RE: 67
+                          RO: 83
+                          RU: 157
+                          TH: 454
+                          TN: 134
+                          TR: 200
+                          TW: 131
+                          US: 1803
+                          VE: 67
+                          VN: 85
+                          ZA: 104
                         audienceCity:
-                          Sydney: 95
-                          London: 195
-                          Reims: 905
+                          'Abidjan, Abidjan': 62
+                          'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                          'Algiers, Algiers Province': 47
+                          'Bangkok, Bangkok': 168
+                          'Barcelona, Cataluña': 72
+                          'Berlin, Berlin': 61
+                          'Bogotá, Distrito Especial': 87
+                          'Bordeaux, Aquitaine': 101
+                          'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                          'Casablanca, Grand Casablanca': 56
+                          'Dubai, Dubai': 42
+                          'Geneva, Canton of Geneva': 40
+                          'Ho Chi Minh City, Ho Chi Minh City': 45
+                          'Hong Kong, Hong Kong': 55
+                          'Istanbul, Istanbul Province': 79
+                          'Jakarta, Jakarta': 58
+                          'Lille, Nord-Pas-de-Calais': 46
+                          'Lima, Lima Region': 83
+                          'London, England': 153
+                          'Los Angeles, California': 53
+                          'Lyon, Rhône-Alpes': 111
+                          'Madrid, Comunidad de Madrid': 96
+                          'Marseille, Provence-Alpes-Côte d''Azur': 189
+                          'Melbourne, Victoria': 65
+                          'Mexico City, Distrito Federal': 199
+                          'Milan, Lombardia': 53
+                          'Montpellier, Languedoc-Roussillon': 75
+                          'Montreal, Quebec': 96
+                          'Moscow, Moscow': 60
+                          'Nantes, Pays de la Loire': 54
+                          'New York, New York': 119
+                          'Nice, Provence-Alpes-Côte d''Azur': 79
+                          'Paris, Île-de-France': 779
+                          'Rio de Janeiro, Rio de Janeiro (state)': 50
+                          'Rome, Lazio': 94
+                          'Réunion, Réunion': 55
+                          'Santiago, Santiago Metropolitan Region': 101
+                          'Seoul, Seoul': 62
+                          'Shanghai, Shanghai': 93
+                          'Singapore, Singapore': 40
+                          'Strasbourg, Alsace': 42
+                          'Sydney, New South Wales': 48
+                          'São Paulo, São Paulo (state)': 90
+                          'Toronto, Ontario': 40
+                          'Toulouse, Midi-Pyrénées': 110
                         audienceDemographic:
                           F.13-17: 49
                           F.18-24: 465
@@ -4724,13 +5144,97 @@ paths:
                         impressions: 500
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
-                          DE: 95
-                          FR: 195
-                          PL: 905
+                          AR: 302
+                          AT: 69
+                          AU: 237
+                          BE: 446
+                          BR: 642
+                          CA: 510
+                          CH: 260
+                          CI: 65
+                          CL: 186
+                          CN: 117
+                          CO: 201
+                          CZ: 75
+                          DE: 446
+                          DZ: 140
+                          EG: 64
+                          ES: 715
+                          FR: 7954
+                          GB: 604
+                          GR: 145
+                          ID: 287
+                          IN: 242
+                          IR: 110
+                          IT: 1297
+                          JP: 302
+                          KR: 148
+                          MA: 217
+                          MX: 849
+                          MY: 99
+                          NG: 70
+                          NL: 158
+                          PE: 118
+                          PH: 264
+                          PL: 217
+                          PT: 145
+                          RE: 67
+                          RO: 83
+                          RU: 157
+                          TH: 454
+                          TN: 134
+                          TR: 200
+                          TW: 131
+                          US: 1803
+                          VE: 67
+                          VN: 85
+                          ZA: 104
                         audienceCity:
-                          Sydney: 95
-                          London: 195
-                          Reims: 905
+                          'Abidjan, Abidjan': 62
+                          'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                          'Algiers, Algiers Province': 47
+                          'Bangkok, Bangkok': 168
+                          'Barcelona, Cataluña': 72
+                          'Berlin, Berlin': 61
+                          'Bogotá, Distrito Especial': 87
+                          'Bordeaux, Aquitaine': 101
+                          'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                          'Casablanca, Grand Casablanca': 56
+                          'Dubai, Dubai': 42
+                          'Geneva, Canton of Geneva': 40
+                          'Ho Chi Minh City, Ho Chi Minh City': 45
+                          'Hong Kong, Hong Kong': 55
+                          'Istanbul, Istanbul Province': 79
+                          'Jakarta, Jakarta': 58
+                          'Lille, Nord-Pas-de-Calais': 46
+                          'Lima, Lima Region': 83
+                          'London, England': 153
+                          'Los Angeles, California': 53
+                          'Lyon, Rhône-Alpes': 111
+                          'Madrid, Comunidad de Madrid': 96
+                          'Marseille, Provence-Alpes-Côte d''Azur': 189
+                          'Melbourne, Victoria': 65
+                          'Mexico City, Distrito Federal': 199
+                          'Milan, Lombardia': 53
+                          'Montpellier, Languedoc-Roussillon': 75
+                          'Montreal, Quebec': 96
+                          'Moscow, Moscow': 60
+                          'Nantes, Pays de la Loire': 54
+                          'New York, New York': 119
+                          'Nice, Provence-Alpes-Côte d''Azur': 79
+                          'Paris, Île-de-France': 779
+                          'Rio de Janeiro, Rio de Janeiro (state)': 50
+                          'Rome, Lazio': 94
+                          'Réunion, Réunion': 55
+                          'Santiago, Santiago Metropolitan Region': 101
+                          'Seoul, Seoul': 62
+                          'Shanghai, Shanghai': 93
+                          'Singapore, Singapore': 40
+                          'Strasbourg, Alsace': 42
+                          'Sydney, New South Wales': 48
+                          'São Paulo, São Paulo (state)': 90
+                          'Toronto, Ontario': 40
+                          'Toulouse, Midi-Pyrénées': 110
                         audienceDemographic:
                           F.13-17: 138
                           F.18-24: 1357
@@ -8048,11 +8552,11 @@ paths:
                         type: integer
                         example: 1545
                   instagram:
-                    $ref: '#/components/schemas/InstagramStatisticsAndContentsForUserSocialNetworkMedia'
+                    $ref: '#/components/schemas/InstagramStatistics'
                   youtube:
-                    $ref: '#/components/schemas/YoutubeStatisticsAndContentsForUserSocialNetworkMedia'
+                    $ref: '#/components/schemas/YoutubeStatistics'
                   tiktok:
-                    $ref: '#/components/schemas/TiktokStatisticsAndContentsForUserSocialNetworkMedia'
+                    $ref: '#/components/schemas/TiktokStatistics'
                   blog:
                     $ref: '#/components/schemas/BlogStatistics'
               examples:
@@ -8080,13 +8584,97 @@ paths:
                       views: 22454
                       postsPerMonth: 5
                       audienceCountry:
-                        DE: 95
-                        FR: 195
-                        PL: 905
+                        AR: 302
+                        AT: 69
+                        AU: 237
+                        BE: 446
+                        BR: 642
+                        CA: 510
+                        CH: 260
+                        CI: 65
+                        CL: 186
+                        CN: 117
+                        CO: 201
+                        CZ: 75
+                        DE: 446
+                        DZ: 140
+                        EG: 64
+                        ES: 715
+                        FR: 7954
+                        GB: 604
+                        GR: 145
+                        ID: 287
+                        IN: 242
+                        IR: 110
+                        IT: 1297
+                        JP: 302
+                        KR: 148
+                        MA: 217
+                        MX: 849
+                        MY: 99
+                        NG: 70
+                        NL: 158
+                        PE: 118
+                        PH: 264
+                        PL: 217
+                        PT: 145
+                        RE: 67
+                        RO: 83
+                        RU: 157
+                        TH: 454
+                        TN: 134
+                        TR: 200
+                        TW: 131
+                        US: 1803
+                        VE: 67
+                        VN: 85
+                        ZA: 104
                       audienceCity:
-                        Sydney: 95
-                        London: 195
-                        Reims: 905
+                        'Abidjan, Abidjan': 62
+                        'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                        'Algiers, Algiers Province': 47
+                        'Bangkok, Bangkok': 168
+                        'Barcelona, Cataluña': 72
+                        'Berlin, Berlin': 61
+                        'Bogotá, Distrito Especial': 87
+                        'Bordeaux, Aquitaine': 101
+                        'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                        'Casablanca, Grand Casablanca': 56
+                        'Dubai, Dubai': 42
+                        'Geneva, Canton of Geneva': 40
+                        'Ho Chi Minh City, Ho Chi Minh City': 45
+                        'Hong Kong, Hong Kong': 55
+                        'Istanbul, Istanbul Province': 79
+                        'Jakarta, Jakarta': 58
+                        'Lille, Nord-Pas-de-Calais': 46
+                        'Lima, Lima Region': 83
+                        'London, England': 153
+                        'Los Angeles, California': 53
+                        'Lyon, Rhône-Alpes': 111
+                        'Madrid, Comunidad de Madrid': 96
+                        'Marseille, Provence-Alpes-Côte d''Azur': 189
+                        'Melbourne, Victoria': 65
+                        'Mexico City, Distrito Federal': 199
+                        'Milan, Lombardia': 53
+                        'Montpellier, Languedoc-Roussillon': 75
+                        'Montreal, Quebec': 96
+                        'Moscow, Moscow': 60
+                        'Nantes, Pays de la Loire': 54
+                        'New York, New York': 119
+                        'Nice, Provence-Alpes-Côte d''Azur': 79
+                        'Paris, Île-de-France': 779
+                        'Rio de Janeiro, Rio de Janeiro (state)': 50
+                        'Rome, Lazio': 94
+                        'Réunion, Réunion': 55
+                        'Santiago, Santiago Metropolitan Region': 101
+                        'Seoul, Seoul': 62
+                        'Shanghai, Shanghai': 93
+                        'Singapore, Singapore': 40
+                        'Strasbourg, Alsace': 42
+                        'Sydney, New South Wales': 48
+                        'São Paulo, São Paulo (state)': 90
+                        'Toronto, Ontario': 40
+                        'Toulouse, Midi-Pyrénées': 110
                       audienceDemographic:
                         F.13-17: 138
                         F.18-24: 1357
@@ -8112,6 +8700,440 @@ paths:
                     blog:
                       link: string
                       monthlyVisitors: 0
+                example-2:
+                  value:
+                    globalAccountInformation:
+                      contents: 12
+                      impressions: 87541
+                      views: 60554
+                      clicks: 1545
+                    instagram:
+                      engagementRate: 3.5
+                      followers: 23870
+                      following: 245
+                      reach30Day: 54800
+                      impressions30Day: 87000
+                      posts: 432
+                      averagePostImpressions: 2545
+                      postImpressionRate: 2545
+                      averagePostReach: 60500
+                      postReachRate: 3.5
+                      averagePostComments: 255
+                      postsPerMonth: 5
+                      averagePostLikes: 2545
+                      averageCarouselLikes: 2545
+                      averageStoryViews: 45000
+                      storyViewRate: 1.05
+                      averageStoryComments: 255
+                      averageStoryClicks: 545
+                      averageStoryLikes: 2545
+                      averageReelViews: 45000
+                      reelViewRate: 1.95
+                      averageReelReach: 60500
+                      averageReelComments: 255
+                      reelReachRate: 3.5
+                      averageReelLikes: 2545
+                      audienceCountry:
+                        AR: 302
+                        AT: 69
+                        AU: 237
+                        BE: 446
+                        BR: 642
+                        CA: 510
+                        CH: 260
+                        CI: 65
+                        CL: 186
+                        CN: 117
+                        CO: 201
+                        CZ: 75
+                        DE: 446
+                        DZ: 140
+                        EG: 64
+                        ES: 715
+                        FR: 7954
+                        GB: 604
+                        GR: 145
+                        ID: 287
+                        IN: 242
+                        IR: 110
+                        IT: 1297
+                        JP: 302
+                        KR: 148
+                        MA: 217
+                        MX: 849
+                        MY: 99
+                        NG: 70
+                        NL: 158
+                        PE: 118
+                        PH: 264
+                        PL: 217
+                        PT: 145
+                        RE: 67
+                        RO: 83
+                        RU: 157
+                        TH: 454
+                        TN: 134
+                        TR: 200
+                        TW: 131
+                        US: 1803
+                        VE: 67
+                        VN: 85
+                        ZA: 104
+                      audienceCity:
+                        'Abidjan, Abidjan': 62
+                        'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                        'Algiers, Algiers Province': 47
+                        'Bangkok, Bangkok': 168
+                        'Barcelona, Cataluña': 72
+                        'Berlin, Berlin': 61
+                        'Bogotá, Distrito Especial': 87
+                        'Bordeaux, Aquitaine': 101
+                        'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                        'Casablanca, Grand Casablanca': 56
+                        'Dubai, Dubai': 42
+                        'Geneva, Canton of Geneva': 40
+                        'Ho Chi Minh City, Ho Chi Minh City': 45
+                        'Hong Kong, Hong Kong': 55
+                        'Istanbul, Istanbul Province': 79
+                        'Jakarta, Jakarta': 58
+                        'Lille, Nord-Pas-de-Calais': 46
+                        'Lima, Lima Region': 83
+                        'London, England': 153
+                        'Los Angeles, California': 53
+                        'Lyon, Rhône-Alpes': 111
+                        'Madrid, Comunidad de Madrid': 96
+                        'Marseille, Provence-Alpes-Côte d''Azur': 189
+                        'Melbourne, Victoria': 65
+                        'Mexico City, Distrito Federal': 199
+                        'Milan, Lombardia': 53
+                        'Montpellier, Languedoc-Roussillon': 75
+                        'Montreal, Quebec': 96
+                        'Moscow, Moscow': 60
+                        'Nantes, Pays de la Loire': 54
+                        'New York, New York': 119
+                        'Nice, Provence-Alpes-Côte d''Azur': 79
+                        'Paris, Île-de-France': 779
+                        'Rio de Janeiro, Rio de Janeiro (state)': 50
+                        'Rome, Lazio': 94
+                        'Réunion, Réunion': 55
+                        'Santiago, Santiago Metropolitan Region': 101
+                        'Seoul, Seoul': 62
+                        'Shanghai, Shanghai': 93
+                        'Singapore, Singapore': 40
+                        'Strasbourg, Alsace': 42
+                        'Sydney, New South Wales': 48
+                        'São Paulo, São Paulo (state)': 90
+                        'Toronto, Ontario': 40
+                        'Toulouse, Midi-Pyrénées': 110
+                      audienceDemographic:
+                        F.13-17: 37
+                        F.18-24: 307
+                        F.25-34: 330
+                        F.35-44: 86
+                        F.45-54: 44
+                        F.55-64: 7
+                        F.65+: 4
+                        M.13-17: 27
+                        M.18-24: 1018
+                        M.25-34: 2105
+                        M.35-44: 913
+                        M.45-54: 401
+                        M.55-64: 163
+                        M.65+: 61
+                        U.13-17: 16
+                        U.18-24: 130
+                        U.25-34: 141
+                        U.35-44: 50
+                        U.45-54: 15
+                        U.55-64: 7
+                        U.65+: 7
+                    youtube:
+                      engagementRate: 3.5
+                      averageLikes: 2545
+                      averageUnlikes: 2545
+                      averageYoutubeViews: 45000
+                      averageYoutubeShortsViews: 45000
+                      viewRate: 1.85
+                      averageImpressions: 60500
+                      impressingRate: 12.135
+                      followers: 23870
+                      following: 245
+                      views: 245
+                      videos: 245
+                      reach30Day: 54800
+                      impressions30Day: 87000
+                      averageComments: 255
+                      audienceCountry:
+                        AR: 302
+                        AT: 69
+                        AU: 237
+                        BE: 446
+                        BR: 642
+                        CA: 510
+                        CH: 260
+                        CI: 65
+                        CL: 186
+                        CN: 117
+                        CO: 201
+                        CZ: 75
+                        DE: 446
+                        DZ: 140
+                        EG: 64
+                        ES: 715
+                        FR: 7954
+                        GB: 604
+                        GR: 145
+                        ID: 287
+                        IN: 242
+                        IR: 110
+                        IT: 1297
+                        JP: 302
+                        KR: 148
+                        MA: 217
+                        MX: 849
+                        MY: 99
+                        NG: 70
+                        NL: 158
+                        PE: 118
+                        PH: 264
+                        PL: 217
+                        PT: 145
+                        RE: 67
+                        RO: 83
+                        RU: 157
+                        TH: 454
+                        TN: 134
+                        TR: 200
+                        TW: 131
+                        US: 1803
+                        VE: 67
+                        VN: 85
+                        ZA: 104
+                      audienceCity:
+                        'Abidjan, Abidjan': 62
+                        'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                        'Algiers, Algiers Province': 47
+                        'Bangkok, Bangkok': 168
+                        'Barcelona, Cataluña': 72
+                        'Berlin, Berlin': 61
+                        'Bogotá, Distrito Especial': 87
+                        'Bordeaux, Aquitaine': 101
+                        'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                        'Casablanca, Grand Casablanca': 56
+                        'Dubai, Dubai': 42
+                        'Geneva, Canton of Geneva': 40
+                        'Ho Chi Minh City, Ho Chi Minh City': 45
+                        'Hong Kong, Hong Kong': 55
+                        'Istanbul, Istanbul Province': 79
+                        'Jakarta, Jakarta': 58
+                        'Lille, Nord-Pas-de-Calais': 46
+                        'Lima, Lima Region': 83
+                        'London, England': 153
+                        'Los Angeles, California': 53
+                        'Lyon, Rhône-Alpes': 111
+                        'Madrid, Comunidad de Madrid': 96
+                        'Marseille, Provence-Alpes-Côte d''Azur': 189
+                        'Melbourne, Victoria': 65
+                        'Mexico City, Distrito Federal': 199
+                        'Milan, Lombardia': 53
+                        'Montpellier, Languedoc-Roussillon': 75
+                        'Montreal, Quebec': 96
+                        'Moscow, Moscow': 60
+                        'Nantes, Pays de la Loire': 54
+                        'New York, New York': 119
+                        'Nice, Provence-Alpes-Côte d''Azur': 79
+                        'Paris, Île-de-France': 779
+                        'Rio de Janeiro, Rio de Janeiro (state)': 50
+                        'Rome, Lazio': 94
+                        'Réunion, Réunion': 55
+                        'Santiago, Santiago Metropolitan Region': 101
+                        'Seoul, Seoul': 62
+                        'Shanghai, Shanghai': 93
+                        'Singapore, Singapore': 40
+                        'Strasbourg, Alsace': 42
+                        'Sydney, New South Wales': 48
+                        'São Paulo, São Paulo (state)': 90
+                        'Toronto, Ontario': 40
+                        'Toulouse, Midi-Pyrénées': 110
+                      audienceDemographic:
+                        F.13-17: 37
+                        F.18-24: 307
+                        F.25-34: 330
+                        F.35-44: 86
+                        F.45-54: 44
+                        F.55-64: 7
+                        F.65+: 4
+                        M.13-17: 27
+                        M.18-24: 1018
+                        M.25-34: 2105
+                        M.35-44: 913
+                        M.45-54: 401
+                        M.55-64: 163
+                        M.65+: 61
+                        U.13-17: 16
+                        U.18-24: 130
+                        U.25-34: 141
+                        U.35-44: 50
+                        U.45-54: 15
+                        U.55-64: 7
+                        U.65+: 7
+                      contents:
+                        - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                          mediaType: instagramPost
+                          metrics:
+                            property1: 0
+                            property2: 0
+                          publishDate: '2021-11-17T15:02:39.889+00:00'
+                          status: validated
+                          title: string
+                          link: string
+                          nativeMediaId: '2891681376519427165_48126772459'
+                          mediaPath: 18010733827410637-1659429273899.webp
+                    tiktok:
+                      engagementRate: 3.5
+                      totalLikes: 2545
+                      averageViews: 60500
+                      viewRate: 3.35
+                      averageReach: 60500
+                      averageLikes: 545
+                      reachRate: 6.35
+                      averageComments: 255
+                      followers: 23870
+                      following: 245
+                      reach30Day: 54800
+                      impressions30Day: 87000
+                      posts: 432
+                      views: 432
+                      postsPerMonth: 5
+                      audienceCountry:
+                        AR: 302
+                        AT: 69
+                        AU: 237
+                        BE: 446
+                        BR: 642
+                        CA: 510
+                        CH: 260
+                        CI: 65
+                        CL: 186
+                        CN: 117
+                        CO: 201
+                        CZ: 75
+                        DE: 446
+                        DZ: 140
+                        EG: 64
+                        ES: 715
+                        FR: 7954
+                        GB: 604
+                        GR: 145
+                        ID: 287
+                        IN: 242
+                        IR: 110
+                        IT: 1297
+                        JP: 302
+                        KR: 148
+                        MA: 217
+                        MX: 849
+                        MY: 99
+                        NG: 70
+                        NL: 158
+                        PE: 118
+                        PH: 264
+                        PL: 217
+                        PT: 145
+                        RE: 67
+                        RO: 83
+                        RU: 157
+                        TH: 454
+                        TN: 134
+                        TR: 200
+                        TW: 131
+                        US: 1803
+                        VE: 67
+                        VN: 85
+                        ZA: 104
+                      audienceCity:
+                        'Abidjan, Abidjan': 62
+                        'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                        'Algiers, Algiers Province': 47
+                        'Bangkok, Bangkok': 168
+                        'Barcelona, Cataluña': 72
+                        'Berlin, Berlin': 61
+                        'Bogotá, Distrito Especial': 87
+                        'Bordeaux, Aquitaine': 101
+                        'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                        'Casablanca, Grand Casablanca': 56
+                        'Dubai, Dubai': 42
+                        'Geneva, Canton of Geneva': 40
+                        'Ho Chi Minh City, Ho Chi Minh City': 45
+                        'Hong Kong, Hong Kong': 55
+                        'Istanbul, Istanbul Province': 79
+                        'Jakarta, Jakarta': 58
+                        'Lille, Nord-Pas-de-Calais': 46
+                        'Lima, Lima Region': 83
+                        'London, England': 153
+                        'Los Angeles, California': 53
+                        'Lyon, Rhône-Alpes': 111
+                        'Madrid, Comunidad de Madrid': 96
+                        'Marseille, Provence-Alpes-Côte d''Azur': 189
+                        'Melbourne, Victoria': 65
+                        'Mexico City, Distrito Federal': 199
+                        'Milan, Lombardia': 53
+                        'Montpellier, Languedoc-Roussillon': 75
+                        'Montreal, Quebec': 96
+                        'Moscow, Moscow': 60
+                        'Nantes, Pays de la Loire': 54
+                        'New York, New York': 119
+                        'Nice, Provence-Alpes-Côte d''Azur': 79
+                        'Paris, Île-de-France': 779
+                        'Rio de Janeiro, Rio de Janeiro (state)': 50
+                        'Rome, Lazio': 94
+                        'Réunion, Réunion': 55
+                        'Santiago, Santiago Metropolitan Region': 101
+                        'Seoul, Seoul': 62
+                        'Shanghai, Shanghai': 93
+                        'Singapore, Singapore': 40
+                        'Strasbourg, Alsace': 42
+                        'Sydney, New South Wales': 48
+                        'São Paulo, São Paulo (state)': 90
+                        'Toronto, Ontario': 40
+                        'Toulouse, Midi-Pyrénées': 110
+                      audienceDemographic:
+                        F.13-17: 37
+                        F.18-24: 307
+                        F.25-34: 330
+                        F.35-44: 86
+                        F.45-54: 44
+                        F.55-64: 7
+                        F.65+: 4
+                        M.13-17: 27
+                        M.18-24: 1018
+                        M.25-34: 2105
+                        M.35-44: 913
+                        M.45-54: 401
+                        M.55-64: 163
+                        M.65+: 61
+                        U.13-17: 16
+                        U.18-24: 130
+                        U.25-34: 141
+                        U.35-44: 50
+                        U.45-54: 15
+                        U.55-64: 7
+                        U.65+: 7
+                      contents:
+                        - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                          mediaType: instagramPost
+                          metrics:
+                            property1: 0
+                            property2: 0
+                          publishDate: '2021-11-17T15:02:39.889+00:00'
+                          status: validated
+                          title: string
+                          link: string
+                          nativeMediaId: '2891681376519427165_48126772459'
+                          mediaPath: 18010733827410637-1659429273899.webp
+                    blog:
+                      link: string
+                      monthlyVisitors: 0
         '400':
           description: Bad Request
         '401':
@@ -8123,7 +9145,7 @@ paths:
         '500':
           description: Internal Server Error
       operationId: get-users-userId-medias-statistics
-      description: Get general statistics and statistics for each connected Social Media for one User.
+      description: 'Get statistics data for each connected Social Media for one User. Display on Social networks page, only in USER UI'
   '/users/{userId}/ig-medias':
     parameters:
       - schema:
@@ -8886,6 +9908,10 @@ paths:
           multipart/form-data:
             schema:
               properties:
+                selected:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/Uuid'
                 newMedia:
                   $ref: '#/components/schemas/UploadContentItem'
             examples:
@@ -10412,7 +11438,7 @@ components:
         notifications:
           $ref: '#/components/schemas/UserNotifications'
         socialNetworksStatisticsByMedia:
-          $ref: '#/components/schemas/UserSocialNetworksStatisticsByMediaForAdminUi'
+          $ref: '#/components/schemas/UserSocialNetworksStatisticsByMedia'
         role:
           type: string
           enum:
@@ -10496,13 +11522,505 @@ components:
             ratingStatistics:
               $ref: '#/components/schemas/RatingStatistics'
         socialNetworksStatisticsByMedia:
-          $ref: '#/components/schemas/UserSocialNetworksStatisticsByMediaForAdminUi'
+          $ref: '#/components/schemas/UserSocialNetworksStatisticsByMedia'
         role:
           type: string
           enum:
             - admin
             - influencer
           example: influencer
+      x-examples:
+        example-1:
+          id: 510afa78-7a96-4f40-970d-cfa653f2a623
+          avatarUrl: ckw0m01m7004z2h0l23pu01bi.jpg
+          status: registered
+          mailActivated: true
+          phoneActivated: true
+          credits: 10
+          usedCredits: 3
+          gender: male
+          firstName: Carlota
+          lastName: MONTEIRO
+          email: c.monteiro@tribz.com
+          phoneNumber: +33(0)666778899
+          birthdate: '1998-06-13'
+          interests:
+            - 510afa78-7a96-4f40-970d-cfa653f2a623
+          tags:
+            - Trendsetter
+          clubs:
+            - TechClub
+          notes: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          addresses:
+            - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+              title: home
+              default: true
+              userId: 510afa78-7a96-4f40-970d-cfa653f2a623
+              address: 1 rue de louvre
+              zipCode: '75001'
+              city: Paris
+              country: France
+              supplement: 'code:1122336666'
+              firstName: Lucian
+              lastName: Obrien
+              createdAt: '2022-03-15 09:00:00.501+00'
+              updatedAt: '2022-03-15 09:00:00.501+00'
+          socialNetworkLinks:
+            facebook: 'https://www.facebook.com/user.kerluke'
+            instagram: 'https://www.instagram.com/user.kerluke'
+            linkedin: 'https://www.linkedin.com/in/user.kerluke'
+            tiktok: 'https://www.linkedin.com/in/user.kerluke'
+            twitter: 'https://www.twitter.com/user.kerluke'
+            youtube: 'https://www.youtube.com/user.kerluke'
+            siteInternet: 'https://www.kerluke.com/'
+          notifications:
+            userId: 510afa78-7a96-4f40-970d-cfa653f2a623
+            EmailMeWhenIGetAMessageFromTribz: true
+            EmailMeWhenTheStatusOfMyOrderChanges: true
+            NewsAndAnnouncements: true
+            WeeklyProductUpdates: true
+            WeeklyBlogDigest: true
+          ratings:
+            ratingList:
+              - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                comments: Very nice.
+                ratingStars: 5
+                userId: 510afa78-7a96-4f40-970d-cfa653f2a623
+                campaign:
+                  id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                  name: AirMax PRO Runner
+                brand:
+                  id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                  name: Nike
+                createdAt: '2022-03-15 09:00:00.501+00'
+                updatedAt: '2022-03-15 09:00:00.501+00'
+            ratingStatistics:
+              averageStars: 4.6
+              totalComments: 500
+              totalByStars:
+                '0':
+                  totalComments: 25
+                  rate: 25
+                '1':
+                  totalComments: 50
+                  rate: 50
+                '2':
+                  totalComments: 50
+                  rate: 50
+                '3':
+                  totalComments: 50
+                  rate: 50
+                '4':
+                  totalComments: 125
+                  rate: 125
+                '5':
+                  totalComments: 200
+                  rate: 200
+          socialNetworksStatisticsByMedia:
+            instagram:
+              engagementRate: 3.5
+              followers: 23870
+              following: 245
+              reach30Day: 54800
+              impressions30Day: 87000
+              posts: 432
+              averagePostImpressions: 2545
+              postImpressionRate: 2545
+              averagePostReach: 60500
+              postReachRate: 3.5
+              averagePostComments: 255
+              postsPerMonth: 5
+              averagePostLikes: 2545
+              averageCarouselLikes: 2545
+              averageStoryViews: 45000
+              storyViewRate: 1.05
+              averageStoryComments: 255
+              averageStoryClicks: 545
+              averageStoryLikes: 2545
+              averageReelViews: 45000
+              reelViewRate: 1.95
+              averageReelReach: 60500
+              averageReelComments: 255
+              reelReachRate: 3.5
+              averageReelLikes: 2545
+              audienceCountry:
+                AR: 302
+                AT: 69
+                AU: 237
+                BE: 446
+                BR: 642
+                CA: 510
+                CH: 260
+                CI: 65
+                CL: 186
+                CN: 117
+                CO: 201
+                CZ: 75
+                DE: 446
+                DZ: 140
+                EG: 64
+                ES: 715
+                FR: 7954
+                GB: 604
+                GR: 145
+                ID: 287
+                IN: 242
+                IR: 110
+                IT: 1297
+                JP: 302
+                KR: 148
+                MA: 217
+                MX: 849
+                MY: 99
+                NG: 70
+                NL: 158
+                PE: 118
+                PH: 264
+                PL: 217
+                PT: 145
+                RE: 67
+                RO: 83
+                RU: 157
+                TH: 454
+                TN: 134
+                TR: 200
+                TW: 131
+                US: 1803
+                VE: 67
+                VN: 85
+                ZA: 104
+              audienceCity:
+                'Abidjan, Abidjan': 62
+                'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                'Algiers, Algiers Province': 47
+                'Bangkok, Bangkok': 168
+                'Barcelona, Cataluña': 72
+                'Berlin, Berlin': 61
+                'Bogotá, Distrito Especial': 87
+                'Bordeaux, Aquitaine': 101
+                'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                'Casablanca, Grand Casablanca': 56
+                'Dubai, Dubai': 42
+                'Geneva, Canton of Geneva': 40
+                'Ho Chi Minh City, Ho Chi Minh City': 45
+                'Hong Kong, Hong Kong': 55
+                'Istanbul, Istanbul Province': 79
+                'Jakarta, Jakarta': 58
+                'Lille, Nord-Pas-de-Calais': 46
+                'Lima, Lima Region': 83
+                'London, England': 153
+                'Los Angeles, California': 53
+                'Lyon, Rhône-Alpes': 111
+                'Madrid, Comunidad de Madrid': 96
+                'Marseille, Provence-Alpes-Côte d''Azur': 189
+                'Melbourne, Victoria': 65
+                'Mexico City, Distrito Federal': 199
+                'Milan, Lombardia': 53
+                'Montpellier, Languedoc-Roussillon': 75
+                'Montreal, Quebec': 96
+                'Moscow, Moscow': 60
+                'Nantes, Pays de la Loire': 54
+                'New York, New York': 119
+                'Nice, Provence-Alpes-Côte d''Azur': 79
+                'Paris, Île-de-France': 779
+                'Rio de Janeiro, Rio de Janeiro (state)': 50
+                'Rome, Lazio': 94
+                'Réunion, Réunion': 55
+                'Santiago, Santiago Metropolitan Region': 101
+                'Seoul, Seoul': 62
+                'Shanghai, Shanghai': 93
+                'Singapore, Singapore': 40
+                'Strasbourg, Alsace': 42
+                'Sydney, New South Wales': 48
+                'São Paulo, São Paulo (state)': 90
+                'Toronto, Ontario': 40
+                'Toulouse, Midi-Pyrénées': 110
+              audienceDemographic:
+                F.13-17: 37
+                F.18-24: 307
+                F.25-34: 330
+                F.35-44: 86
+                F.45-54: 44
+                F.55-64: 7
+                F.65+: 4
+                M.13-17: 27
+                M.18-24: 1018
+                M.25-34: 2105
+                M.35-44: 913
+                M.45-54: 401
+                M.55-64: 163
+                M.65+: 61
+                U.13-17: 16
+                U.18-24: 130
+                U.25-34: 141
+                U.35-44: 50
+                U.45-54: 15
+                U.55-64: 7
+                U.65+: 7
+            youtube:
+              engagementRate: 3.5
+              averageLikes: 2545
+              averageUnlikes: 2545
+              averageYoutubeViews: 45000
+              averageYoutubeShortsViews: 45000
+              viewRate: 1.85
+              averageImpressions: 60500
+              impressingRate: 12.135
+              followers: 23870
+              following: 245
+              views: 245
+              videos: 245
+              reach30Day: 54800
+              impressions30Day: 87000
+              averageComments: 255
+              audienceCountry:
+                AR: 302
+                AT: 69
+                AU: 237
+                BE: 446
+                BR: 642
+                CA: 510
+                CH: 260
+                CI: 65
+                CL: 186
+                CN: 117
+                CO: 201
+                CZ: 75
+                DE: 446
+                DZ: 140
+                EG: 64
+                ES: 715
+                FR: 7954
+                GB: 604
+                GR: 145
+                ID: 287
+                IN: 242
+                IR: 110
+                IT: 1297
+                JP: 302
+                KR: 148
+                MA: 217
+                MX: 849
+                MY: 99
+                NG: 70
+                NL: 158
+                PE: 118
+                PH: 264
+                PL: 217
+                PT: 145
+                RE: 67
+                RO: 83
+                RU: 157
+                TH: 454
+                TN: 134
+                TR: 200
+                TW: 131
+                US: 1803
+                VE: 67
+                VN: 85
+                ZA: 104
+              audienceCity:
+                'Abidjan, Abidjan': 62
+                'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                'Algiers, Algiers Province': 47
+                'Bangkok, Bangkok': 168
+                'Barcelona, Cataluña': 72
+                'Berlin, Berlin': 61
+                'Bogotá, Distrito Especial': 87
+                'Bordeaux, Aquitaine': 101
+                'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                'Casablanca, Grand Casablanca': 56
+                'Dubai, Dubai': 42
+                'Geneva, Canton of Geneva': 40
+                'Ho Chi Minh City, Ho Chi Minh City': 45
+                'Hong Kong, Hong Kong': 55
+                'Istanbul, Istanbul Province': 79
+                'Jakarta, Jakarta': 58
+                'Lille, Nord-Pas-de-Calais': 46
+                'Lima, Lima Region': 83
+                'London, England': 153
+                'Los Angeles, California': 53
+                'Lyon, Rhône-Alpes': 111
+                'Madrid, Comunidad de Madrid': 96
+                'Marseille, Provence-Alpes-Côte d''Azur': 189
+                'Melbourne, Victoria': 65
+                'Mexico City, Distrito Federal': 199
+                'Milan, Lombardia': 53
+                'Montpellier, Languedoc-Roussillon': 75
+                'Montreal, Quebec': 96
+                'Moscow, Moscow': 60
+                'Nantes, Pays de la Loire': 54
+                'New York, New York': 119
+                'Nice, Provence-Alpes-Côte d''Azur': 79
+                'Paris, Île-de-France': 779
+                'Rio de Janeiro, Rio de Janeiro (state)': 50
+                'Rome, Lazio': 94
+                'Réunion, Réunion': 55
+                'Santiago, Santiago Metropolitan Region': 101
+                'Seoul, Seoul': 62
+                'Shanghai, Shanghai': 93
+                'Singapore, Singapore': 40
+                'Strasbourg, Alsace': 42
+                'Sydney, New South Wales': 48
+                'São Paulo, São Paulo (state)': 90
+                'Toronto, Ontario': 40
+                'Toulouse, Midi-Pyrénées': 110
+              audienceDemographic:
+                F.13-17: 37
+                F.18-24: 307
+                F.25-34: 330
+                F.35-44: 86
+                F.45-54: 44
+                F.55-64: 7
+                F.65+: 4
+                M.13-17: 27
+                M.18-24: 1018
+                M.25-34: 2105
+                M.35-44: 913
+                M.45-54: 401
+                M.55-64: 163
+                M.65+: 61
+                U.13-17: 16
+                U.18-24: 130
+                U.25-34: 141
+                U.35-44: 50
+                U.45-54: 15
+                U.55-64: 7
+                U.65+: 7
+            tiktok:
+              engagementRate: 3.5
+              totalLikes: 2545
+              averageViews: 60500
+              viewRate: 3.35
+              averageReach: 60500
+              averageLikes: 545
+              reachRate: 6.35
+              averageComments: 255
+              followers: 23870
+              following: 245
+              reach30Day: 54800
+              impressions30Day: 87000
+              posts: 432
+              views: 432
+              postsPerMonth: 5
+              audienceCountry:
+                AR: 302
+                AT: 69
+                AU: 237
+                BE: 446
+                BR: 642
+                CA: 510
+                CH: 260
+                CI: 65
+                CL: 186
+                CN: 117
+                CO: 201
+                CZ: 75
+                DE: 446
+                DZ: 140
+                EG: 64
+                ES: 715
+                FR: 7954
+                GB: 604
+                GR: 145
+                ID: 287
+                IN: 242
+                IR: 110
+                IT: 1297
+                JP: 302
+                KR: 148
+                MA: 217
+                MX: 849
+                MY: 99
+                NG: 70
+                NL: 158
+                PE: 118
+                PH: 264
+                PL: 217
+                PT: 145
+                RE: 67
+                RO: 83
+                RU: 157
+                TH: 454
+                TN: 134
+                TR: 200
+                TW: 131
+                US: 1803
+                VE: 67
+                VN: 85
+                ZA: 104
+              audienceCity:
+                'Abidjan, Abidjan': 62
+                'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+                'Algiers, Algiers Province': 47
+                'Bangkok, Bangkok': 168
+                'Barcelona, Cataluña': 72
+                'Berlin, Berlin': 61
+                'Bogotá, Distrito Especial': 87
+                'Bordeaux, Aquitaine': 101
+                'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+                'Casablanca, Grand Casablanca': 56
+                'Dubai, Dubai': 42
+                'Geneva, Canton of Geneva': 40
+                'Ho Chi Minh City, Ho Chi Minh City': 45
+                'Hong Kong, Hong Kong': 55
+                'Istanbul, Istanbul Province': 79
+                'Jakarta, Jakarta': 58
+                'Lille, Nord-Pas-de-Calais': 46
+                'Lima, Lima Region': 83
+                'London, England': 153
+                'Los Angeles, California': 53
+                'Lyon, Rhône-Alpes': 111
+                'Madrid, Comunidad de Madrid': 96
+                'Marseille, Provence-Alpes-Côte d''Azur': 189
+                'Melbourne, Victoria': 65
+                'Mexico City, Distrito Federal': 199
+                'Milan, Lombardia': 53
+                'Montpellier, Languedoc-Roussillon': 75
+                'Montreal, Quebec': 96
+                'Moscow, Moscow': 60
+                'Nantes, Pays de la Loire': 54
+                'New York, New York': 119
+                'Nice, Provence-Alpes-Côte d''Azur': 79
+                'Paris, Île-de-France': 779
+                'Rio de Janeiro, Rio de Janeiro (state)': 50
+                'Rome, Lazio': 94
+                'Réunion, Réunion': 55
+                'Santiago, Santiago Metropolitan Region': 101
+                'Seoul, Seoul': 62
+                'Shanghai, Shanghai': 93
+                'Singapore, Singapore': 40
+                'Strasbourg, Alsace': 42
+                'Sydney, New South Wales': 48
+                'São Paulo, São Paulo (state)': 90
+                'Toronto, Ontario': 40
+                'Toulouse, Midi-Pyrénées': 110
+              audienceDemographic:
+                F.13-17: 37
+                F.18-24: 307
+                F.25-34: 330
+                F.35-44: 86
+                F.45-54: 44
+                F.55-64: 7
+                F.65+: 4
+                M.13-17: 27
+                M.18-24: 1018
+                M.25-34: 2105
+                M.35-44: 913
+                M.45-54: 401
+                M.55-64: 163
+                M.65+: 61
+                U.13-17: 16
+                U.18-24: 130
+                U.25-34: 141
+                U.35-44: 50
+                U.45-54: 15
+                U.55-64: 7
+                U.65+: 7
+            blog:
+              link: string
+              monthlyVisitors: 0
+          role: admin
     UserItemForManageCampaigns:
       type: object
       description: User complete information item for display in the manage campaign page
@@ -11993,281 +13511,6 @@ components:
           type: boolean
         WeeklyProductUpdates:
           type: boolean
-    InstagramStatistics:
-      type: object
-      properties:
-        followers:
-          type: integer
-        engagementRate:
-          type: number
-        clicks:
-          type: integer
-        views:
-          type: integer
-        averageComments:
-          type: number
-        postsPerMonth:
-          type: number
-        averageLikes:
-          type: number
-        averageImpressions:
-          type: number
-        lastPost:
-          $ref: '#/components/schemas/Date'
-        audienceCountry:
-          $ref: '#/components/schemas/AudienceCountry'
-        audienceCity:
-          $ref: '#/components/schemas/AudienceCity'
-        audienceDemographic:
-          type: object
-          properties:
-            F.13-17:
-              type: number
-              example: 37
-            F.18-24:
-              type: number
-              example: 307
-            F.25-34:
-              type: number
-              example: 330
-            F.35-44:
-              type: number
-              example: 86
-            F.45-54:
-              type: number
-              example: 44
-            F.55-64:
-              type: number
-              example: 7
-            F.65+:
-              type: number
-              example: 4
-            M.13-17:
-              type: number
-              example: 27
-            M.18-24:
-              type: number
-              example: 1018
-            M.25-34:
-              type: number
-              example: 2105
-            M.35-44:
-              type: number
-              example: 913
-            M.45-54:
-              type: number
-              example: 401
-            M.55-64:
-              type: number
-              example: 163
-            M.65+:
-              type: number
-              example: 61
-            U.13-17:
-              type: number
-              example: 16
-            U.18-24:
-              type: number
-              example: 130
-            U.25-34:
-              type: number
-              example: 141
-            U.35-44:
-              type: number
-              example: 50
-            U.45-54:
-              type: number
-              example: 15
-            U.55-64:
-              type: number
-              example: 7
-            U.65+:
-              type: number
-              example: 7
-      description: ''
-    YoutubeStatistics:
-      type: object
-      description: ''
-      properties:
-        followers:
-          type: integer
-        engagementRate:
-          type: number
-        averageViews:
-          type: number
-        videos:
-          type: integer
-        averageComments:
-          type: number
-        postsPerMonth:
-          type: number
-        averageLikes:
-          type: number
-        averageUnlikes:
-          type: number
-        lastPost:
-          $ref: '#/components/schemas/Date'
-        audienceCountry:
-          $ref: '#/components/schemas/AudienceCountry'
-        audienceCity:
-          $ref: '#/components/schemas/AudienceCity'
-        audienceDemographic:
-          type: object
-          properties:
-            F.13-17:
-              type: number
-              example: 37
-            F.18-24:
-              type: number
-              example: 307
-            F.25-34:
-              type: number
-              example: 330
-            F.35-44:
-              type: number
-              example: 86
-            F.45-54:
-              type: number
-              example: 44
-            F.55-64:
-              type: number
-              example: 7
-            F.65+:
-              type: number
-              example: 4
-            M.13-17:
-              type: number
-              example: 27
-            M.18-24:
-              type: number
-              example: 1018
-            M.25-34:
-              type: number
-              example: 2105
-            M.35-44:
-              type: number
-              example: 913
-            M.45-54:
-              type: number
-              example: 401
-            M.55-64:
-              type: number
-              example: 163
-            M.65+:
-              type: number
-              example: 61
-            U.13-17:
-              type: number
-              example: 16
-            U.18-24:
-              type: number
-              example: 130
-            U.25-34:
-              type: number
-              example: 141
-            U.35-44:
-              type: number
-              example: 50
-            U.45-54:
-              type: number
-              example: 15
-            U.55-64:
-              type: number
-              example: 7
-            U.65+:
-              type: number
-              example: 7
-    TiktokStatistics:
-      type: object
-      properties:
-        followers:
-          type: integer
-        engagementRate:
-          type: number
-        averageViews:
-          type: number
-        clicks:
-          type: integer
-        averageComments:
-          type: number
-        postsPerMonth:
-          type: number
-        averageLikes:
-          type: number
-        averageImpressions:
-          type: number
-        lastPost:
-          $ref: '#/components/schemas/Date'
-        audienceCountry:
-          $ref: '#/components/schemas/AudienceCountry'
-        audienceCity:
-          $ref: '#/components/schemas/AudienceCity'
-        audienceDemographic:
-          type: object
-          properties:
-            F.13-17:
-              type: number
-              example: 37
-            F.18-24:
-              type: number
-              example: 307
-            F.25-34:
-              type: number
-              example: 330
-            F.35-44:
-              type: number
-              example: 86
-            F.45-54:
-              type: number
-              example: 44
-            F.55-64:
-              type: number
-              example: 7
-            F.65+:
-              type: number
-              example: 4
-            M.13-17:
-              type: number
-              example: 27
-            M.18-24:
-              type: number
-              example: 1018
-            M.25-34:
-              type: number
-              example: 2105
-            M.35-44:
-              type: number
-              example: 913
-            M.45-54:
-              type: number
-              example: 401
-            M.55-64:
-              type: number
-              example: 163
-            M.65+:
-              type: number
-              example: 61
-            U.13-17:
-              type: number
-              example: 16
-            U.18-24:
-              type: number
-              example: 130
-            U.25-34:
-              type: number
-              example: 141
-            U.35-44:
-              type: number
-              example: 50
-            U.45-54:
-              type: number
-              example: 15
-            U.55-64:
-              type: number
-              example: 7
-            U.65+:
-              type: number
-              example: 7
     BlogStatistics:
       type: object
       properties:
@@ -12278,145 +13521,7 @@ components:
     UserSocialNetworksStatisticsByMedia:
       title: User social network statistics by media
       type: object
-      properties:
-        instagram:
-          $ref: '#/components/schemas/InstagramStatistics'
-        youtube:
-          $ref: '#/components/schemas/YoutubeStatistics'
-        tiktok:
-          $ref: '#/components/schemas/TiktokStatistics'
-        blog:
-          $ref: '#/components/schemas/BlogStatistics'
-      description: 'User social network statistics by media, display in manage campaign page and edit user page'
-      x-examples:
-        example-1:
-          instagram:
-            followers: 235602
-            engagementRate: 6.589
-            clicks: 0
-            views: 0
-            averageComments: 123
-            postsPerMonth: 32
-            averageLikes: 251
-            averageImpressions: 156
-            lastPost: '2021-11-15 09:47:48.501+00'
-            audienceCountry:
-              DE: 95
-              FR: 195
-              PL: 905
-            audienceCity:
-              Sydney: 95
-              London: 195
-              Reims: 905
-            audienceDemographic:
-              F.13-17: 100
-              F.18-24: 307
-              F.25-34: 330
-              F.35-44: 86
-              F.45-54: 44
-              F.55-64: 7
-              F.65+: 4
-              M.13-17: 27
-              M.18-24: 1018
-              M.25-34: 2105
-              M.35-44: 913
-              M.45-54: 401
-              M.55-64: 163
-              M.65+: 61
-              U.13-17: 127
-              U.18-24: 1325
-              U.25-34: 2435
-              U.35-44: 999
-              U.45-54: 445
-              U.55-64: 170
-              U.65+: 65
-          youtube:
-            followers: 365204
-            engagementRate: 2.65
-            averageViews: 10234
-            videos: 451
-            averageComments: 23
-            postsPerMonth: 6
-            averageLikes: 145
-            averageUnlikes: 0
-            lastPost: '2021-11-15 09:47:48.501+00'
-            audienceCountry:
-              DE: 95
-              FR: 195
-              PL: 905
-            audienceCity:
-              Sydney: 95
-              London: 195
-              Reims: 905
-            audienceDemographic:
-              F.13-17: 49
-              F.18-24: 465
-              F.25-34: 550
-              F.35-44: 99
-              F.45-54: 36
-              F.55-64: 35
-              F.65+: 19
-              M.13-17: 35
-              M.18-24: 1352
-              M.25-34: 3652
-              M.35-44: 1023
-              M.45-54: 523
-              M.55-64: 163
-              M.65+: 96
-              U.13-17: 84
-              U.18-24: 1817
-              U.25-34: 4202
-              U.35-44: 1122
-              U.45-54: 559
-              U.55-64: 198
-              U.65+: 115
-          tiktok:
-            followers: 145233
-            engagementRate: 6.85
-            averageViews: 12585
-            clicks: 0
-            averageComments: 35
-            postsPerMonth: 21
-            averageLikes: 652
-            impressions: 0
-            lastPost: '2021-11-15 09:47:48.501+00'
-            audienceCountry:
-              DE: 95
-              FR: 195
-              PL: 905
-            audienceCity:
-              Sydney: 95
-              London: 195
-              Reims: 905
-            audienceDemographic:
-              F.13-17: 138
-              F.18-24: 1357
-              F.25-34: 3300
-              F.35-44: 846
-              F.45-54: 144
-              F.55-64: 70
-              F.65+: 14
-              M.13-17: 227
-              M.18-24: 4018
-              M.25-34: 5105
-              M.35-44: 923
-              M.45-54: 491
-              M.55-64: 263
-              M.65+: 62
-              U.13-17: 365
-              U.18-24: 5375
-              U.25-34: 8405
-              U.35-44: 1769
-              U.45-54: 635
-              U.55-64: 333
-              U.65+: 76
-          blog:
-            link: string
-            monthlyVisitors: 0
-    UserSocialNetworksStatisticsByMediaForAdminUi:
-      title: User social network statistics by media in admin ui
-      type: object
-      description: 'User social network statistics by media, display in manage campaign page and edit user page in admin ui'
+      description: 'User social network statistics by media, display in manage campaign page and edit user page in admin ui, display in my account page in User UI'
       x-examples:
         example-1:
           instagram:
@@ -12447,13 +13552,97 @@ components:
             averageReelsLikes: 2545
             lastPost: '2021-11-15 09:47:48.501+00'
             audienceCountry:
-              DE: 95
-              FR: 195
-              US: 905
+              AR: 302
+              AT: 69
+              AU: 237
+              BE: 446
+              BR: 642
+              CA: 510
+              CH: 260
+              CI: 65
+              CL: 186
+              CN: 117
+              CO: 201
+              CZ: 75
+              DE: 446
+              DZ: 140
+              EG: 64
+              ES: 715
+              FR: 7954
+              GB: 604
+              GR: 145
+              ID: 287
+              IN: 242
+              IR: 110
+              IT: 1297
+              JP: 302
+              KR: 148
+              MA: 217
+              MX: 849
+              MY: 99
+              NG: 70
+              NL: 158
+              PE: 118
+              PH: 264
+              PL: 217
+              PT: 145
+              RE: 67
+              RO: 83
+              RU: 157
+              TH: 454
+              TN: 134
+              TR: 200
+              TW: 131
+              US: 1803
+              VE: 67
+              VN: 85
+              ZA: 104
             audienceCity:
-              Sydney: 95
-              London: 195
-              Reims: 905
+              'Abidjan, Abidjan': 62
+              'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+              'Algiers, Algiers Province': 47
+              'Bangkok, Bangkok': 168
+              'Barcelona, Cataluña': 72
+              'Berlin, Berlin': 61
+              'Bogotá, Distrito Especial': 87
+              'Bordeaux, Aquitaine': 101
+              'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+              'Casablanca, Grand Casablanca': 56
+              'Dubai, Dubai': 42
+              'Geneva, Canton of Geneva': 40
+              'Ho Chi Minh City, Ho Chi Minh City': 45
+              'Hong Kong, Hong Kong': 55
+              'Istanbul, Istanbul Province': 79
+              'Jakarta, Jakarta': 58
+              'Lille, Nord-Pas-de-Calais': 46
+              'Lima, Lima Region': 83
+              'London, England': 153
+              'Los Angeles, California': 53
+              'Lyon, Rhône-Alpes': 111
+              'Madrid, Comunidad de Madrid': 96
+              'Marseille, Provence-Alpes-Côte d''Azur': 189
+              'Melbourne, Victoria': 65
+              'Mexico City, Distrito Federal': 199
+              'Milan, Lombardia': 53
+              'Montpellier, Languedoc-Roussillon': 75
+              'Montreal, Quebec': 96
+              'Moscow, Moscow': 60
+              'Nantes, Pays de la Loire': 54
+              'New York, New York': 119
+              'Nice, Provence-Alpes-Côte d''Azur': 79
+              'Paris, Île-de-France': 779
+              'Rio de Janeiro, Rio de Janeiro (state)': 50
+              'Rome, Lazio': 94
+              'Réunion, Réunion': 55
+              'Santiago, Santiago Metropolitan Region': 101
+              'Seoul, Seoul': 62
+              'Shanghai, Shanghai': 93
+              'Singapore, Singapore': 40
+              'Strasbourg, Alsace': 42
+              'Sydney, New South Wales': 48
+              'São Paulo, São Paulo (state)': 90
+              'Toronto, Ontario': 40
+              'Toulouse, Midi-Pyrénées': 110
             audienceDemographic:
               F.13-17: 100
               F.18-24: 307
@@ -12487,13 +13676,97 @@ components:
             averageUnlikes: 0
             lastPost: '2021-11-15 09:47:48.501+00'
             audienceCountry:
-              DE: 95
-              FR: 195
-              PL: 905
+              AR: 302
+              AT: 69
+              AU: 237
+              BE: 446
+              BR: 642
+              CA: 510
+              CH: 260
+              CI: 65
+              CL: 186
+              CN: 117
+              CO: 201
+              CZ: 75
+              DE: 446
+              DZ: 140
+              EG: 64
+              ES: 715
+              FR: 7954
+              GB: 604
+              GR: 145
+              ID: 287
+              IN: 242
+              IR: 110
+              IT: 1297
+              JP: 302
+              KR: 148
+              MA: 217
+              MX: 849
+              MY: 99
+              NG: 70
+              NL: 158
+              PE: 118
+              PH: 264
+              PL: 217
+              PT: 145
+              RE: 67
+              RO: 83
+              RU: 157
+              TH: 454
+              TN: 134
+              TR: 200
+              TW: 131
+              US: 1803
+              VE: 67
+              VN: 85
+              ZA: 104
             audienceCity:
-              Sydney: 95
-              London: 195
-              Reims: 905
+              'Abidjan, Abidjan': 62
+              'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+              'Algiers, Algiers Province': 47
+              'Bangkok, Bangkok': 168
+              'Barcelona, Cataluña': 72
+              'Berlin, Berlin': 61
+              'Bogotá, Distrito Especial': 87
+              'Bordeaux, Aquitaine': 101
+              'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+              'Casablanca, Grand Casablanca': 56
+              'Dubai, Dubai': 42
+              'Geneva, Canton of Geneva': 40
+              'Ho Chi Minh City, Ho Chi Minh City': 45
+              'Hong Kong, Hong Kong': 55
+              'Istanbul, Istanbul Province': 79
+              'Jakarta, Jakarta': 58
+              'Lille, Nord-Pas-de-Calais': 46
+              'Lima, Lima Region': 83
+              'London, England': 153
+              'Los Angeles, California': 53
+              'Lyon, Rhône-Alpes': 111
+              'Madrid, Comunidad de Madrid': 96
+              'Marseille, Provence-Alpes-Côte d''Azur': 189
+              'Melbourne, Victoria': 65
+              'Mexico City, Distrito Federal': 199
+              'Milan, Lombardia': 53
+              'Montpellier, Languedoc-Roussillon': 75
+              'Montreal, Quebec': 96
+              'Moscow, Moscow': 60
+              'Nantes, Pays de la Loire': 54
+              'New York, New York': 119
+              'Nice, Provence-Alpes-Côte d''Azur': 79
+              'Paris, Île-de-France': 779
+              'Rio de Janeiro, Rio de Janeiro (state)': 50
+              'Rome, Lazio': 94
+              'Réunion, Réunion': 55
+              'Santiago, Santiago Metropolitan Region': 101
+              'Seoul, Seoul': 62
+              'Shanghai, Shanghai': 93
+              'Singapore, Singapore': 40
+              'Strasbourg, Alsace': 42
+              'Sydney, New South Wales': 48
+              'São Paulo, São Paulo (state)': 90
+              'Toronto, Ontario': 40
+              'Toulouse, Midi-Pyrénées': 110
             audienceDemographic:
               F.13-17: 49
               F.18-24: 465
@@ -12527,13 +13800,97 @@ components:
             impressions: 0
             lastPost: '2021-11-15 09:47:48.501+00'
             audienceCountry:
-              DE: 95
-              FR: 195
-              PL: 905
+              AR: 302
+              AT: 69
+              AU: 237
+              BE: 446
+              BR: 642
+              CA: 510
+              CH: 260
+              CI: 65
+              CL: 186
+              CN: 117
+              CO: 201
+              CZ: 75
+              DE: 446
+              DZ: 140
+              EG: 64
+              ES: 715
+              FR: 7954
+              GB: 604
+              GR: 145
+              ID: 287
+              IN: 242
+              IR: 110
+              IT: 1297
+              JP: 302
+              KR: 148
+              MA: 217
+              MX: 849
+              MY: 99
+              NG: 70
+              NL: 158
+              PE: 118
+              PH: 264
+              PL: 217
+              PT: 145
+              RE: 67
+              RO: 83
+              RU: 157
+              TH: 454
+              TN: 134
+              TR: 200
+              TW: 131
+              US: 1803
+              VE: 67
+              VN: 85
+              ZA: 104
             audienceCity:
-              Sydney: 95
-              London: 195
-              Reims: 905
+              'Abidjan, Abidjan': 62
+              'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+              'Algiers, Algiers Province': 47
+              'Bangkok, Bangkok': 168
+              'Barcelona, Cataluña': 72
+              'Berlin, Berlin': 61
+              'Bogotá, Distrito Especial': 87
+              'Bordeaux, Aquitaine': 101
+              'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+              'Casablanca, Grand Casablanca': 56
+              'Dubai, Dubai': 42
+              'Geneva, Canton of Geneva': 40
+              'Ho Chi Minh City, Ho Chi Minh City': 45
+              'Hong Kong, Hong Kong': 55
+              'Istanbul, Istanbul Province': 79
+              'Jakarta, Jakarta': 58
+              'Lille, Nord-Pas-de-Calais': 46
+              'Lima, Lima Region': 83
+              'London, England': 153
+              'Los Angeles, California': 53
+              'Lyon, Rhône-Alpes': 111
+              'Madrid, Comunidad de Madrid': 96
+              'Marseille, Provence-Alpes-Côte d''Azur': 189
+              'Melbourne, Victoria': 65
+              'Mexico City, Distrito Federal': 199
+              'Milan, Lombardia': 53
+              'Montpellier, Languedoc-Roussillon': 75
+              'Montreal, Quebec': 96
+              'Moscow, Moscow': 60
+              'Nantes, Pays de la Loire': 54
+              'New York, New York': 119
+              'Nice, Provence-Alpes-Côte d''Azur': 79
+              'Paris, Île-de-France': 779
+              'Rio de Janeiro, Rio de Janeiro (state)': 50
+              'Rome, Lazio': 94
+              'Réunion, Réunion': 55
+              'Santiago, Santiago Metropolitan Region': 101
+              'Seoul, Seoul': 62
+              'Shanghai, Shanghai': 93
+              'Singapore, Singapore': 40
+              'Strasbourg, Alsace': 42
+              'Sydney, New South Wales': 48
+              'São Paulo, São Paulo (state)': 90
+              'Toronto, Ontario': 40
+              'Toulouse, Midi-Pyrénées': 110
             audienceDemographic:
               F.13-17: 138
               F.18-24: 1357
@@ -12561,17 +13918,17 @@ components:
             monthlyVisitors: 0
       properties:
         instagram:
-          $ref: '#/components/schemas/InstagramStatisticsForUserSocialNetworkMedia'
+          $ref: '#/components/schemas/InstagramStatistics'
         youtube:
           $ref: '#/components/schemas/YoutubeStatistics'
         tiktok:
           $ref: '#/components/schemas/TiktokStatistics'
         blog:
           $ref: '#/components/schemas/BlogStatistics'
-    InstagramStatisticsAndContentsForUserSocialNetworkMedia:
+    InstagramStatistics:
       type: object
-      title: Instagram statistic and contents  for user social network media
-      description: 'Instagram statistic and contents statistic for user social network media, display in the User UI '
+      title: Instagram statistic for user social network media
+      description: 'Instagram statistic and contents statistic for user social network media, display in both of the User UI and Admin UI '
       x-examples:
         example-1:
           engagementRate: 3.5
@@ -12600,13 +13957,97 @@ components:
           averageReelLikes: 2545
           averageCarouselLikes: 2545
           audienceCountry:
-            DE: 95
-            FR: 195
-            PL: 905
+            AR: 302
+            AT: 69
+            AU: 237
+            BE: 446
+            BR: 642
+            CA: 510
+            CH: 260
+            CI: 65
+            CL: 186
+            CN: 117
+            CO: 201
+            CZ: 75
+            DE: 446
+            DZ: 140
+            EG: 64
+            ES: 715
+            FR: 7954
+            GB: 604
+            GR: 145
+            ID: 287
+            IN: 242
+            IR: 110
+            IT: 1297
+            JP: 302
+            KR: 148
+            MA: 217
+            MX: 849
+            MY: 99
+            NG: 70
+            NL: 158
+            PE: 118
+            PH: 264
+            PL: 217
+            PT: 145
+            RE: 67
+            RO: 83
+            RU: 157
+            TH: 454
+            TN: 134
+            TR: 200
+            TW: 131
+            US: 1803
+            VE: 67
+            VN: 85
+            ZA: 104
           audienceCity:
-            Sydney: 95
-            London: 195
-            Reims: 905
+            'Abidjan, Abidjan': 62
+            'Aix-en-Provence, Provence-Alpes-Côte d''Azur': 44
+            'Algiers, Algiers Province': 47
+            'Bangkok, Bangkok': 168
+            'Barcelona, Cataluña': 72
+            'Berlin, Berlin': 61
+            'Bogotá, Distrito Especial': 87
+            'Bordeaux, Aquitaine': 101
+            'Buenos Aires, Ciudad Autónoma de Buenos Aires': 72
+            'Casablanca, Grand Casablanca': 56
+            'Dubai, Dubai': 42
+            'Geneva, Canton of Geneva': 40
+            'Ho Chi Minh City, Ho Chi Minh City': 45
+            'Hong Kong, Hong Kong': 55
+            'Istanbul, Istanbul Province': 79
+            'Jakarta, Jakarta': 58
+            'Lille, Nord-Pas-de-Calais': 46
+            'Lima, Lima Region': 83
+            'London, England': 153
+            'Los Angeles, California': 53
+            'Lyon, Rhône-Alpes': 111
+            'Madrid, Comunidad de Madrid': 96
+            'Marseille, Provence-Alpes-Côte d''Azur': 189
+            'Melbourne, Victoria': 65
+            'Mexico City, Distrito Federal': 199
+            'Milan, Lombardia': 53
+            'Montpellier, Languedoc-Roussillon': 75
+            'Montreal, Quebec': 96
+            'Moscow, Moscow': 60
+            'Nantes, Pays de la Loire': 54
+            'New York, New York': 119
+            'Nice, Provence-Alpes-Côte d''Azur': 79
+            'Paris, Île-de-France': 779
+            'Rio de Janeiro, Rio de Janeiro (state)': 50
+            'Rome, Lazio': 94
+            'Réunion, Réunion': 55
+            'Santiago, Santiago Metropolitan Region': 101
+            'Seoul, Seoul': 62
+            'Shanghai, Shanghai': 93
+            'Singapore, Singapore': 40
+            'Strasbourg, Alsace': 42
+            'Sydney, New South Wales': 48
+            'São Paulo, São Paulo (state)': 90
+            'Toronto, Ontario': 40
+            'Toulouse, Midi-Pyrénées': 110
           audienceDemographic:
             F.13-17: 100
             F.18-24: 307
@@ -12787,225 +14228,10 @@ components:
             U.65+:
               type: number
               example: 7
-        contents:
-          type: array
-          items:
-            $ref: '#/components/schemas/MediaContentItemForOrderAndAccount'
-    InstagramStatisticsForUserSocialNetworkMedia:
+    YoutubeStatistics:
       type: object
-      title: Instagram statistic and contents  for user social network media
-      description: 'Instagram statistic and contents statistic for user social network media, display in the User UI '
-      x-examples:
-        example-1:
-          engagementRate: 3.5
-          averageReelsViews: 45000
-          reelsViewRate: 1.05
-          averageReelsReach: 60500
-          averageReelsComments: 255
-          averageStoryViews: 45000
-          storyViewRate: 1.65
-          averagePostImpressions: 2545
-          postImpressionRate: 2545
-          averagePostReach: 60500
-          postReachRate: 3.5
-          reelsReachRate: 4.35
-          averagePostComments: 255
-          averageStoryComments: 255
-          averageStoryClicks: 545
-          followers: 23870
-          following: 245
-          reach30Day: 54800
-          impressions30Day: 87000
-          posts: 432
-          postsPerMonth: 5
-          averagePostLikes: 2545
-          averageStoryLikes: 2545
-          averageReelsLikes: 2545
-          averageCarouselLikes: 2545
-          lastPost: '2022-03-15 09:00:00.501+00'
-          audienceCountry:
-            DE: 95
-            FR: 195
-            US: 905
-          audienceCity:
-            Sydney: 95
-            London: 195
-            Reims: 905
-          audienceDemographic:
-            F.13-17: 100
-            F.18-24: 307
-            F.25-34: 330
-            F.35-44: 86
-            F.45-54: 44
-            F.55-64: 7
-            F.65+: 4
-            M.13-17: 27
-            M.18-24: 1018
-            M.25-34: 2105
-            M.35-44: 913
-            M.45-54: 401
-            M.55-64: 163
-            M.65+: 61
-            U.13-17: 127
-            U.18-24: 1325
-            U.25-34: 2435
-            U.35-44: 999
-            U.45-54: 445
-            U.55-64: 170
-            U.65+: 65
-      properties:
-        engagementRate:
-          type: number
-          example: 3.5
-        followers:
-          type: integer
-          example: 23870
-        following:
-          type: integer
-          example: 245
-        reach30Day:
-          type: integer
-          example: 54800
-        impressions30Day:
-          type: integer
-          example: 87000
-        posts:
-          type: integer
-          example: 432
-        averagePostImpressions:
-          type: number
-          example: 2545
-        postImpressionRate:
-          type: number
-          example: 2545
-        averagePostReach:
-          type: number
-          example: 60500
-        postReachRate:
-          type: number
-          example: 3.5
-        averagePostComments:
-          type: number
-          example: 255
-        postsPerMonth:
-          type: number
-          example: 5
-        averagePostLikes:
-          type: number
-          example: 2545
-        averageCarouselLikes:
-          type: number
-          example: 2545
-        averageStoryViews:
-          type: number
-          example: 45000
-        storyViewRate:
-          type: number
-          example: 2.05
-        averageStoryComments:
-          type: number
-          example: 255
-          description: replies for story
-        averageStoryClicks:
-          type: number
-          example: 545
-        averageStoryLikes:
-          type: number
-          example: 2545
-        averageReelsViews:
-          type: number
-          example: 45000
-        reelsViewRate:
-          type: number
-          example: 3.105
-        averageReelsReach:
-          type: number
-          example: 60500
-        averageReelsComments:
-          type: number
-          example: 255
-        reelsReachRate:
-          type: number
-          example: 4.35
-        averageReelsLikes:
-          type: number
-          example: 2545
-        lastPost:
-          $ref: '#/components/schemas/Date'
-        audienceCountry:
-          $ref: '#/components/schemas/AudienceCountry'
-        audienceCity:
-          $ref: '#/components/schemas/AudienceCity'
-        audienceDemographic:
-          type: object
-          properties:
-            F.13-17:
-              type: number
-              example: 37
-            F.18-24:
-              type: number
-              example: 307
-            F.25-34:
-              type: number
-              example: 330
-            F.35-44:
-              type: number
-              example: 86
-            F.45-54:
-              type: number
-              example: 44
-            F.55-64:
-              type: number
-              example: 7
-            F.65+:
-              type: number
-              example: 4
-            M.13-17:
-              type: number
-              example: 27
-            M.18-24:
-              type: number
-              example: 1018
-            M.25-34:
-              type: number
-              example: 2105
-            M.35-44:
-              type: number
-              example: 913
-            M.45-54:
-              type: number
-              example: 401
-            M.55-64:
-              type: number
-              example: 163
-            M.65+:
-              type: number
-              example: 61
-            U.13-17:
-              type: number
-              example: 16
-            U.18-24:
-              type: number
-              example: 130
-            U.25-34:
-              type: number
-              example: 141
-            U.35-44:
-              type: number
-              example: 50
-            U.45-54:
-              type: number
-              example: 15
-            U.55-64:
-              type: number
-              example: 7
-            U.65+:
-              type: number
-              example: 7
-    YoutubeStatisticsAndContentsForUserSocialNetworkMedia:
-      type: object
-      title: Youtube statistic and contents  for user social network media
-      description: 'Youtube statistic and contents  for user social network media, display in the User UI '
+      title: Youtube statistic for user social network media
+      description: 'Youtube statistic and contents statistic for user social network media, display in both of the User UI and Admin UI '
       x-examples: {}
       properties:
         engagementRate:
@@ -13123,14 +14349,10 @@ components:
             U.65+:
               type: number
               example: 7
-        contents:
-          type: array
-          items:
-            $ref: '#/components/schemas/MediaContentItemForOrderAndAccount'
-    TiktokStatisticsAndContentsForUserSocialNetworkMedia:
+    TiktokStatistics:
       type: object
-      title: Tiktok statistic and contents for user social network media
-      description: 'Tiktok statistic and contents for user social network media, display in the User UI '
+      title: Tiktok statistic for user social network media
+      description: 'Tiktok statistic and contents statistic for user social network media, display in both of the User UI and Admin UI '
       x-examples: {}
       properties:
         engagementRate:
@@ -13248,10 +14470,6 @@ components:
             U.65+:
               type: number
               example: 7
-        contents:
-          type: array
-          items:
-            $ref: '#/components/schemas/MediaContentItemForOrderAndAccount'
     MediaContentItemForReporting:
       title: Media Content Item For Reporting
       type: object
