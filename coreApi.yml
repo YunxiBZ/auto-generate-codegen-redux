@@ -2043,14 +2043,31 @@ paths:
                         status: validated
                     socialNetworksStatisticsByMedia:
                       instagram:
-                        followers: 1234440
-                        engagementRate: 4.5
-                        likes: 1564
-                        views: 0
-                        averageComments: 563
-                        postsPerMonth: 68
-                        averageLikes: 256
-                        averageImpressions: 792
+                        engagementRate: 3.5
+                        followers: 23870
+                        following: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        posts: 432
+                        averagePostImpressions: 2545
+                        postImpressionRate: 2545
+                        averagePostReach: 60500
+                        postReachRate: 3.5
+                        averagePostComments: 255
+                        postsPerMonth: 5
+                        averagePostLikes: 2545
+                        averageCarouselLikes: 2545
+                        averageStoryViews: 45000
+                        storyViewRate: 1.05
+                        averageStoryComments: 255
+                        averageStoryClicks: 545
+                        averageStoryLikes: 2545
+                        averageReelViews: 45000
+                        reelViewRate: 1.95
+                        averageReelReach: 60500
+                        averageReelComments: 255
+                        reelReachRate: 3.5
+                        averageReelLikes: 2545
                         lastPost: '2022-03-25 09:00:00.501+00'
                         audienceCountry:
                           DE: 326
@@ -2167,14 +2184,21 @@ paths:
                           U.55-64: 170
                           U.65+: 65
                       youtube:
-                        followers: 200000
                         engagementRate: 3.5
-                        averageViews: 13454
-                        videos: 65
-                        averageComments: 85
-                        postsPerMonth: 3
-                        averageLikes: 567
-                        averageUnlikes: 23
+                        averageLikes: 2545
+                        averageUnlikes: 2545
+                        averageYoutubeViews: 45000
+                        averageYoutubeShortsViews: 45000
+                        viewRate: 1.85
+                        averageImpressions: 60500
+                        impressingRate: 12.135
+                        followers: 23870
+                        following: 245
+                        views: 245
+                        videos: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        averageComments: 255
                         lastPost: '2022-03-05 09:00:00.501+00'
                         audienceCountry:
                           DE: 326
@@ -2291,14 +2315,21 @@ paths:
                           U.55-64: 198
                           U.65+: 115
                       tiktok:
-                        followers: 55685
-                        engagementRate: 5.6
-                        averageViews: 5862
-                        clicks: 650
-                        averageComments: 553
-                        postsPerMonth: 56
-                        averageLikes: 65
-                        averageImpressions: 595
+                        engagementRate: 3.5
+                        totalLikes: 2545
+                        averageViews: 60500
+                        viewRate: 3.35
+                        averageReach: 60500
+                        averageLikes: 545
+                        reachRate: 6.35
+                        averageComments: 255
+                        followers: 23870
+                        following: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        posts: 432
+                        views: 432
+                        postsPerMonth: 5
                         lastPost: '2022-03-15 09:00:00.501+00'
                         audienceCountry:
                           DE: 326
@@ -2435,11 +2466,13 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
       - schema:
           type: string
         name: orderId
         in: path
         required: true
+        description: order id
   /orders:
     get:
       security:
@@ -3890,6 +3923,7 @@ paths:
         name: orderId
         in: path
         required: true
+        description: order id
     delete:
       summary: Delete one order for one user
       operationId: delete-orders-orderId
@@ -5516,6 +5550,7 @@ paths:
             type: boolean
           in: query
           name: send-to-user
+          description: if backend need to send a mail for user
   '/users/{userId}/status':
     parameters:
       - schema:
@@ -5881,12 +5916,14 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
       - schema:
           type: string
           format: uuid
         name: ratingId
         in: path
         required: true
+        description: rating id
     get:
       summary: Get one rating of user for update
       tags:
@@ -6422,6 +6459,7 @@ paths:
             type: boolean
           in: query
           name: send-to-brand
+          description: if need to send a mail for brand
       requestBody:
         $ref: '#/components/requestBodies/PasswordPatchBody'
       responses:
@@ -7231,6 +7269,7 @@ paths:
         name: conversationId
         in: path
         required: true
+        description: 'conversation id '
     post:
       summary: Mark conversation as read
       operationId: post-chat-user-userId-conversations-conversationId-markAsRead
@@ -7708,6 +7747,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     post:
       summary: Ask resend check email code
       tags:
@@ -7738,6 +7778,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     post:
       summary: User check email with 6 digit code
       tags:
@@ -7781,6 +7822,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     post:
       summary: Complete user general informations for registration
       tags:
@@ -7836,6 +7878,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     post:
       summary: Ask resend check phone code
       tags:
@@ -7866,6 +7909,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     post:
       summary: User check phone number with 6 digit code
       tags:
@@ -8006,6 +8050,7 @@ paths:
         name: campaignId
         in: path
         required: true
+        description: campaign id
     get:
       summary: Get one campaigns with detail informations for user UI
       tags:
@@ -8129,6 +8174,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     get:
       summary: Get all of orders of one user for User UI
       tags:
@@ -8334,6 +8380,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     get:
       summary: Get all of campaign's name of one user for User UI Chat page
       tags:
@@ -8352,11 +8399,11 @@ paths:
               examples:
                 example:
                   value:
-                    - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                    - id: b10afa78-7a96-4f40-970d-cfa653f2a623
                       status: pending
                       unreadCount: 5
                       campaign:
-                        id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                        id: e10afa78-7a96-4f40-970d-cfa653f2a623
                         name: Red Power 24h Super Lipstick
                         featuredImage: 'https://images.unsplash.com/photo-1652439578449-ea69ceb8e89d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=663&q=80'
                         brand:
@@ -8385,11 +8432,11 @@ paths:
                       contents: []
                       createdAt: '2021-11-15 09:47:48.501+00'
                       updatedAt: '2021-11-15 09:47:48.501+00'
-                    - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                    - id: a10afa78-7a96-4f40-970d-cfa653f2a623
                       status: ready to ship
                       unreadCount: 6
                       campaign:
-                        id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                        id: d10afa78-7a96-4f40-970d-cfa653f2a623
                         name: Super blush face fondation
                         featuredImage: 'https://images.unsplash.com/photo-1652439578449-ea69ceb8e89d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=663&q=80'
                         brand:
@@ -8423,7 +8470,7 @@ paths:
                       contents: []
                       createdAt: '2021-11-15 09:47:48.501+00'
                       updatedAt: '2021-11-15 09:47:48.501+00'
-                    - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                    - id: c10afa78-7a96-4f40-970d-cfa653f2a623
                       status: published
                       unreadCount: 5
                       campaign:
@@ -8459,7 +8506,7 @@ paths:
                         updatedAt: '2021-11-15 09:47:48.501+00'
                         link: 'https://www.dhl.com/tracking.php?package123654'
                       contents:
-                        - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                        - id: e10afa78-7a96-4f40-970d-cfa653f2a623
                           mediaType: instagramStory
                           mediaPath:
                             - 'https://images.unsplash.com/photo-1556906781-9a412961c28c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
@@ -8471,11 +8518,11 @@ paths:
                           status: validated
                       createdAt: '2021-11-15 09:47:48.501+00'
                       updatedAt: '2021-11-15 09:47:48.501+00'
-                    - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                    - id: d10afa78-7a96-4f40-970d-cfa653f2a623
                       status: validated
                       unreadCount: 5
                       campaign:
-                        id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                        id: g10afa78-7a96-4f40-970d-cfa653f2a623
                         name: AirPod
                         featuredImage: 'https://images.unsplash.com/photo-1652439578449-ea69ceb8e89d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=663&q=80'
                         brand:
@@ -8492,7 +8539,7 @@ paths:
                       address:
                         title: home
                         default: true
-                        userId: 510afa78-7a96-4f40-970d-cfa653f2a623
+                        userId: g10afa78-7a96-4f40-970d-cfa653f2a623
                         address: 1 rue de pomme
                         country: France
                         city: Paris
@@ -8541,6 +8588,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     get:
       summary: Get all of social media statistics for one User
       tags:
@@ -9294,6 +9342,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     get:
       summary: Get user's latest Instagram Stories
       tags:
@@ -9391,6 +9440,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     get:
       summary: Get user's latest Instagram Reels
       tags:
@@ -9488,11 +9538,13 @@ paths:
         name: orderId
         in: path
         required: true
+        description: order id
       - schema:
           type: string
         name: mediaId
         in: path
         required: true
+        description: media id
     delete:
       summary: Delete media content from an order
       tags:
@@ -9525,12 +9577,14 @@ paths:
         name: userId
         in: path
         required: true
+        description: user Id
       - schema:
           type: string
           format: uuid
         name: orderId
         in: path
         required: true
+        description: order Id
     get:
       summary: Get user's Instagram medias for one order
       tags:
@@ -9690,11 +9744,13 @@ paths:
         name: userId
         in: path
         required: true
+        description: user Id
       - schema:
           type: string
         name: orderId
         in: path
         required: true
+        description: order Id
     get:
       summary: Get user's Instagram Stories for one order
       tags:
@@ -9824,12 +9880,14 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
       - schema:
           type: string
           format: uuid
         name: orderId
         in: path
         required: true
+        description: order id
     get:
       summary: Get user's Instagram Reels for one order
       tags:
@@ -9952,6 +10010,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     get:
       summary: Get user's latest Youtube videos
       tags:
@@ -10032,12 +10091,14 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
       - schema:
           type: string
           format: uuid
         name: orderId
         in: path
         required: true
+        description: order id
     get:
       summary: Get user's Youtube videos for one order
       tags:
@@ -10157,6 +10218,7 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
     get:
       summary: Get user's latest Youtube Shorts videos
       tags:
@@ -10237,12 +10299,14 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
       - schema:
           type: string
           format: uuid
         name: orderId
         in: path
         required: true
+        description: order id
     get:
       summary: Get user's Youtube Shorts for one order
       tags:
@@ -10364,12 +10428,14 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
       - schema:
           type: string
           format: uuid
         name: orderId
         in: path
         required: true
+        description: order id
     get:
       summary: Get user's Tiktok contents for one order
       tags:
@@ -10479,12 +10545,14 @@ paths:
         name: userId
         in: path
         required: true
+        description: user id
       - schema:
           type: string
           format: uuid
         name: orderId
         in: path
         required: true
+        description: order id
     get:
       summary: Get user's blog link for one order
       tags:
@@ -14528,8 +14596,7 @@ components:
         id:
           $ref: '#/components/schemas/Uuid'
         mediaType:
-          type: string
-          example: instagramStory
+          $ref: '#/components/schemas/MediaTypeForOrder'
         mediaPath:
           type: string
           example: 18010733827410637-1659429273899.webp
@@ -14732,6 +14799,7 @@ components:
         instagramMedia:
           type: integer
           example: 1580050
+          description: 'Sum of instagramPost, instagramVideo and instagramCarousel'
         youtube:
           type: integer
           example: 280000
@@ -14849,6 +14917,7 @@ components:
         instagramMedia:
           type: integer
           example: 32
+          description: 'Sum of instagramPost, instagramVideo and instagramCarousel'
         instagramStory:
           type: integer
           example: 32

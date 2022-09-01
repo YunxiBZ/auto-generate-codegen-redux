@@ -1255,7 +1255,9 @@ export type UpdateFilterInformationForTargetingApiArg = {
 export type GetUsersByUserIdOrdersStatisticsAndOrderIdApiResponse =
   /** status 200 OK */ UserItemForManageCampaignPage;
 export type GetUsersByUserIdOrdersStatisticsAndOrderIdApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
 };
 export type GetOrdersApiResponse =
@@ -1295,6 +1297,7 @@ export type UpdateOrderApiArg = {
 };
 export type DeleteOrdersByOrderIdApiResponse = unknown;
 export type DeleteOrdersByOrderIdApiArg = {
+  /** order id */
   orderId: string;
 };
 export type PatchMediasByMediaIdApiResponse = /** status 204 No Content */ {};
@@ -1390,6 +1393,7 @@ export type PatchUsersByUserIdPasswordApiResponse =
 export type PatchUsersByUserIdPasswordApiArg = {
   /** user Id */
   userId: string;
+  /** if backend need to send a mail for user */
   "send-to-user"?: boolean;
   body: {
     oldPassword?: string;
@@ -1474,20 +1478,26 @@ export type CreateRatingApiArg = {
 export type GetUsersByUserIdRatingsAndRatingIdApiResponse =
   /** status 200 OK */ RatingItem | /** status 201 Created */ undefined;
 export type GetUsersByUserIdRatingsAndRatingIdApiArg = {
+  /** user id */
   userId: string;
+  /** rating id */
   ratingId: string;
 };
 export type PutUsersByUserIdRatingsAndRatingIdApiResponse =
   /** status 200 Get rating statistic data */ RatingStatistics;
 export type PutUsersByUserIdRatingsAndRatingIdApiArg = {
+  /** user id */
   userId: string;
+  /** rating id */
   ratingId: string;
   ratingItem: RatingItem;
 };
 export type DeleteUsersByUserIdRatingsAndRatingIdApiResponse =
   /** status 200 Get rating statistic data */ RatingStatistics;
 export type DeleteUsersByUserIdRatingsAndRatingIdApiArg = {
+  /** user id */
   userId: string;
+  /** rating id */
   ratingId: string;
 };
 export type GetBrandsApiResponse = /** status 200 OK */ BrandItemInBrandList2[];
@@ -1531,6 +1541,7 @@ export type UpdateOneBrandPasswordApiResponse = /** status 204 No Content */ {};
 export type UpdateOneBrandPasswordApiArg = {
   /** ID of brand to update */
   brandId: Uuid;
+  /** if need to send a mail for brand */
   "send-to-brand"?: boolean;
   /** A JSON Object containing a new password to update */
   body: {
@@ -1640,6 +1651,7 @@ export type PostChatUserByUserIdConversationsAndConversationIdMarkAsReadApiArg =
   {
     /** User id */
     userId: string;
+    /** conversation id  */
     conversationId: string;
   };
 export type GetInterestsApiResponse = /** status 200 OK */ {
@@ -1695,10 +1707,12 @@ export type PostUsersRegistrationApiArg = {
 };
 export type PostUsersRegistrationByUserIdResendEmailCodeApiResponse = unknown;
 export type PostUsersRegistrationByUserIdResendEmailCodeApiArg = {
+  /** user id */
   userId: string;
 };
 export type PostUsersRegistrationByUserIdCheckEmailApiResponse = unknown;
 export type PostUsersRegistrationByUserIdCheckEmailApiArg = {
+  /** user id */
   userId: string;
   body: {
     code?: string;
@@ -1706,15 +1720,18 @@ export type PostUsersRegistrationByUserIdCheckEmailApiArg = {
 };
 export type PostUsersRegistrationByUserIdGeneralApiResponse = unknown;
 export type PostUsersRegistrationByUserIdGeneralApiArg = {
+  /** user id */
   userId: string;
   userItemForPostRegistrationGeneral: UserItemForSignup;
 };
 export type PostUsersRegistrationByUserIdResendPhoneCodeApiResponse = unknown;
 export type PostUsersRegistrationByUserIdResendPhoneCodeApiArg = {
+  /** user id */
   userId: string;
 };
 export type PostUsersRegistrationByUserIdCheckPhoneNumberApiResponse = unknown;
 export type PostUsersRegistrationByUserIdCheckPhoneNumberApiArg = {
+  /** user id */
   userId: string;
   body: {
     code?: string;
@@ -1726,16 +1743,19 @@ export type GetUserCampaignsApiArg = void;
 export type GetUserCampaignsByCampaignIdApiResponse =
   /** status 200 OK */ CampaignItemForSingleCampaignInUserUi;
 export type GetUserCampaignsByCampaignIdApiArg = {
+  /** campaign id */
   campaignId: string;
 };
 export type GetUsersByUserIdOrdersApiResponse =
   /** status 200 OK */ OrderItemForOrderListInUserUi[];
 export type GetUsersByUserIdOrdersApiArg = {
+  /** user id */
   userId: string;
 };
 export type GetChatUsersByUserIdOrdersApiResponse =
   /** status 200 OK */ OrderItemForChatInUserUi[];
 export type GetChatUsersByUserIdOrdersApiArg = {
+  /** user id */
   userId: string;
 };
 export type GetUsersByUserIdMediasStatisticsApiResponse = /** status 200 OK */ {
@@ -1751,6 +1771,7 @@ export type GetUsersByUserIdMediasStatisticsApiResponse = /** status 200 OK */ {
   blog?: BlogStatistics;
 };
 export type GetUsersByUserIdMediasStatisticsApiArg = {
+  /** user id */
   userId: string;
 };
 export type GetUsersByUserIdIgMediasApiResponse =
@@ -1764,6 +1785,7 @@ export type GetUsersByUserIdIgMediasApiArg = {
 export type GetUsersByUserIdIgStoriesApiResponse =
   /** status 200 OK */ MediaContentItemForFeed[];
 export type GetUsersByUserIdIgStoriesApiArg = {
+  /** user id */
   userId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
@@ -1771,26 +1793,33 @@ export type GetUsersByUserIdIgStoriesApiArg = {
 export type GetUsersByUserIdIgReelsApiResponse =
   /** status 200 OK */ MediaContentItemForFeed[];
 export type GetUsersByUserIdIgReelsApiArg = {
+  /** user id */
   userId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
 };
 export type DeleteOrdersByOrderIdMediasAndMediaIdApiResponse = unknown;
 export type DeleteOrdersByOrderIdMediasAndMediaIdApiArg = {
+  /** order id */
   orderId: string;
+  /** media id */
   mediaId: string;
 };
 export type GetUsersByUserIdOrdersAndOrderIdIgMediasApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdOrdersAndOrderIdIgMediasApiArg = {
+  /** user Id */
   userId: string;
+  /** order Id */
   orderId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
 };
 export type PostUsersByUserIdOrdersAndOrderIdIgMediasApiResponse = unknown;
 export type PostUsersByUserIdOrdersAndOrderIdIgMediasApiArg = {
+  /** user Id */
   userId: string;
+  /** order Id */
   orderId: string;
   body: {
     newMedia?: UploadContentItem;
@@ -1798,21 +1827,27 @@ export type PostUsersByUserIdOrdersAndOrderIdIgMediasApiArg = {
 };
 export type PatchUsersByUserIdOrdersAndOrderIdIgMediasApiResponse = unknown;
 export type PatchUsersByUserIdOrdersAndOrderIdIgMediasApiArg = {
+  /** user Id */
   userId: string;
+  /** order Id */
   orderId: string;
   body: string[];
 };
 export type GetUsersByUserIdOrdersAndOrderIdIgStoriesApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdOrdersAndOrderIdIgStoriesApiArg = {
+  /** user Id */
   userId: string;
+  /** order Id */
   orderId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
 };
 export type PostUsersByUserIdOrdersAndOrderIdIgStoriesApiResponse = unknown;
 export type PostUsersByUserIdOrdersAndOrderIdIgStoriesApiArg = {
+  /** user Id */
   userId: string;
+  /** order Id */
   orderId: string;
   body: {
     selected?: Uuid[];
@@ -1822,14 +1857,18 @@ export type PostUsersByUserIdOrdersAndOrderIdIgStoriesApiArg = {
 export type GetUsersByUserIdOrdersAndOrderIdIgReelsApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdOrdersAndOrderIdIgReelsApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
 };
 export type PostUsersByUserIdOrdersAndOrderIdIgReelsApiResponse = unknown;
 export type PostUsersByUserIdOrdersAndOrderIdIgReelsApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
   body: {
     selected?: Uuid[];
@@ -1839,6 +1878,7 @@ export type PostUsersByUserIdOrdersAndOrderIdIgReelsApiArg = {
 export type GetUsersByUserIdYoutubeApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdYoutubeApiArg = {
+  /** user id */
   userId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
@@ -1846,20 +1886,25 @@ export type GetUsersByUserIdYoutubeApiArg = {
 export type GetUsersByUserIdOrdersAndOrderIdYoutubeApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdOrdersAndOrderIdYoutubeApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
 };
 export type PostUsersByUserIdOrdersAndOrderIdYoutubeApiResponse = unknown;
 export type PostUsersByUserIdOrdersAndOrderIdYoutubeApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
   body: string[];
 };
 export type GetUsersByUserIdYoutubeShortsApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdYoutubeShortsApiArg = {
+  /** user id */
   userId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
@@ -1867,14 +1912,18 @@ export type GetUsersByUserIdYoutubeShortsApiArg = {
 export type GetUsersByUserIdOrdersAndOrderIdYoutubeShortsApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdOrdersAndOrderIdYoutubeShortsApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
 };
 export type PostUsersByUserIdOrdersAndOrderIdYoutubeShortsApiResponse = unknown;
 export type PostUsersByUserIdOrdersAndOrderIdYoutubeShortsApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
   body: {
     newMedia?: UploadContentItem;
@@ -1883,14 +1932,18 @@ export type PostUsersByUserIdOrdersAndOrderIdYoutubeShortsApiArg = {
 export type GetUsersByUserIdOrdersAndOrderIdTiktokApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdOrdersAndOrderIdTiktokApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
   /** default is 1, user click "load more" button, pagination will increment and get more contents */
   pagination?: string;
 };
 export type PostUsersByUserIdOrdersAndOrderIdTiktokApiResponse = unknown;
 export type PostUsersByUserIdOrdersAndOrderIdTiktokApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
   body: {
     newMedia?: UploadContentItem;
@@ -1901,12 +1954,16 @@ export type GetUsersByUserIdOrdersAndOrderIdBlogApiResponse =
     blogLink?: string;
   };
 export type GetUsersByUserIdOrdersAndOrderIdBlogApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
 };
 export type PostUsersByUserIdOrdersAndOrderIdBlogApiResponse = unknown;
 export type PostUsersByUserIdOrdersAndOrderIdBlogApiArg = {
+  /** user id */
   userId: string;
+  /** order id */
   orderId: string;
   body: {
     blogLink?: string;
@@ -2424,7 +2481,7 @@ export type ChartDataForStatisticsOfContent = {
 };
 export type MediaContentItemForReporting = {
   id?: Uuid;
-  mediaType?: string;
+  mediaType?: MediaTypeForOrder;
   mediaPath?: string;
   publishDate?: string;
   metrics?: MetricsSchema;
