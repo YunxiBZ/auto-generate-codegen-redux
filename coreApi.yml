@@ -9710,11 +9710,21 @@ paths:
                     comments: 256
         description: ''
     patch:
-      summary: ''
+      summary: Attache user's Instagram Medias to order
       operationId: patch-users-userId-orders-orderId-ig-medias
       responses:
         '200':
           description: OK
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
       security:
         - bearerAuth: []
       requestBody:
@@ -9840,7 +9850,7 @@ paths:
           description: Not Found
         '500':
           description: Internal Server Error
-      description: 'Attache or upload (manually) user''s Instagram Story for order '
+      description: 'Upload (manually) user''s Instagram Story for order '
       tags:
         - MEDIAS
         - ORDERS
@@ -9872,6 +9882,27 @@ paths:
                     reach: 10000
                     likes: 2233
                     comments: 256
+    patch:
+      summary: Attache user's Instagram Stories to order
+      operationId: patch-users-userId-orders-orderId-ig-stories
+      responses:
+        '200':
+          description: OK
+      description: Attache user's Instagram stories to order
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: string
+                example: f3a98c42-dbf9-4baa-a1c1-5cc8926fc2c3
+            examples:
+              example-1:
+                value:
+                  - f3a98c42-dbf9-4baa-a1c1-5cc8926fc2c3
+                  - 01977650-91b0-4e55-b6ae-4c9aa38d8b32
+        description: array of stories ids selected
   '/users/{userId}/orders/{orderId}/ig-reels':
     parameters:
       - schema:
@@ -10002,6 +10033,27 @@ paths:
                     reach: 10000
                     likes: 2233
                     comments: 256
+    patch:
+      summary: Attache user's Instagram Reels to order
+      operationId: patch-users-userId-orders-orderId-ig-reels
+      responses:
+        '200':
+          description: OK
+      description: Attache user's Instagram Reels to order
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: string
+                example: '18221780305129354'
+            examples:
+              example-1:
+                value:
+                  - '18221780305129354'
+                  - '17917870736386494'
+        description: array of reels ids selected
   '/users/{userId}/youtube':
     parameters:
       - schema:

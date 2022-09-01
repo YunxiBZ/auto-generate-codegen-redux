@@ -818,6 +818,16 @@ const injectedRtkApi = api.injectEndpoints({
         body: queryArg.body,
       }),
     }),
+    patchUsersByUserIdOrdersAndOrderIdIgStories: build.mutation<
+      PatchUsersByUserIdOrdersAndOrderIdIgStoriesApiResponse,
+      PatchUsersByUserIdOrdersAndOrderIdIgStoriesApiArg
+    >({
+      query: (queryArg) => ({
+        url: `/users/${queryArg.userId}/orders/${queryArg.orderId}/ig-stories`,
+        method: "PATCH",
+        body: queryArg.body,
+      }),
+    }),
     getUsersByUserIdOrdersAndOrderIdIgReels: build.query<
       GetUsersByUserIdOrdersAndOrderIdIgReelsApiResponse,
       GetUsersByUserIdOrdersAndOrderIdIgReelsApiArg
@@ -834,6 +844,16 @@ const injectedRtkApi = api.injectEndpoints({
       query: (queryArg) => ({
         url: `/users/${queryArg.userId}/orders/${queryArg.orderId}/ig-reels`,
         method: "POST",
+        body: queryArg.body,
+      }),
+    }),
+    patchUsersByUserIdOrdersAndOrderIdIgReels: build.mutation<
+      PatchUsersByUserIdOrdersAndOrderIdIgReelsApiResponse,
+      PatchUsersByUserIdOrdersAndOrderIdIgReelsApiArg
+    >({
+      query: (queryArg) => ({
+        url: `/users/${queryArg.userId}/orders/${queryArg.orderId}/ig-reels`,
+        method: "PATCH",
         body: queryArg.body,
       }),
     }),
@@ -1854,6 +1874,15 @@ export type PostUsersByUserIdOrdersAndOrderIdIgStoriesApiArg = {
     newMedia?: UploadContentItem;
   };
 };
+export type PatchUsersByUserIdOrdersAndOrderIdIgStoriesApiResponse = unknown;
+export type PatchUsersByUserIdOrdersAndOrderIdIgStoriesApiArg = {
+  /** user Id */
+  userId: string;
+  /** order Id */
+  orderId: string;
+  /** array of stories ids selected */
+  body: string[];
+};
 export type GetUsersByUserIdOrdersAndOrderIdIgReelsApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
 export type GetUsersByUserIdOrdersAndOrderIdIgReelsApiArg = {
@@ -1874,6 +1903,15 @@ export type PostUsersByUserIdOrdersAndOrderIdIgReelsApiArg = {
     selected?: Uuid[];
     newMedia?: UploadContentItem;
   };
+};
+export type PatchUsersByUserIdOrdersAndOrderIdIgReelsApiResponse = unknown;
+export type PatchUsersByUserIdOrdersAndOrderIdIgReelsApiArg = {
+  /** user id */
+  userId: string;
+  /** order id */
+  orderId: string;
+  /** array of reels ids selected */
+  body: string[];
 };
 export type GetUsersByUserIdYoutubeApiResponse =
   /** status 200 OK */ MediaContentItemForOrder[];
@@ -2974,8 +3012,10 @@ export const {
   usePatchUsersByUserIdOrdersAndOrderIdIgMediasMutation,
   useGetUsersByUserIdOrdersAndOrderIdIgStoriesQuery,
   usePostUsersByUserIdOrdersAndOrderIdIgStoriesMutation,
+  usePatchUsersByUserIdOrdersAndOrderIdIgStoriesMutation,
   useGetUsersByUserIdOrdersAndOrderIdIgReelsQuery,
   usePostUsersByUserIdOrdersAndOrderIdIgReelsMutation,
+  usePatchUsersByUserIdOrdersAndOrderIdIgReelsMutation,
   useGetUsersByUserIdYoutubeQuery,
   useGetUsersByUserIdOrdersAndOrderIdYoutubeQuery,
   usePostUsersByUserIdOrdersAndOrderIdYoutubeMutation,
