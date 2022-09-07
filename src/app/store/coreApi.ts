@@ -1851,6 +1851,7 @@ export type PatchUsersByUserIdOrdersAndOrderIdIgMediasApiArg = {
   userId: string;
   /** order Id */
   orderId: string;
+  /** array of medias ids selected */
   body: string[];
 };
 export type GetUsersByUserIdOrdersAndOrderIdIgStoriesApiResponse =
@@ -1870,7 +1871,6 @@ export type PostUsersByUserIdOrdersAndOrderIdIgStoriesApiArg = {
   /** order Id */
   orderId: string;
   body: {
-    selected?: Uuid[];
     newMedia?: UploadContentItem;
   };
 };
@@ -1900,7 +1900,6 @@ export type PostUsersByUserIdOrdersAndOrderIdIgReelsApiArg = {
   /** order id */
   orderId: string;
   body: {
-    selected?: Uuid[];
     newMedia?: UploadContentItem;
   };
 };

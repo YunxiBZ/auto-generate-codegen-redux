@@ -122,6 +122,8 @@ tags:
     description: My orders add IG story page
   - name: MY ORDERS ADD IG STORY BY UPLOAD PAGE
     description: My orders add IG story by upload page
+  - name: MY ORDERS ADD IG REEL PAGE
+    description: My orders add IG story page
   - name: MY ORDERS ADD IG REEL BY UPLOAD PAGE
     description: My orders add IG reel by upload page
   - name: MY ORDERS ADD YOUTUBE VIDEO PAGE
@@ -4120,6 +4122,51 @@ paths:
                     postAwaiting: 12
                     daysLeft: 15
                     contentsObj:
+                      - id: 1434a2f1-e0b4-46a5-ad78-492c081f0868
+                        mediaType: instagramPost
+                        mediaPath:
+                          - dbed57dc-fb3b-4b30-ad1e-b188a353d2a2.webp
+                        metrics:
+                          comments: 4
+                          views: 5566
+                          likes: 2233
+                        EMV: 319.3
+                        publishDate: '2022-05-21T09:40:10.000Z'
+                        status: published
+                        user:
+                          id: 519afa78-7a96-4f40-970d-cfa653f2a623
+                          fullName: Giulietta Oldmeadow
+                          avatarUrl: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+                      - id: 1b0e99bf-3af2-40c0-af91-7b9b64cf66d1
+                        mediaType: instagramVideo
+                        mediaPath:
+                          - 0b52a8e2-ab79-4a44-9da0-a9981c470f3c.mp4
+                        metrics:
+                          comments: 4
+                          views: 5566
+                          likes: 2233
+                        EMV: 319.3
+                        publishDate: '2022-07-27T15:24:28.000Z'
+                        status: published
+                        user:
+                          id: 519afa78-7a96-4f40-970d-cfa653f2a623
+                          fullName: Giulietta Oldmeadow
+                          avatarUrl: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+                      - id: 1b0e99bf-3af2-40c0-af91-7b9b64cf66d1
+                        mediaType: instagramVideo
+                        mediaPath:
+                          - 7f4da586-0476-41d1-9de0-b2f030431a7e.mp4
+                        metrics:
+                          comments: 34
+                          views: 56
+                          likes: 22
+                        EMV: 31.3
+                        publishDate: '2022-08-25T02:35:58.000Z'
+                        status: published
+                        user:
+                          id: 519afa78-7a96-4f40-970d-cfa653f2a623
+                          fullName: Giulietta Oldmeadow
+                          avatarUrl: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
                       - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                         mediaType: instagramStory
                         mediaPath:
@@ -9669,7 +9716,7 @@ paths:
           description: 'default is 1, user click "load more" button, pagination will increment and get more contents'
           name: pagination
     post:
-      summary: Post user's Instagram Media for one order
+      summary: Upload user's Instagram Media for one order
       operationId: post-users-userId-orders-orderId-ig-reel
       responses:
         '204':
@@ -9686,16 +9733,18 @@ paths:
           description: Internal Server Error
       description: Upload (manually) user's Instagram Medias to order
       tags:
-        - STATISTICS
+        - MEDIAS
         - ORDERS
-        - USER UI
         - MY ORDERS ADD IG MEDIA BY UPLOAD PAGE
+        - STATISTICS
+        - USER UI
       security:
         - bearerAuth: []
       requestBody:
         content:
           multipart/form-data:
             schema:
+              type: object
               properties:
                 newMedia:
                   $ref: '#/components/schemas/UploadContentItem'
@@ -9741,6 +9790,7 @@ paths:
                   - '17871438065735638'
                   - '17960319688880506'
                   - '17893514225407696'
+        description: array of medias ids selected
       description: Attache user's Instagram Medias to order
       tags:
         - MEDIAS
@@ -9835,7 +9885,7 @@ paths:
           description: 'default is 1, user click "load more" button, pagination will increment and get more contents'
           name: pagination
     post:
-      summary: Post user's Instagram Story for one order
+      summary: Upload user's Instagram Story for one order
       operationId: post-users-userId-orders-orderId-ig-stories
       responses:
         '204':
@@ -9862,20 +9912,13 @@ paths:
         content:
           multipart/form-data:
             schema:
+              type: object
               properties:
-                selected:
-                  type: array
-                  items:
-                    $ref: '#/components/schemas/Uuid'
                 newMedia:
                   $ref: '#/components/schemas/UploadContentItem'
             examples:
               example:
                 value:
-                  selected:
-                    - 510afa78-7a96-4f40-970d-cfa653f2a623
-                    - 410afa78-7a96-4f40-970d-cfa653f2a623
-                    - 610afa78-7a96-4f40-970d-cfa653f2a623
                   newMedia:
                     file: blob
                     views: 12345
@@ -9903,6 +9946,11 @@ paths:
                   - f3a98c42-dbf9-4baa-a1c1-5cc8926fc2c3
                   - 01977650-91b0-4e55-b6ae-4c9aa38d8b32
         description: array of stories ids selected
+      tags:
+        - MEDIAS
+        - MY ORDERS ADD IG STORY PAGE
+        - USER UI
+        - ORDERS
   '/users/{userId}/orders/{orderId}/ig-reels':
     parameters:
       - schema:
@@ -9990,7 +10038,7 @@ paths:
           description: 'default is 1, user click "load more" button, pagination will increment and get more contents'
           name: pagination
     post:
-      summary: Post use Instagram Reel for one order
+      summary: Upload user's Instagram Reel for one order
       operationId: post-users-userId-ig-reel
       responses:
         '204':
@@ -10017,11 +10065,8 @@ paths:
         content:
           multipart/form-data:
             schema:
+              type: object
               properties:
-                selected:
-                  type: array
-                  items:
-                    $ref: '#/components/schemas/Uuid'
                 newMedia:
                   $ref: '#/components/schemas/UploadContentItem'
             examples:
@@ -10054,6 +10099,11 @@ paths:
                   - '18221780305129354'
                   - '17917870736386494'
         description: array of reels ids selected
+      tags:
+        - MEDIAS
+        - ORDERS
+        - USER UI
+        - MY ORDERS ADD IG REEL PAGE
   '/users/{userId}/youtube':
     parameters:
       - schema:
