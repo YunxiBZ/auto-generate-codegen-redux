@@ -1954,11 +1954,19 @@ paths:
                     biography: I'm a content creator from Paris and love posting about food and cooking
                     socialNetworkLinks:
                       - name: instagram
-                        link: 'https://www.instagram.com/facebookmarketplace/?hl=en'
+                        tokenStatus: true
+                        tokenExpiry: 10
+                        link: 'https://www.instagram.com/tamocross'
                       - name: youtube
-                        link: 'https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ'
+                        tokenStatus: true
+                        tokenExpiry: 20
+                        link: 'https://www.youtube.com/tamocross'
+                      - name: tiktok
+                        tokenStatus: true
+                        tokenExpiry: 30
+                        link: 'https://www.tiktok.com/tamocross'
                       - name: blog
-                        link: 'https://i-love-code-abz.blogspot.com/2022/03/this-is-my-first-article-lorem-ipsum.html'
+                        link: 'https://www.tanke.fr/'
                     motivation: 'Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissimos perducere, ut Scipio P. Rupilium potuit consulem efficere, fratrem eius L. non potuit. Quod si etiam possis quidvis deferre ad alterum, videndum est tamen, quid ille possit sustinere.'
                     historyStatistic:
                       pending: 1
@@ -1998,7 +2006,7 @@ paths:
                     publicationsHistory:
                       - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                         mediaType: instagramStory
-                        mediaPath: 
+                        mediaPath:
                           - 'https://images.unsplash.com/photo-1556906781-9a412961c28c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
                         metrics:
                           views: 5566
@@ -2007,7 +2015,7 @@ paths:
                         status: validated
                       - id: 2f37853d-311f-435b-af94-605b19ef7e69
                         mediaType: instagramPost
-                        mediaPath: 
+                        mediaPath:
                           - 'https://images.unsplash.com/photo-1628413993904-94ecb60f1239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmlrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60'
                         metrics:
                           likes: 12004
@@ -2016,7 +2024,7 @@ paths:
                         status: validated
                       - id: 3537c737-58ba-4b91-977c-2e51d06da468
                         mediaType: instagramReel
-                        mediaPath: 
+                        mediaPath:
                           - 'https://images.unsplash.com/photo-1626379625260-7111605463e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5pa2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60'
                         metrics:
                           views: 3546
@@ -2025,7 +2033,7 @@ paths:
                         status: validated
                       - id: 6d197f1e-9d42-46c0-9da3-1090bc2bfb1e
                         mediaType: youtubeVideo
-                        mediaPath: 
+                        mediaPath:
                           - 'https://images.unsplash.com/photo-1554350747-ec45fd24f51b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG5pa2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60'
                         metrics:
                           views: 9856
@@ -2034,7 +2042,7 @@ paths:
                         status: validated
                       - id: 09175ab9-8830-4690-9e6a-f52c7f1436cd
                         mediaType: tiktok
-                        mediaPath: 
+                        mediaPath:
                           - 'https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG5pa2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60'
                         metrics:
                           views: 32005
@@ -4367,11 +4375,19 @@ paths:
                         lastName: Farrell
                     socialNetworkLinks:
                       - name: instagram
-                        link: 'https://www.instagram.com/user.kerluke'
+                        tokenStatus: true
+                        tokenExpiry: 10
+                        link: 'https://www.instagram.com/tamocross'
+                      - name: youtube
+                        tokenStatus: true
+                        tokenExpiry: 20
+                        link: 'https://www.youtube.com/tamocross'
                       - name: tiktok
-                        link: 'https://www.linkedin.com/in/user.kerluke'
-                      - name: website
-                        link: 'https://www.kerluke.com/'
+                        tokenStatus: true
+                        tokenExpiry: 30
+                        link: 'https://www.tiktok.com/tamocross'
+                      - name: blog
+                        link: 'https://www.tanke.fr/'
                     notifications:
                       userId: 510afa78-7a96-1f40-970d-cfa653f2a623
                       EmailMeWhenIGetAMessageFromTribz: true
@@ -4787,6 +4803,203 @@ paths:
                         link: string
                         monthlyVisitors: 98562
                     role: influencer
+                example-2:
+                  value:
+                    id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                    avatarUrl: ckw0m01m7004z2h0l23pu01bi.jpg
+                    status: registered
+                    mailActivated: true
+                    phoneActivated: true
+                    credits: 10
+                    usedCredits: 3
+                    gender: female
+                    firstName: Carlota
+                    lastName: MONTEIRO
+                    email: c.monteiro@tribz.com
+                    phoneNumber: +33(0)666778899
+                    birthdate: '1998-06-13'
+                    interests:
+                      - 510afa78-7a96-4f40-970d-cfa653f2a623
+                    addresses:
+                      - id: 510afa78-7a96-4f40-970d-cfa653f2a623
+                        title: home
+                        default: true
+                        userId: 510afa78-7a96-4f40-970d-cfa653f2a623
+                        address: 1 rue de louvre
+                        zipCode: '75001'
+                        city: Paris
+                        country: France
+                        supplement: 'code:1122336666'
+                        firstName: Lucian
+                        lastName: Obrien
+                        createdAt: '2022-03-15 09:00:00.501+00'
+                        updatedAt: '2022-03-15 09:00:00.501+00'
+                    socialNetworkLinks:
+                      - name: instagram
+                        tokenStatus: true
+                        tokenExpiry: 10
+                        link: 'https://www.instagram.com/tamocross'
+                      - name: youtube
+                        tokenStatus: true
+                        tokenExpiry: 20
+                        link: 'https://www.youtube.com/tamocross'
+                    notifications:
+                      userId: 510afa78-7a96-4f40-970d-cfa653f2a623
+                      EmailMeWhenIGetAMessageFromTribz: true
+                      EmailMeWhenTheStatusOfMyOrderChanges: true
+                      NewsAndAnnouncements: true
+                      WeeklyProductUpdates: true
+                      WeeklyBlogDigest: true
+                    socialNetworksStatisticsByMedia:
+                      instagram:
+                        engagementRate: 3.5
+                        followers: 23870
+                        following: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        posts: 432
+                        averagePostImpressions: 2545
+                        postImpressionRate: 2545
+                        averagePostReach: 60500
+                        postReachRate: 3.5
+                        averagePostComments: 255
+                        postsPerMonth: 5
+                        averagePostLikes: 2545
+                        averageCarouselLikes: 2545
+                        averageStoryViews: 45000
+                        storyViewRate: 1.05
+                        averageStoryComments: 255
+                        averageStoryClicks: 545
+                        averageStoryLikes: 2545
+                        averageReelViews: 45000
+                        reelViewRate: 1.95
+                        averageReelReach: 60500
+                        averageReelComments: 255
+                        reelReachRate: 3.5
+                        averageReelLikes: 2545
+                        audienceCountry:
+                          property1: 0
+                          property2: 0
+                        audienceCity:
+                          property1: 0
+                          property2: 0
+                        lastPost: '2022-03-25 09:00:00.501+00'
+                        audienceDemographic:
+                          F.13-17: 37
+                          F.18-24: 307
+                          F.25-34: 330
+                          F.35-44: 86
+                          F.45-54: 44
+                          F.55-64: 7
+                          F.65+: 4
+                          M.13-17: 27
+                          M.18-24: 1018
+                          M.25-34: 2105
+                          M.35-44: 913
+                          M.45-54: 401
+                          M.55-64: 163
+                          M.65+: 61
+                          U.13-17: 16
+                          U.18-24: 130
+                          U.25-34: 141
+                          U.35-44: 50
+                          U.45-54: 15
+                          U.55-64: 7
+                          U.65+: 7
+                      youtube:
+                        engagementRate: 3.5
+                        averageLikes: 2545
+                        averageUnlikes: 2545
+                        averageYoutubeViews: 45000
+                        averageYoutubeShortsViews: 45000
+                        viewRate: 1.85
+                        averageImpressions: 60500
+                        impressingRate: 12.135
+                        followers: 23870
+                        following: 245
+                        views: 245
+                        videos: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        averageComments: 255
+                        audienceCountry:
+                          property1: 0
+                          property2: 0
+                        audienceCity:
+                          property1: 0
+                          property2: 0
+                        audienceDemographic:
+                          F.13-17: 37
+                          F.18-24: 307
+                          F.25-34: 330
+                          F.35-44: 86
+                          F.45-54: 44
+                          F.55-64: 7
+                          F.65+: 4
+                          M.13-17: 27
+                          M.18-24: 1018
+                          M.25-34: 2105
+                          M.35-44: 913
+                          M.45-54: 401
+                          M.55-64: 163
+                          M.65+: 61
+                          U.13-17: 16
+                          U.18-24: 130
+                          U.25-34: 141
+                          U.35-44: 50
+                          U.45-54: 15
+                          U.55-64: 7
+                          U.65+: 7
+                        lastPost: '2022-03-25 09:00:00.501+00'
+                      tiktok:
+                        engagementRate: 3.5
+                        totalLikes: 2545
+                        averageViews: 60500
+                        viewRate: 3.35
+                        averageReach: 60500
+                        averageLikes: 545
+                        reachRate: 6.35
+                        averageComments: 255
+                        followers: 23870
+                        following: 245
+                        reach30Day: 54800
+                        impressions30Day: 87000
+                        posts: 432
+                        views: 432
+                        postsPerMonth: 5
+                        audienceCountry:
+                          property1: 0
+                          property2: 0
+                        audienceCity:
+                          property1: 0
+                          property2: 0
+                        audienceDemographic:
+                          F.13-17: 37
+                          F.18-24: 307
+                          F.25-34: 330
+                          F.35-44: 86
+                          F.45-54: 44
+                          F.55-64: 7
+                          F.65+: 4
+                          M.13-17: 27
+                          M.18-24: 1018
+                          M.25-34: 2105
+                          M.35-44: 913
+                          M.45-54: 401
+                          M.55-64: 163
+                          M.65+: 61
+                          U.13-17: 16
+                          U.18-24: 130
+                          U.25-34: 141
+                          U.35-44: 50
+                          U.45-54: 15
+                          U.55-64: 7
+                          U.65+: 7
+                        lastPost: '2022-03-25 09:00:00.501+00'
+                      blog:
+                        link: string
+                        monthlyVisitors: 0
+                    role: influencer
         '400':
           description: Bad Request
         '401':
@@ -4911,12 +5124,20 @@ paths:
                         firstName: Clara
                         lastName: Farrell
                     socialNetworkLinks:
-                      facebook: 'https://www.facebook.com/user.kerluke'
-                      instagram: 'https://www.instagram.com/user.kerluke'
-                      linkedin: 'https://www.linkedin.com/in/user.kerluke'
-                      tiktok: 'https://www.linkedin.com/in/user.kerluke'
-                      twitter: 'https://www.twitter.com/user.kerluke'
-                      siteInternet: 'https://www.kerluke.com/'
+                      - name: instagram
+                        tokenStatus: true
+                        tokenExpiry: 10
+                        link: 'https://www.instagram.com/tamocross'
+                      - name: youtube
+                        tokenStatus: true
+                        tokenExpiry: 20
+                        link: 'https://www.youtube.com/tamocross'
+                      - name: tiktok
+                        tokenStatus: true
+                        tokenExpiry: 30
+                        link: 'https://www.tiktok.com/tamocross'
+                      - name: blog
+                        link: 'https://www.tanke.fr/'
                     notifications:
                       userId: 510afa78-7a96-1f40-970d-cfa653f2a623
                       EmailMeWhenIGetAMessageFromTribz: true
@@ -5547,7 +5768,9 @@ paths:
               type: object
               properties:
                 socialNetworkLinks:
-                  $ref: '#/components/schemas/SocialNetworkLinksList'
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/SocialNetworkLinksList'
   '/users/{userId}/password':
     parameters:
       - schema:
@@ -6348,12 +6571,12 @@ paths:
                       NewsAndAnnouncements: true
                       WeeklyProductUpdates: true
                     socialNetworkLinks:
-                      facebook: 'https://www.facebook.com/user.kerluke'
-                      instagram: 'https://www.instagram.com/user.kerluke'
-                      linkedin: 'https://www.linkedin.com/in/user.kerluke'
-                      tiktok: 'https://www.linkedin.com/in/user.kerluke'
-                      twitter: 'https://www.twitter.com/user.kerluke'
-                      siteInternet: 'https://www.kerluke.com/'
+                      - name: instagram
+                        link: 'https://www.instagram.com/opi_france/'
+                      - name: youtube
+                        link: 'https://www.youtube.com/user/OPIFrance'
+                      - name: website
+                        link: 'https://www.opi.com/fr-fr/'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -6481,17 +6704,19 @@ paths:
               type: object
               properties:
                 socialNetworkLinks:
-                  $ref: '#/components/schemas/SocialNetworkLinksList'
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/SocialNetworkLinksList'
             examples:
               example:
                 value:
                   socialNetworkLinks:
-                    facebook: 'https://www.facebook.com/user.kerluke'
-                    instagram: 'https://www.instagram.com/user.kerluke'
-                    linkedin: 'https://www.linkedin.com/in/user.kerluke'
-                    tiktok: 'https://www.linkedin.com/in/user.kerluke'
-                    twitter: 'https://www.twitter.com/user.kerluke'
-                    siteInternet: 'https://www.kerluke.com/'
+                    - name: instagram
+                      link: 'https://www.instagram.com/opi_france/'
+                    - name: youtube
+                      link: 'https://www.youtube.com/user/OPIFrance'
+                    - name: website
+                      link: 'https://www.opi.com/fr-fr/'
         description: ''
   '/brands/{brandId}/password':
     patch:
@@ -9423,7 +9648,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnailUrl: 
+                        thumbnailUrl:
                           - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a523
@@ -9435,7 +9660,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnailUrl: 
+                        thumbnailUrl:
                           - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a423
@@ -9447,7 +9672,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnailUrl: 
+                        thumbnailUrl:
                           - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 7a4441df-add8-4c9d-8d73-f130225206ea
@@ -9456,7 +9681,7 @@ paths:
                         - 58219dfb-4775-4469-9187-5443bed15c80.mp4
                       attributes:
                         thumbnailUrl:
-                          -  9e1633c4-70a8-4d88-ac1b-826064e07939.jpg
+                          - 9e1633c4-70a8-4d88-ac1b-826064e07939.jpg
                       metrics:
                         comments: 0
                         likes: 0
@@ -9525,7 +9750,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnailUrl: 
+                        thumbnailUrl:
                           - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a523
@@ -9537,7 +9762,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnailUrl: 
+                        thumbnailUrl:
                           - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 510afa78-7a96-4f40-970d-cfa653f2a423
@@ -9549,7 +9774,7 @@ paths:
                         likes: 1234
                         clicks: 54
                       attributes:
-                        thumbnailUrl: 
+                        thumbnailUrl:
                           - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       publishDate: '2021-11-17T15:02:39.889+00:00'
                     - nativeMediaId: 7a4441df-add8-4c9d-8d73-f130225206ea
@@ -9557,7 +9782,7 @@ paths:
                       mediaPath:
                         - 58219dfb-4775-4469-9187-5443bed15c80.mp4
                       attributes:
-                        thumbnailUrl: 
+                        thumbnailUrl:
                           - 9e1633c4-70a8-4d88-ac1b-826064e07939.jpg
                       metrics:
                         comments: 0
@@ -9666,7 +9891,7 @@ paths:
                   value:
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a6aa
                       mediaType: instagramPost
-                      mediaPath: 
+                      mediaPath:
                         - 'https://scontent-cdg2-1.cdninstagram.com/v/t51.2885-15/275291147_1150471542375739_5025015589424143020_n.jpg?stp=dst-jpg_e35&_nc_ht=scontent-cdg2-1.cdninstagram.com&_nc_cat=107&_nc_ohc=JW1LR8S9rCYAX-_-o1R&edm=AABBvjUBAAAA&ccb=7-4&ig_cache_key=Mjc4ODgxMjc1OTE4MzMwMjk0Mg%3D%3D.2-ccb7-4&oh=00_AT9kUCbwUgshl027EUOcQpGiM6iwfSziYxrY9jRAnpa4kw&oe=62300C28&_nc_sid=83d603'
                       metrics:
                         views: 512340
@@ -9677,7 +9902,7 @@ paths:
                       nativeMediaId: '17901983369011718'
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a6aa
                       mediaType: instagramPost
-                      mediaPath: 
+                      mediaPath:
                         - 'https://scontent-cdg2-1.cdninstagram.com/v/t51.2885-15/273466852_686290285863914_1743735046180684667_n.jpg?stp=dst-jpg_e35&_nc_ht=scontent-cdg2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=fGy5LQpKaPgAX-NNGoW&edm=AABBvjUBAAAA&ccb=7-4&ig_cache_key=Mjc2ODUxOTEwNDgyMDI0MTA0OA%3D%3D.2-ccb7-4&oh=00_AT9s62oFqvcODo8Vuf0EHn9-dLacMCkO-GX413JpWdO4fg&oe=6231353A&_nc_sid=83d603'
                       metrics:
                         likes: 11256
@@ -9687,7 +9912,7 @@ paths:
                       nativeMediaId: '17873876909413095'
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a6bb
                       mediaType: instagramVideo
-                      mediaPath: 
+                      mediaPath:
                         - 'https://scontent-cdg2-1.cdninstagram.com/v/t50.16885-16/274155657_949457795962936_2251755806272867509_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5pZ3R2LmJhc2VsaW5lIiwicWVfZ3JvdXBzIjoiW1wiaWdfd2ViX2RlbGl2ZXJ5X3Z0c19vdGZcIl0ifQ&_nc_ht=scontent-cdg2-1.cdninstagram.com&_nc_cat=104&_nc_ohc=UZKv9CorY0AAX-3wEHV&edm=AABBvjUBAAAA&vs=1544036289314520_2181331434&_nc_vs=HBkcFQAYJEdJbElWeEE0V0tqZWhsOERBTFZNMGJuNTF6OGZidlZCQUFBRhUAAsgBACgAGAAbAYgHdXNlX29pbAExFQAAJr6g75uw1Mc%2FFQIoAkMzLBc%2F7MzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB17AcA&ccb=7-4&oe=622BF6B9&oh=00_AT_m_cGSo1bAatOmWLADoWbYl7VtEfKWKOQpNcLn6mecfw&_nc_sid=83d603'
                       metrics:
                         views: 11946
@@ -9697,7 +9922,7 @@ paths:
                       nativeMediaId: '17871438065735638'
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a6cc
                       mediaType: instagramCarousel
-                      mediaPath: 
+                      mediaPath:
                         - 'https://scontent-cdt1-1.cdninstagram.com/v/t51.2885-15/273143965_115021514272722_5849307242103677096_n.jpg?stp=dst-jpg_e15_fr_s1080x1080&_nc_ht=scontent-cdt1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=nYxb7HQQ2eYAX8WUhNr&edm=ALQROFkBAAAA&ccb=7-4&ig_cache_key=Mjc2NDg1NjcyNjQyOTY4OTkzMg%3D%3D.2-ccb7-4&oh=00_AT9d1j2mdZ4yxTYQsG6qnUHXG7h2A5LFZ_y2bkllYg4CTA&oe=622FE8B8&_nc_sid=30a2ef'
                       metrics:
                         likes: 1083
@@ -9849,7 +10074,7 @@ paths:
                   value:
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: instagramStory
-                      mediaPath: 
+                      mediaPath:
                         - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       metrics:
                         views: 512340
@@ -9859,7 +10084,7 @@ paths:
                       status: validated
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a523
                       mediaType: instagramStory
-                      mediaPath: 
+                      mediaPath:
                         - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       metrics:
                         views: 512340
@@ -9869,7 +10094,7 @@ paths:
                       status: validated
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a423
                       mediaType: instagramStory
-                      mediaPath: 
+                      mediaPath:
                         - 'https://images.unsplash.com/photo-1653185053962-c90b919508f5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500'
                       metrics:
                         views: 512340
@@ -10008,7 +10233,7 @@ paths:
                   value:
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: instagramReel
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.instagram.com/p/CaaKbUEJLRy/'
                       metrics:
                         likes: 456000
@@ -10017,7 +10242,7 @@ paths:
                       status: validated
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: instagramReel
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.instagram.com/p/CZSoF1oBcJ5/'
                       metrics:
                         likes: 3518525
@@ -10026,7 +10251,7 @@ paths:
                       status: validated
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: instagramReel
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.instagram.com/p/CZAGFqmh5nf/'
                       metrics:
                         likes: 423756
@@ -10157,7 +10382,7 @@ paths:
                   value:
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: youtubeVideo
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=3095_w_666w'
                       metrics:
                         views: 512340
@@ -10167,7 +10392,7 @@ paths:
                       status: published
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a640
                       mediaType: youtubeVideo
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=Jn09UdSb3aA'
                       metrics:
                         views: 612340
@@ -10177,7 +10402,7 @@ paths:
                       status: published
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a660
                       mediaType: youtubeVideo
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=neV3EPgvZ3g'
                       metrics:
                         views: 712340
@@ -10248,7 +10473,7 @@ paths:
                   value:
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: youtubeVideo
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=3095_w_666w'
                       metrics:
                         views: 512340
@@ -10258,7 +10483,7 @@ paths:
                       status: validated
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a640
                       mediaType: youtubeVideo
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=Jn09UdSb3aA'
                       metrics:
                         views: 612340
@@ -10268,7 +10493,7 @@ paths:
                       status: published
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a660
                       mediaType: youtubeVideo
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=neV3EPgvZ3g'
                       metrics:
                         views: 712340
@@ -10371,7 +10596,7 @@ paths:
                   value:
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: youtubeShorts
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=R5BGouaGe7A'
                       metrics:
                         views: 512340
@@ -10381,7 +10606,7 @@ paths:
                       status: validated
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a640
                       mediaType: youtubeShorts
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=Jn09UdSb3aA'
                       metrics:
                         views: 612340
@@ -10391,7 +10616,7 @@ paths:
                       status: validated
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a660
                       mediaType: youtubeShorts
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=neV3EPgvZ3g'
                       metrics:
                         views: 712340
@@ -10462,7 +10687,7 @@ paths:
                   value:
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: youtubeShorts
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=R5BGouaGe7A'
                       metrics:
                         views: 512340
@@ -10472,7 +10697,7 @@ paths:
                       status: validated
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a640
                       mediaType: youtubeShorts
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=Jn09UdSb3aA'
                       metrics:
                         views: 612340
@@ -10482,7 +10707,7 @@ paths:
                       status: validated
                     - id: 510afa78-7a96-4f40-970d-cfa653f2a660
                       mediaType: youtubeShorts
-                      mediaPath: 
+                      mediaPath:
                         - 'https://www.youtube.com/watch?v=neV3EPgvZ3g'
                       metrics:
                         views: 712340
@@ -10594,7 +10819,7 @@ paths:
                   value:
                     - id: 580afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: tiktok
-                      mediaPath: 
+                      mediaPath:
                         - 'https://v16-webapp.tiktok.com/54069237c974f6f71ead8afae1bfee78/622a1086/video/tos/useast2a/tos-useast2a-ve-0068c004/64116971cfd840068b25b6fe710a7b42/?a=1988&br=1920&bt=960&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=XOQ9-3D_nz7Th2F2VDXq&l=202203100850510102230791452707D5B0&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=Mzk3dDs6Zm10ODMzNzczM0ApNDk0NTkzNzw3Nzc3N2Y6OGdmaWUucjRnM2hgLS1kMTZzczQtXmBjY2MtMDMzXzM0Ll46Yw%3D%3D&vl=&vr='
                       metrics:
                         likes: 136400
@@ -10603,7 +10828,7 @@ paths:
                       status: published
                     - id: 590afa78-7a96-4f40-970d-cfa653f2a623
                       mediaType: tiktok
-                      mediaPath: 
+                      mediaPath:
                         - 'https://v16-webapp.tiktok.com/2dd4203de45c96a32cfd9327a453a9e8/622a133f/video/tos/useast2a/tos-useast2a-ve-0068c004/e9083ccc4a4c460bbfcb70296c202997/?a=1988&br=2800&bt=1400&cd=0%7C0%7C0%7C0&ch=0&cr=0&cs=0&dr=0&ds=2&er=&ft=XOQ9-3D_nz7Thnl2VDXq&l=202203100902380101890530690C09A711&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=MztoNGg6ZmdqODMzNzczM0ApNGU5OTxlPDtmNzY5OGQ8ZGdgcWMvcjRnYmlgLS1kMTZzczY1MWJjNmNhMV5fLjVjMjI6Yw%3D%3D&vl=&vr='
                       metrics:
                         likes: 15200
@@ -10917,7 +11142,7 @@ components:
       schema:
         type: boolean
         example: true
-      description: Users included 
+      description: Users included
     CampaignsIncludedParam:
       in: query
       name: campaignsIncluded
@@ -11740,7 +11965,9 @@ components:
           items:
             $ref: '#/components/schemas/AddressItem'
         socialNetworkLinks:
-          $ref: '#/components/schemas/SocialNetworkLinksList'
+          type: array
+          items:
+            $ref: '#/components/schemas/SocialNetworkLinksList'
         notifications:
           $ref: '#/components/schemas/UserNotifications'
         ratings:
@@ -11797,13 +12024,14 @@ components:
               createdAt: '2022-03-15 09:00:00.501+00'
               updatedAt: '2022-03-15 09:00:00.501+00'
           socialNetworkLinks:
-            facebook: 'https://www.facebook.com/user.kerluke'
-            instagram: 'https://www.instagram.com/user.kerluke'
-            linkedin: 'https://www.linkedin.com/in/user.kerluke'
-            tiktok: 'https://www.linkedin.com/in/user.kerluke'
-            twitter: 'https://www.twitter.com/user.kerluke'
-            youtube: 'https://www.youtube.com/user.kerluke'
-            siteInternet: 'https://www.kerluke.com/'
+            - name: instagram
+              tokenStatus: true
+              tokenExpiry: 10
+              link: 'https://www.instagram.com/tamocross'
+            - name: youtube
+              tokenStatus: true
+              tokenExpiry: 20
+              link: 'https://www.youtube.com/tamocross'
           notifications:
             userId: 510afa78-7a96-4f40-970d-cfa653f2a623
             EmailMeWhenIGetAMessageFromTribz: true
@@ -12295,14 +12523,7 @@ components:
           type: array
           description: display in the header card for social network logo
           items:
-            type: object
-            properties:
-              name:
-                type: string
-                example: instagram
-              link:
-                type: string
-                example: 'https://www.instagram.com/users/yunxi'
+            $ref: '#/components/schemas/SocialNetworkLinksList'
         motivation:
           type: string
           example: Tart I Love sugar plum ...
@@ -13662,12 +13883,12 @@ components:
             NewsAndAnnouncements: true
             WeeklyProductUpdates: true
           socialNetworkLinks:
-            facebook: 'https://www.facebook.com/brand.kerluke'
-            instagram: 'https://www.instagram.com/brand.kerluke'
-            linkedin: 'https://www.linkedin.com/in/brand.kerluke'
-            tiktok: 'https://www.linkedin.com/in/brand.kerluke'
-            twitter: 'https://www.twitter.com/brand.kerluke'
-            siteInternet: 'https://www.kerluke.com/'
+            - name: instagram
+              link: 'https://www.instagram.com/opi_france/'
+            - name: youtube
+              link: 'https://www.youtube.com/user/OPIFrance'
+            - name: website
+              link: 'https://www.opi.com/fr-fr/'
       properties:
         id:
           $ref: '#/components/schemas/Uuid'
@@ -13728,7 +13949,9 @@ components:
         notifications:
           $ref: '#/components/schemas/BrandNotifications'
         socialNetworkLinks:
-          $ref: '#/components/schemas/SocialNetworkLinksList'
+          type: array
+          items:
+            $ref: '#/components/schemas/SocialNetworkLinksList'
     BrandNotifications:
       title: Notifications for brand
       type: object
@@ -14809,7 +15032,7 @@ components:
           example: '2891681376519427165_48126772459'
         mediaPath:
           type: array
-          example: 
+          example:
             - 18010733827410637-1659429273899.webp
           items:
             type: string
@@ -15108,7 +15331,7 @@ components:
         example-1:
           name: instagram
           tokenStatus: true
-          tokenExpiry: '10'
+          tokenExpiry: 10
           link: 'https://www.instagram.com/tamocross'
       properties:
         name:
@@ -15117,8 +15340,13 @@ components:
             - instagram
             - tiktok
             - youtube
+            - blog
             - website
+            - facebook
+            - linkedin
+            - twitter
           example: instagram
+          description: 'blog is for user item, website is for brand item'
         tokenStatus:
           type: boolean
           example: true

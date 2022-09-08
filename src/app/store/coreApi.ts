@@ -1406,7 +1406,7 @@ export type PatchUsersByUserIdSocialNetworkLinksApiArg = {
   /** user Id */
   userId: string;
   body: {
-    socialNetworkLinks?: SocialNetworkItem;
+    socialNetworkLinks?: SocialNetworkItem[];
   };
 };
 export type PatchUsersByUserIdPasswordApiResponse =
@@ -1555,7 +1555,7 @@ export type PatchBrandsByBrandIdSocialNetworkLinksApiArg = {
   /** brand id */
   brandId: string;
   body: {
-    socialNetworkLinks?: SocialNetworkItem;
+    socialNetworkLinks?: SocialNetworkItem[];
   };
 };
 export type UpdateOneBrandPasswordApiResponse = /** status 204 No Content */ {};
@@ -2196,6 +2196,20 @@ export type TargetingBody = {
   usersIncluded?: Uuid[];
   status?: CampaignStatus;
 };
+export type SocialNetworkItem = {
+  name?:
+    | "instagram"
+    | "tiktok"
+    | "youtube"
+    | "blog"
+    | "website"
+    | "facebook"
+    | "linkedin"
+    | "twitter";
+  tokenStatus?: boolean;
+  tokenExpiry?: number;
+  link?: string;
+};
 export type Date = string;
 export type MediaTypeForOrder =
   | "instagramPost"
@@ -2394,10 +2408,7 @@ export type UserItemForManageCampaignPage = {
     totalComments?: number;
   };
   biography?: string;
-  socialNetworkLinks?: {
-    name?: string;
-    link?: string;
-  }[];
+  socialNetworkLinks?: SocialNetworkItem[];
   motivation?: string;
   historyStatistic?: {
     pending?: number;
@@ -2537,12 +2548,6 @@ export type MediaContentItemForReporting = {
     fullName?: string;
   };
 };
-export type SocialNetworkItem = {
-  name?: "instagram" | "tiktok" | "youtube" | "website";
-  tokenStatus?: boolean;
-  tokenExpiry?: number;
-  link?: string;
-};
 export type NotificationListForUser = {
   userId?: Uuid;
   EmailMeWhenIGetAMessageFromTribz?: boolean;
@@ -2637,7 +2642,7 @@ export type UserItemForAdminRole = {
   clubs?: ClubNameList;
   notes?: string;
   addresses?: AddressItem[];
-  socialNetworkLinks?: SocialNetworkItem;
+  socialNetworkLinks?: SocialNetworkItem[];
   notifications?: NotificationListForUser;
   ratings?: {
     ratingList?: RatingItem[];
@@ -2716,7 +2721,7 @@ export type BrandItemWithAllOfDetails = {
   industry?: Uuid[];
   notes?: string;
   notifications?: NotificationsForBrand;
-  socialNetworkLinks?: SocialNetworkItem;
+  socialNetworkLinks?: SocialNetworkItem[];
 };
 export type ClubItem = {
   id?: Uuid;
