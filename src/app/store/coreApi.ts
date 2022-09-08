@@ -1206,6 +1206,7 @@ export type PostStatisticsSocialNetworksFilterByTargetingApiArg = {
 export type GetIncludedUsersListByFilterApiResponse =
   /** status 200 OK */ UserItemForUserList[];
 export type GetIncludedUsersListByFilterApiArg = {
+  /** Users included */
   includedUsersList?: boolean;
   /** Gender */
   gender?: ("male" | "female" | "other")[];
@@ -1405,7 +1406,7 @@ export type PatchUsersByUserIdSocialNetworkLinksApiArg = {
   /** user Id */
   userId: string;
   body: {
-    socialNetworkLinks?: SocialNetworkLinkList;
+    socialNetworkLinks?: SocialNetworkItem;
   };
 };
 export type PatchUsersByUserIdPasswordApiResponse =
@@ -1554,7 +1555,7 @@ export type PatchBrandsByBrandIdSocialNetworkLinksApiArg = {
   /** brand id */
   brandId: string;
   body: {
-    socialNetworkLinks?: SocialNetworkLinkList;
+    socialNetworkLinks?: SocialNetworkItem;
   };
 };
 export type UpdateOneBrandPasswordApiResponse = /** status 204 No Content */ {};
@@ -2209,16 +2210,22 @@ export type MediaTypeForOrder =
 export type MetricsSchema = {
   [key: string]: number;
 };
+export type MediaAttributesSchema = {
+  postsAsPersonalAccount?: boolean;
+  title?: string;
+  mentions?: string[];
+  thumbnailUrl?: string[];
+};
 export type MediaContentItemForOrder = {
   id?: Uuid;
   mediaType?: MediaTypeForOrder;
   metrics?: MetricsSchema;
   publishDate?: string;
   status?: "published" | "validated";
-  title?: string;
   link?: string;
   nativeMediaId?: string;
-  mediaPath?: string;
+  mediaPath?: string[];
+  attributes?: MediaAttributesSchema;
 };
 export type AudienceCountrySchema = {
   [key: string]: number;
@@ -2530,14 +2537,11 @@ export type MediaContentItemForReporting = {
     fullName?: string;
   };
 };
-export type SocialNetworkLinkList = {
-  facebook?: string;
-  instagram?: string;
-  linkedin?: string;
-  tiktok?: string;
-  twitter?: string;
-  youtube?: string;
-  siteInternet?: string;
+export type SocialNetworkItem = {
+  name?: "instagram" | "tiktok" | "youtube" | "website";
+  tokenStatus?: boolean;
+  tokenExpiry?: number;
+  link?: string;
 };
 export type NotificationListForUser = {
   userId?: Uuid;
@@ -2563,7 +2567,7 @@ export type UserItemForEdit = {
   birthdate?: string;
   interests?: Uuid[];
   addresses?: AddressItem[];
-  socialNetworkLinks?: SocialNetworkLinkList;
+  socialNetworkLinks?: SocialNetworkItem[];
   notifications?: NotificationListForUser;
   socialNetworksStatisticsByMedia?: UserSocialNetworkStatisticsByMedia;
   role?: "admin" | "influencer";
@@ -2633,7 +2637,7 @@ export type UserItemForAdminRole = {
   clubs?: ClubNameList;
   notes?: string;
   addresses?: AddressItem[];
-  socialNetworkLinks?: SocialNetworkLinkList;
+  socialNetworkLinks?: SocialNetworkItem;
   notifications?: NotificationListForUser;
   ratings?: {
     ratingList?: RatingItem[];
@@ -2712,7 +2716,7 @@ export type BrandItemWithAllOfDetails = {
   industry?: Uuid[];
   notes?: string;
   notifications?: NotificationsForBrand;
-  socialNetworkLinks?: SocialNetworkLinkList;
+  socialNetworkLinks?: SocialNetworkItem;
 };
 export type ClubItem = {
   id?: Uuid;
@@ -2897,7 +2901,6 @@ export type OrderItemForChatInUserUi = {
   createdAt: Date;
   updatedAt: Date;
 };
-export type MediaAttributesSchema = any;
 export type MediaContentItemForFeed = {
   nativeMediaId?: string;
   mediaType?: MediaTypeForOrder;
